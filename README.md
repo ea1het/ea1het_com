@@ -8,5 +8,5 @@
 [Logo 2](files/logo2.png)
 ![logo2](files/logo2.png "logo 2")
 
-[Logo 2](files/logo3.png)
+[Logo 3](files/logo3.png)
 ![logo3](files/logo3.png "logo 3")
