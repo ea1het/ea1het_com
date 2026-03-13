@@ -73,6 +73,15 @@
   color: #5f6e7e;
   background: rgba(244, 246, 249, 0.96);
   border-top: 1px solid #d8dde4;
+  pointer-events: none;
+}
+
+@media (max-width: 960px) {
+  .sidebar {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
 }
 
 .sidebar-poster {
