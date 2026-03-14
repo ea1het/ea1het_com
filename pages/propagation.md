@@ -1,40 +1,22 @@
 # Propagation
 
-<div class="doc-meta">
-<ul>
-<li><strong>Published:</strong> 2025-06-02</li>
-<li><strong>Last update:</strong> 2025-06-18</li>
-</ul>
-</div>
+- **Published:** 2025-06-02
+- **Last update:** 2025-06-18
 
-<p>[ <strong>English</strong> ]</p>
+**[ English ]**
 
-<p>If you’d like to dive deeper into the values included in the solar-terrestrial report related to radio propagation, there’s a dedicated article available:</p>
+If you’d like to dive deeper into the values included in the solar-terrestrial report related to radio propagation, there’s a dedicated article available:
 
-<ul>
-<li>“<a href="/posts/how-to-read-solar-data-fo-radio-propagation-english-version"><strong>How to read solar data for radio propagation</strong></a>“</li>
-</ul>
+- [How to read solar data for radio propagation](/posts/how-to-read-solar-data-fo-radio-propagation-english-version)
 
-<p>[ <strong>Español</strong> ]</p>
+**[ Español ]**
 
-<p>Si desea profundizar en los valores incluidos dentro del parte solar-terrestre, relativo a propagación en radio, tiene disponible un artículo al efecto:</p>
+Si desea profundizar en los valores incluidos dentro del parte solar-terrestre, relativo a propagación en radio, tiene disponible un artículo al efecto:
 
-<ul>
-<li>“<a href="/posts/interpretando-los-datos-solares-en-la-propagacion"><strong>Interpretando los datos solares en la propagación de radio</strong></a>“</li>
-</ul>
+- [Interpretando los datos solares en la propagación de radio](/posts/interpretando-los-datos-solares-en-la-propagacion)
 
-<br/>
+![Solar data image 1](https://www.hamqsl.com/solar101vhfper.php)
 
-<div>
-<figure><a href="https://www.hamqsl.com/solar.html"><img decoding="async" src="/assets/images/20250602-005.gif" alt="" style="width:630px;height:auto"/></a></figure>
-</div>
+![Solar data image 2](https://www.hamqsl.com/solarsystem.php)
 
-<div>
-<figure><a href="https://www.hamqsl.com/solar.html"><img decoding="async" src="/assets/images/20250602-007.gif" alt="" style="width:630px;height:auto"/></a></figure>
-</div>
-
-<div>
-<figure><a href="https://www.hamqsl.com/solar.html"><img decoding="async" src="/assets/images/20250602-006.gif" alt="" style="width:624px;height:auto"/></a></figure>
-</div>
-
-<p></p>
+![Solar data image 3](https://www.hamqsl.com/solarmuf.php)
