@@ -1,11 +1,11 @@
 * [Home](/)
 * [About](/posts/welcome-to-my-amateur-radio-site)
-* [My music on Spotify](/pages/my-music-on-spotify)
-* [My shack](/pages/my-shack)
-* [Live DX](/pages/live-dx)
-* [Propagation](/pages/propagation)
-* [Projects](/pages/projects)
-* [Contact](/pages/contact)
+* [My music on Spotify](/my-music-on-spotify)
+* [My shack](/my-shack)
+* [Live DX](/live-dx)
+* [Propagation](/propagation)
+* [Projects](/projects)
+* [Contact](/contact)
 * ---
 * [Blog](/posts/)
 * ---

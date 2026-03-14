@@ -16,6 +16,21 @@
     <div id="app">Loading documentation...</div>
 
     <script>
+      const spotifyEmbedPlugin = function (hook) {
+        hook.beforeEach(function (markdown) {
+          return markdown.replace(
+            /\{\{\s*spotify\s*:\s*([a-zA-Z0-9]+)\s*\}\}/g,
+            function (_match, playlistId) {
+              return (
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/' +
+                playlistId +
+                '?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+              );
+            }
+          );
+        });
+      };
+
       window.$docsify = {
         name: '<span class="cs-red">EA</span><span class="cs-yellow">1H</span><span class="cs-red">ET</span>',
         repo: "",
@@ -30,7 +45,8 @@
           placeholder: "Search",
           noData: "No results found",
           depth: 3
-        }
+        },
+        plugins: [spotifyEmbedPlugin]
       };
     </script>
 

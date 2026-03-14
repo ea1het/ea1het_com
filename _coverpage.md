@@ -8,5 +8,5 @@
 
 <p class="cover-actions">
   <a href="/#/posts/">Blog</a>
-  <a href="/#/pages/contact">Contact</a>
+  <a href="/#/contact">Contact</a>
 </p>

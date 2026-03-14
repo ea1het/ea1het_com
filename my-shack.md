@@ -3,8 +3,6 @@
 - **Published:** 2025-06-02
 - **Last update:** 2025-12-28
 
----
-
 ![My shack](/assets/images/20250602-002.png)
 
 In the past I used to operate QRO only from my home. Some time ago, after careful consideration on the roots of why I decided to enter the ham radio community, I came to the conclusion that my operational mode was simply wrong. Then I decided to shift portable and QRP seeking maximum antenna efficiency and better energy management.
