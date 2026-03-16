@@ -46,6 +46,7 @@ Portable activities:
 - [BaMaTech](https://www.bamatech.net/) BaMaKeY TYP-III paddle key
   - *The company closed due to sudden loss of its owner, Markus Baseler, [DL6YYM](https://www.qrz.com/db/DL6YYM/SK2025?aliasFrom=DL6YYM) (SK).*
   - [Red Summit RF](https://www.youtube.com/watch?v=PLviSrgibsA) did a very nice review in its [YouTube](https://www.youtube.com/watch?v=PLviSrgibsA) channel.
+- [ Xiegu VK6](https://www.radioddity.com/products/xiegu-vk-6) dual paddle key
 
 ## Micro PA
 
@@ -55,7 +56,6 @@ Portable activities:
 
 - [AntLion Audio ModMic Uni 2](https://antlionaudio.com/products/modmic-uni-2) -> attachable noise cancelling microphone with mute switch
 - [OneOdio A71](https://www.oneodio.com/products/a71-studio-wired-headphones) -> high quality headphones that I use in combinagtion with the AntLion ModMic Uni 2 boom microphone for a personalized headset
-- [KOSS SB-45](https://koss.com/products/sb45) [[Read about configuration and adaptation to transceiver](/blog/koss-sb45-audio-setup-to-ic-705)] -> lightweight electret mic capsule headset designed for computer use
 - [My headset adapter to any radio](/blog/koss-sb45-audio-setup-to-ic-705) -> provides phyiscal adaptation, levels, power and audio tonality for typical computer electret capsule headsets
 - [AD1-IHT](https://heilhamradio.com/product/ad-1-iht/) -> Icom adapter with PTT
 
@@ -88,7 +88,11 @@ Rig control:
 
 - SDR-Control for macOS [[Website](https://roskosch.de/)] [[Mac App Store](https://apps.apple.com/app/sdr-control-for-icom/id1592313285)]
 - SDR-Control for iPad [[Website](https://roskosch.de/)] [[iPad App Store](https://apps.apple.com/app/sdr-control-for-icom/id1614141094)]
+
+IF IQ panadapters:
+
 - SDR++ [[Website](https://www.sdrpp.org/)] [[GitHub](https://github.com/AlexandreRouma/SDRPlusPlus)]
+- SDRConnect [[Website](https://www.sdrplay.com/sdrconnect/)] [[YouTube](https://www.youtube.com/c/sdrplayrsp)]
 - CubicSDR [[Website](https://cubicsdr.com/)] [[GitHub](https://github.com/cjcliffe/CubicSDR)]
 - WFView [[Website](https://wfview.org/)]
 
