@@ -14,6 +14,65 @@
   max-width: 100%;
 }
 
+.markdown-section img {
+  display: block;
+  width: auto;
+  max-width: min(100%, 760px);
+  height: auto;
+  margin: 0.85rem auto;
+}
+
+.markdown-section p > img:only-child {
+  margin: 0.85rem auto 1rem;
+}
+
+.markdown-section p > img[title~="align-left"]:only-child {
+  margin: 0.85rem 0 1rem;
+}
+
+.markdown-section p > img[title~="align-center"]:only-child {
+  margin: 0.85rem auto 1rem;
+}
+
+.markdown-section p > img[title~="align-right"]:only-child {
+  margin: 0.85rem 0 1rem auto;
+}
+
+.markdown-section p > img[title~="size-xs"] {
+  width: min(100%, 280px);
+  max-width: none;
+}
+
+.markdown-section p > img[title~="size-sm"] {
+  width: min(100%, 420px);
+  max-width: none;
+}
+
+.markdown-section p > img[title~="size-md"] {
+  width: min(100%, 560px);
+  max-width: none;
+}
+
+.markdown-section p > img[title~="size-lm"] {
+  width: min(100%, 560px);
+  max-width: none;
+}
+
+.markdown-section p > img[title~="size-lg"] {
+  width: min(100%, 760px);
+  max-width: none;
+}
+
+.markdown-section p > img[title~="size-xl"] {
+  width: min(100%, 960px);
+  max-width: none;
+}
+
+.markdown-section p > img[title~="size-full"] {
+  width: 100%;
+  max-width: 100%;
+}
+
 .live-dx-embed {
   --live-dx-width: 1240;
   --live-dx-height: 760;

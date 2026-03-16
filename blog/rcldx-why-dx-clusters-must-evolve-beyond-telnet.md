@@ -1,243 +1,175 @@
 # RCLDX: why DX clusters must evolve beyond Telnet
 
-<div class="doc-meta">
-<ul>
-<li><strong>Published:</strong> 2026-01-01</li>
-<li><strong>Last update:</strong> 2026-01-20</li>
-<li><strong>Categories:</strong> English, Software</li>
-</ul>
-</div>
+- **Published:** 2026-01-01
+- **Last update:** 2026-01-20
+- **Categories:** English, Software
 
-<p>DX clusters have been part of amateur radio culture for decades. They work, they are familiar, and they helped shape how we operate DX today. But longevity alone is not proof of suitability.</p>
+DX clusters have been part of amateur radio culture for decades. They work, they are familiar, and they helped shape how we operate DX today. But longevity alone is not proof of suitability.
 
-<p>Most widely used DX cluster implementations were designed in a very different technical and social context, one where the Internet was smaller, abuse was limited and trust inside the amateur radio community was largely implicit. That context no longer exists.</p>
+Most widely used DX cluster implementations were designed in a very different technical and social context, one where the Internet was smaller, abuse was limited and trust inside the amateur radio community was largely implicit. That context no longer exists.
 
-<p>RCLDX is not an attempt to “replace history”. It is an attempt to <strong>address problems that have existed for years but were never structurally solvable with Telnet-era designs</strong>.</p>
+RCLDX is not an attempt to “replace history”. It is an attempt to **address problems that have existed for years but were never structurally solvable with Telnet-era designs**.
 
-<h2>The real problem is not Telnet — it’s the lack of controls</h2>
+## The real problem is not Telnet — it’s the lack of controls
 
-<p>Telnet is often mentioned as the obvious weakness, but focusing exclusively on transport security misses the deeper issue. The real limitation of traditional clusters is this:</p>
+Telnet is often mentioned as the obvious weakness, but focusing exclusively on transport security misses the deeper issue. The real limitation of traditional clusters is this:
 
-<blockquote>
-<p><strong>They lack native mechanisms to detect, limit or contain malicious behaviour once it originates from inside the network.</strong></p>
-</blockquote>
+> **They lack native mechanisms to detect, limit or contain malicious behaviour once it originates from inside the network.**
 
-<p>And that is exactly where most long-term damage has come from.</p>
+And that is exactly where most long-term damage has come from.
 
-<h3>Insider abuse is not hypothetical — it’s historical</h3>
+### Insider abuse is not hypothetical — it’s historical
 
-<p>Over the years, DX clusters have repeatedly suffered from:</p>
+Over the years, DX clusters have repeatedly suffered from:
 
-<ul>
-<li>deliberate spot flooding</li>
+- deliberate spot flooding
+- fake or misleading spots
+- coordinated manipulation of filters
+- intentional routing loops
+- impersonation and callsign misuse
+- targeted harassment via cluster messages
+- abuse coming *from legitimate-looking peers*
 
-<li>fake or misleading spots</li>
+This is not speculation. Every long-running cluster operator has dealt with this at some point.
 
-<li>coordinated manipulation of filters</li>
+The key point is not *who* did it, it’s that **the protocol itself offers almost no leverage to stop it cleanly**.
 
-<li>intentional routing loops</li>
+Most mitigation has been:
 
-<li>impersonation and callsign misuse</li>
+- manual intervention
+- informal trust lists
+- ad-hoc blacklists
+- social pressure
+- outright disconnection of entire nodes
 
-<li>targeted harassment via cluster messages</li>
+That does not scale. And it never really solved the root cause.
 
-<li>abuse coming <em>from legitimate-looking peers</em></li>
-</ul>
+## Why traditional clusters cannot realistically fix this?
 
-<p>This is not speculation. Every long-running cluster operator has dealt with this at some point.</p>
+### 1) Telnet clusters were built on implicit trust
 
-<p>The key point is not <em>who</em> did it, it’s that <strong>the protocol itself offers almost no leverage to stop it cleanly</strong>.</p>
+Classic cluster architectures assume that:
 
-<p>Most mitigation has been:</p>
+- peers are well-behaved
+- users act in good faith
+- abuse is rare and local
 
-<ul>
-<li>manual intervention</li>
+Once that assumption fails, and it has, the system has no strong primitives to respond.
 
-<li>informal trust lists</li>
+There is no consistent notion of:
 
-<li>ad-hoc blacklists</li>
+- message provenance
+- verifiable source identity
+- rate accountability
+- structured policy enforcement
+- network-wide abuse containment
 
-<li>social pressure</li>
+Everything is reactive and local.
 
-<li>outright disconnection of entire nodes</li>
-</ul>
+### 2) Text streams limit enforcement
 
-<p>That does not scale. And it never really solved the root cause.</p>
+When a “spot” is just a line of text, it is extremely hard to:
 
-<h2>Why traditional clusters cannot realistically fix this?</h2>
+- reliably classify intent
+- distinguish malformed data from malicious data
+- apply consistent filtering across nodes
+- evolve rules without breaking clients
 
-<h3>1) Telnet clusters were built on implicit trust</h3>
+Clusters end up depending on fragile parsing rules and heuristic filtering, which attackers quickly learn to bypass.
 
-<p>Classic cluster architectures assume that:</p>
+### 3) Federation without boundaries amplifies problems
 
-<ul>
-<li>peers are well-behaved</li>
+DX clusters are federated by nature. Once something enters the network, it propagates fast.
 
-<li>users act in good faith</li>
+Without strong controls:
 
-<li>abuse is rare and local</li>
-</ul>
+- abuse spreads as efficiently as legitimate spots
+- loops are hard to prevent deterministically
+- a single bad actor can affect a disproportionate part of the ecosystem
 
-<p>Once that assumption fails, and it has, the system has no strong primitives to respond.</p>
+This has been a recurring operational reality, not a theoretical risk.
 
-<p>There is no consistent notion of:</p>
+## RCLDX starts from a different assumption
 
-<ul>
-<li>message provenance</li>
+RCLDX is built on a simple but uncomfortable premise:
 
-<li>verifiable source identity</li>
+> **Abuse will happen, including from inside the ham radio community, and the system must be designed accordingly.**
 
-<li>rate accountability</li>
+This is not pessimism. It is operational realism.
 
-<li>structured policy enforcement</li>
+The goal is not to “police” operators, but to **provide technical mechanisms that make abuse harder, noisier and easier to contain**.
 
-<li>network-wide abuse containment</li>
-</ul>
+## Why MQTT changes the equation
 
-<p>Everything is reactive and local.</p>
+MQTT is not chosen because it is fashionable. It is chosen because it provides primitives that Telnet clusters fundamentally lack.
 
-<h3>2) Text streams limit enforcement</h3>
+### 1) Control is explicit, not improvised
 
-<p>When a “spot” is just a line of text, it is extremely hard to:</p>
+MQTT allows:
 
-<ul>
-<li>reliably classify intent</li>
+- authenticated connections
+- per-client and per-topic permissions (authorization)
+- rate controls
+- session policies
+- structured disconnect logic
 
-<li>distinguish malformed data from malicious data</li>
+These are *normal* features in modern distributed systems, and they matter when dealing with insider abuse.
 
-<li>apply consistent filtering across nodes</li>
+### 2) Messages are data, not guesswork
 
-<li>evolve rules without breaking clients</li>
-</ul>
+RCLDX treats spots as structured messages, not free-form text.
 
-<p>Clusters end up depending on fragile parsing rules and heuristic filtering, which attackers quickly learn to bypass.</p>
+This enables:
 
-<h3>3) Federation without boundaries amplifies problems</h3>
+- consistent filtering across the network
+- validation at ingress
+- meaningful attribution of source and path
+- deterministic loop prevention strategies
+- future-proof evolution without breaking clients
 
-<p>DX clusters are federated by nature. Once something enters the network, it propagates fast.</p>
+You cannot do this reliably when everything is a text line optimized for terminals.
 
-<p>Without strong controls:</p>
+### 3) Federation with boundaries
 
-<ul>
-<li>abuse spreads as efficiently as legitimate spots</li>
+RCLDX explicitly separates concerns (for example, core vs club layers), allowing:
 
-<li>loops are hard to prevent deterministically</li>
+- local autonomy
+- global distribution
+- containment when something goes wrong
 
-<li>a single bad actor can affect a disproportionate part of the ecosystem</li>
-</ul>
+This is critical: **not every problem should become a global problem**.
 
-<p>This has been a recurring operational reality, not a theoretical risk.</p>
+## Security is not about distrusting hams, it’s about protecting the network
 
-<h2>RCLDX starts from a different assumption</h2>
+One common reaction to modernizing clusters is:
 
-<p>RCLDX is built on a simple but uncomfortable premise:</p>
+> “We’re hams, we don’t need all that.”
 
-<blockquote>
-<p><strong>Abuse will happen, including from inside the ham radio community, and the system must be designed accordingly.</strong></p>
-</blockquote>
+But the last decades show that *good intentions are not a control mechanism*.
 
-<p>This is not pessimism. It is operational realism.</p>
+RCLDX does not assume bad faith,  it simply refuses to assume perfect behaviour forever.
 
-<p>The goal is not to “police” operators, but to <strong>provide technical mechanisms that make abuse harder, noisier and easier to contain</strong>.</p>
+That difference is what allows:
 
-<h2>Why MQTT changes the equation</h2>
+- resilience
+- fairness
+- scalabilit,
+- long-term sustainability
 
-<p>MQTT is not chosen because it is fashionable. It is chosen because it provides primitives that Telnet clusters fundamentally lack.</p>
+## This is an evolution, not a rejection
 
-<h3>1) Control is explicit, not improvised</h3>
+Telnet clusters deserve respect. They carried DX spotting into the Internet age and served the community well. But we are no longer in that age.
 
-<p>MQTT allows:</p>
+RCLDX is an attempt to:
 
-<ul>
-<li>authenticated connections</li>
+- keep the openness that made clusters successful…
+- …while adding the technical foundations required in 2026…
+- …without relying on informal rules and manual firefighting.
 
-<li>per-client and per-topic permissions (authorization)</li>
+The intent is not to erase the past, it is to ensure the future does not keep repeating the same problems.
 
-<li>rate controls</li>
+**Keep on reading on this post thread on [Insider abuse: the hardest problem DX cluster never solved](/blog/insider-abuse-the-hardest-problem-dx-clusters-never-solved). **
 
-<li>session policies</li>
+Read more about RCLDX on [https://hamradio.tools/docs](https://hamradio.tools/docs)
 
-<li>structured disconnect logic</li>
-</ul>
-
-<p>These are <em>normal</em> features in modern distributed systems, and they matter when dealing with insider abuse.</p>
-
-<h3>2) Messages are data, not guesswork</h3>
-
-<p>RCLDX treats spots as structured messages, not free-form text.</p>
-
-<p>This enables:</p>
-
-<ul>
-<li>consistent filtering across the network</li>
-
-<li>validation at ingress</li>
-
-<li>meaningful attribution of source and path</li>
-
-<li>deterministic loop prevention strategies</li>
-
-<li>future-proof evolution without breaking clients</li>
-</ul>
-
-<p>You cannot do this reliably when everything is a text line optimized for terminals.</p>
-
-<h3>3) Federation with boundaries</h3>
-
-<p>RCLDX explicitly separates concerns (for example, core vs club layers), allowing:</p>
-
-<ul>
-<li>local autonomy</li>
-
-<li>global distribution</li>
-
-<li>containment when something goes wrong</li>
-</ul>
-
-<p>This is critical: <strong>not every problem should become a global problem</strong>.</p>
-
-<h2>Security is not about distrusting hams, it’s about protecting the network</h2>
-
-<p>One common reaction to modernizing clusters is:</p>
-
-<blockquote>
-<p>“We’re hams, we don’t need all that.”</p>
-</blockquote>
-
-<p>But the last decades show that <em>good intentions are not a control mechanism</em>.</p>
-
-<p>RCLDX does not assume bad faith,  it simply refuses to assume perfect behaviour forever.</p>
-
-<p>That difference is what allows:</p>
-
-<ul>
-<li>resilience</li>
-
-<li>fairness</li>
-
-<li>scalabilit,</li>
-
-<li>long-term sustainability</li>
-</ul>
-
-<h2>This is an evolution, not a rejection</h2>
-
-<p>Telnet clusters deserve respect. They carried DX spotting into the Internet age and served the community well. But we are no longer in that age.</p>
-
-<p>RCLDX is an attempt to:</p>
-
-<ul>
-<li>keep the openness that made clusters successful…</li>
-
-<li>…while adding the technical foundations required in 2026…</li>
-
-<li>…without relying on informal rules and manual firefighting.</li>
-</ul>
-
-<p>The intent is not to erase the past, it is to ensure the future does not keep repeating the same problems.</p>
-
-<p><strong>Keep on reading on this post thread on <a href="/blog/insider-abuse-the-hardest-problem-dx-clusters-never-solved">Insider abuse: the hardest problem DX cluster never solved</a>. </strong></p>
-
-<p>Read more about RCLDX on <a href="https://hamradio.tools/docs">https://hamradio.tools/docs</a><br><br><strong>73 de EA1HET</strong></p>
-
-<p></p>
+**73 de EA1HET**

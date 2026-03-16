@@ -1,347 +1,256 @@
 # DX bands explained
 
-<div class="doc-meta">
-<ul>
-<li><strong>Published:</strong> 2026-02-15</li>
-<li><strong>Last update:</strong> 2026-02-15</li>
-<li><strong>Categories:</strong> Antennas, English, Propagation</li>
-</ul>
-</div>
+- **Published:** 2026-02-15
+- **Last update:** 2026-02-15
 
-<p>From Top Band to UHF, and with propagation defining everything, amateur radio is not just about transmitting , it’s about understanding how the atmosphere behaves above us.</p>
+## Table of Contents
 
-<p>Every ham radio band has its own personality. Some reward you with quiet, long winter nights. Others explode with life when the solar cycle peaks. Some are predictable and dependable. Others are chaotic, mysterious and sometimes magical.</p>
+- [160 meters (1.8 – 2.0 MHz)](#160-meters-18--20-mhz)
+- [80 meters / 75 meters (3.5 – 4.0 MHz)](#80-meters--75-meters-35--40-mhz)
+- [40 meters ( 7.0 – 7.3 MHz)](#40-meters--70--73-mhz)
+- [30 meters (10.1 – 10.15 MHz)](#30-meters-101--1015-mhz)
+- [20 meters (14.0 – 14.35 MHz)](#20-meters-140--1435-mhz)
+- [17 meters (18.068 – 18.168 MHz)](#17-meters-18068--18168-mhz)
+- [15 meters (21.0 – 21.45 MHz)](#15-meters-210--2145-mhz)
+- [12 meters (24.89 – 24.99 MHz)](#12-meters-2489--2499-mhz)
+- [10 meters (28.0 – 29.7 MHz)](#10-meters-280--297-mhz)
+- [6 meters (50 – 54 MHz)](#6-meters-50--54-mhz)
+- [2 meters (144 – 148 MHz)](#2-meters-144--148-mhz)
+- [70 cm (420 – 450 MHz)](#70-cm-420--450-mhz)
+- [Final Thoughts](#final-thoughts)
 
-<p>If you’ve ever wondered:</p>
+From Top Band to UHF, and with propagation defining everything, amateur radio is not just about transmitting , it’s about understanding how the atmosphere behaves above us.
 
-<ul>
-<li>Why 40 meters works almost every night?</li>
+Every ham radio band has its own personality. Some reward you with quiet, long winter nights. Others explode with life when the solar cycle peaks. Some are predictable and dependable. Others are chaotic, mysterious and sometimes magical.
 
-<li>Why 20 meters is the global meeting point?</li>
+If you’ve ever wondered:
 
-<li>Why 10 meters suddenly opens across continents?</li>
+- Why 40 meters works almost every night?
+- Why 20 meters is the global meeting point?
+- Why 10 meters suddenly opens across continents?
+- Or why 6 meters is called *“The Magic Band”*?
 
-<li>Or why 6 meters is called <em>“The Magic Band”</em>?</li>
-</ul>
+… the answer is always the same:
 
-<p>… the answer is always the same:</p>
+**Propagation defines everything.**
 
-<p><strong>Propagation defines everything.</strong></p>
+The ionosphere, the solar cycle, the D-layer absorption, sporadic E clouds, grey-line enhancement, tropospheric ducting… all of these invisible forces shape how far your signal travels and how clearly you receive others.
 
-<p>The ionosphere, the solar cycle, the D-layer absorption, sporadic E clouds, grey-line enhancement, tropospheric ducting… all of these invisible forces shape how far your signal travels and how clearly you receive others.</p>
+In this article, I’m going through each major amateur band, from 160 meters down to 70 cm, exploring:
 
-<p>In this article, I’m going through each major amateur band, from 160 meters down to 70 cm, exploring:</p>
+- Typical propagation behavior
+- Day vs. night performance
+- Solar cycle influence
+- Noise levels
+- DX potential
+- Practical operating notes
 
-<ul>
-<li>Typical propagation behavior</li>
+Because understanding your band is the difference between calling CQ blindly… and knowing exactly when and where to call.
 
-<li>Day vs. night performance</li>
+## 160 meters (1.8 – 2.0 MHz)
 
-<li>Solar cycle influence</li>
+**Propagation characteristics:**
 
-<li>Noise levels</li>
+- Strong daytime D-layer absorption limits range mostly to ground-wave and short skip (~2000 km).
+- At night, the band transforms — global communication becomes possible via F2 skip and ducting.
+- Winter nights provide the best DX due to lower atmospheric static.
 
-<li>DX potential</li>
+**Challenges:**
 
-<li>Practical operating notes</li>
-</ul>
+- Very noisy band — heavy man-made and atmospheric noise (especially in summer).
+- Requires large antennas and usually higher power for effective operation.
+- Receiving antennas like Beverage or magnetic loops are often used to combat noise.
 
-<p>Because understanding your band is the difference between calling CQ blindly… and knowing exactly when and where to call.</p>
+**Summary:**
+A demanding band — but incredibly rewarding for serious DXers.
 
-<hr/>
+## 80 meters / 75 meters (3.5 – 4.0 MHz)
 
-<h2>160 meters (1.8 – 2.0 MHz)</h2>
+**Propagation characteristics:**
 
-<p> <strong>Propagation characteristics:</strong></p>
+- Less daytime absorption than 160m.
+- Daylight range: typically up to ~350 km.
+- Nighttime range: 300–1000 km average, with occasional long-haul DX halfway around the world.
 
-<ul>
-<li>Strong daytime D-layer absorption limits range mostly to ground-wave and short skip (~2000 km).</li>
+**Best use cases:**
 
-<li>At night, the band transforms — global communication becomes possible via F2 skip and ducting.</li>
+- Regional nets
+- Ragchewing
+- Emergency communications
 
-<li>Winter nights provide the best DX due to lower atmospheric static.</li>
-</ul>
+**Seasonal notes:**
 
-<p><strong>Challenges:</strong></p>
+- Still prone to static — winter is best for DX.
+- Antennas are more manageable than 160m, but still physically large.
 
-<ul>
-<li>Very noisy band — heavy man-made and atmospheric noise (especially in summer).</li>
+**Summary:**
+A classic regional band that turns into a DX performer after dark.
 
-<li>Requires large antennas and usually higher power for effective operation.</li>
+## 40 meters ( 7.0 – 7.3 MHz)
 
-<li>Receiving antennas like Beverage or magnetic loops are often used to combat noise.</li>
-</ul>
+**Propagation characteristics:**
 
-<p><strong>Summary:</strong><br>A demanding band — but incredibly rewarding for serious DXers.</p>
+- Daytime coverage: ~1000 km via E/F layer skip.
+- Reliable DX at night — even during solar minimum.
+- Lower noise compared to 160m and 80m.
 
-<h2>80 meters / 75 meters (3.5 – 4.0 MHz)</h2>
+**Why it’s special:**
 
-<p><strong>Propagation characteristics:</strong></p>
+- Excellent for both regional and long-distance communications.
+- Active year-round with CW, SSB, and digital modes.
+- The most dependable low band for consistent DX.
 
-<ul>
-<li>Less daytime absorption than 160m.</li>
+**Summary:**
+If you could only choose one low HF band for reliability, 40 meters would be hard to beat.
 
-<li>Daylight range: typically up to ~350 km.</li>
+## 30 meters (10.1 – 10.15 MHz)
 
-<li>Nighttime range: 300–1000 km average, with occasional long-haul DX halfway around the world.</li>
-</ul>
+**Propagation characteristics:**
 
-<p><strong>Best use cases:</strong></p>
+- A hybrid band, behaves like both day and night bands.
+- Daytime range: up to ~3000 km.
+- Nighttime: even longer distances.
+- F2 propagation often available 24/7 except during deep solar minimum.
 
-<ul>
-<li>Regional nets</li>
+**Advantages:**
 
-<li>Ragchewing</li>
+- Least affected by solar cycle variations.
+- Low noise.
+- Ideal for digital modes and quieter DX operations.
+- Often globally open along the grey line.
 
-<li>Emergency communications</li>
-</ul>
+**Summary:**
+A calm, stable, highly efficient DX band, especially loved by digital operators.
 
-<p><strong>Seasonal notes:</strong></p>
+## 20 meters (14.0 – 14.35 MHz)
 
-<ul>
-<li>Still prone to static — winter is best for DX.</li>
+**Propagation characteristics:**
 
-<li>Antennas are more manageable than 160m, but still physically large.</li>
-</ul>
+- Primary DX band, even during solar minimum.
+- Consistent worldwide F2 skip for several hours daily.
+- During solar maximum, may remain open all night.
 
-<p><strong>Summary:</strong><br>A classic regional band that turns into a DX performer after dark.</p>
+**Pros:**
 
-<h2>40 meters ( 7.0 – 7.3 MHz)</h2>
+- Lower atmospheric noise.
+- Reliable worldwide performance year-round.
 
-<p><strong>Propagation characteristics:</strong></p>
+**Cons:**
 
-<ul>
-<li>Daytime coverage: ~1000 km via E/F layer skip.</li>
+- Often crowded due to popularity.
 
-<li>Reliable DX at night — even during solar minimum.</li>
+**Summary:**
+The global meeting place of amateur radio.
 
-<li>Lower noise compared to 160m and 80m.</li>
-</ul>
+## 17 meters (18.068 – 18.168 MHz)
 
-<p><strong>Why it’s special:</strong></p>
+**Propagation characteristics:**
 
-<ul>
-<li>Excellent for both regional and long-distance communications.</li>
+- Similar to 20m but more solar-cycle dependent.
+- Excellent daytime and early evening DX band at solar maximum.
+- Limited openings during solar minimum (often North–South paths).
+- Less crowded than 20m.
 
-<li>Active year-round with CW, SSB, and digital modes.</li>
+**Summary:**
+A refined DX band — often open when 15m struggles.
 
-<li>The most dependable low band for consistent DX.</li>
-</ul>
+## 15 meters (21.0 – 21.45 MHz)
 
-<p><strong>Summary:</strong><br>If you could only choose one low HF band for reliability, 40 meters would be hard to beat.</p>
+**Propagation characteristics:**
 
-<h2>30 meters (10.1 – 10.15 MHz)</h2>
+- Outstanding during solar maximum.
+- Primarily daytime band.
+- Sensitive to sunspot numbers.
+- Sporadic E possible in late spring, summer, and sometimes mid-winter.
+- Closes shortly after sunset except during peak solar years.
 
-<p><strong>Propagation characteristics:</strong></p>
+**Summary:**
+When solar activity rises, 15 meters comes alive.
 
-<ul>
-<li>A hybrid band, behaves like both day and night bands.</li>
+## 12 meters (24.89 – 24.99 MHz)
 
-<li>Daytime range: up to ~3000 km.</li>
+**Propagation characteristics:**
 
-<li>Nighttime: even longer distances.</li>
+- Blend of 10m and 15m characteristics.
+- Primarily daytime use.
+- Opens in moderate to high solar years.
+- Sporadic E common from spring through summer.
+- Rarely open in winter during solar minimum.
 
-<li>F2 propagation often available 24/7 except during deep solar minimum.</li>
-</ul>
+**Summary:**
+Less active than 15m, but capable of exciting DX during good years.
 
-<p><strong>Advantages:</strong></p>
+## 10 meters (28.0 – 29.7 MHz)
 
-<ul>
-<li>Least affected by solar cycle variations.</li>
+**Propagation characteristics:**
 
-<li>Low noise.</li>
+- Booms withs F2 DX during solar maximum
+- Very low power can achieve global contacts.
+- Sporadic E common in spring/summer.
+- F2 mostly absent during solar minimum.
 
-<li>Ideal for digital modes and quieter DX operations.</li>
+**Special modes:**
 
-<li>Often globally open along the grey line.</li>
-</ul>
+- Aurora
+- Transequatorial (TE)
+- Meteor scatter
 
-<p><strong>Summary:</strong><br>A calm, stable, highly efficient DX band, especially loved by digital operators.</p>
+**Summary:**
+A beginner-friendly DX band when open — small antennas work well.
 
-<h2>20 meters (14.0 – 14.35 MHz)</h2>
+## 6 meters (50 – 54 MHz)
 
-<p><strong>Propagation characteristics:</strong></p>
+**Propagation characteristics:**
 
-<ul>
-<li>Primary DX band, even during solar minimum.</li>
+- Mostly line-of-sight, until it isn’t.
+- Sporadic E: 600–2500 km (late spring/summer).
+- F2 worldwide DX at solar peak.
+- Transequatorial paths near equinoxes (~8000 km).
+- Aurora and meteor scatter active during events.
+- Troposcatter and ducting extend range.
 
-<li>Consistent worldwide F2 skip for several hours daily.</li>
+**Summary:**
+Unpredictable. Fascinating. Addictive.
 
-<li>During solar maximum, may remain open all night.</li>
-</ul>
+## 2 meters (144 – 148 MHz)
 
-<p><strong>Pros:</strong></p>
+**Propagation characteristics:**
 
-<ul>
-<li>Lower atmospheric noise.</li>
+- Primarily line-of-sight.
+- Tropospheric propagation: 300–600 km typical.
+- Ducting up to 2500 km (especially over water).
+- Rare Sporadic E or transequatorial openings.
+- Aurora and meteor scatter possible.
+- Mostly weather-driven propagation.
 
-<li>Reliable worldwide performance year-round.</li>
-</ul>
+**Summary:**
+The classic weak-signal VHF experimentation band.
 
-<p><strong>Cons:</strong></p>
+## 70 cm (420 – 450 MHz)
 
-<ul>
-<li>Often crowded due to popularity.</li>
-</ul>
+**Propagation characteristics:**
 
-<p><strong>Summary:</strong><br>The global meeting place of amateur radio.</p>
+- Mostly line-of-sight and tropospheric.
+- Typical distances: ~400 km.
+- Ducting regularly enables 2000 km+ over land and sea.
+- Ionospheric propagation rare.
+- Aurora weak and Doppler-distorted.
+- Ideal for high-gain, small antennas.
 
-<h2>17 meters (18.068 – 18.168 MHz)</h2>
+**Summary:**
+The UHF playground for serious weak-signal enthusiasts.
 
-<p><strong>Propagation characteristics:</strong></p>
+---
 
-<ul>
-<li>Similar to 20m but more solar-cycle dependent.</li>
+## Final Thoughts
 
-<li>Excellent daytime and early evening DX band at solar maximum.</li>
+Propagation defines ham radio operator personality:
 
-<li>Limited openings during solar minimum (often North–South paths).</li>
+- The **low bands** reward patience and nighttime operation.
+- The **mid bands (20m–30m)** provide consistency and worldwide reach.
+- The **high HF bands** explode with solar activity.
+- **VHF and UHF** reward technical skill and experimentation.
 
-<li>Less crowded than 20m.</li>
-</ul>
+Each band offers a different challenge, and also a different kind of satisfaction. When you learn how they behave, you stop reacting to conditions… and start anticipating them. And that’s what keeps amateur radio endlessly fascinating.
 
-<p><strong>Summary:</strong><br>A refined DX band — often open when 15m struggles.</p>
-
-<h2>15 meters (21.0 – 21.45 MHz)</h2>
-
-<p><strong>Propagation characteristics:</strong></p>
-
-<ul>
-<li>Outstanding during solar maximum.</li>
-
-<li>Primarily daytime band.</li>
-
-<li>Sensitive to sunspot numbers.</li>
-
-<li>Sporadic E possible in late spring, summer, and sometimes mid-winter.</li>
-
-<li>Closes shortly after sunset except during peak solar years.</li>
-</ul>
-
-<p><strong>Summary:</strong><br>When solar activity rises, 15 meters comes alive.</p>
-
-<h2>12 meters (24.89 – 24.99 MHz)</h2>
-
-<p><strong>Propagation characteristics:</strong></p>
-
-<ul>
-<li>Blend of 10m and 15m characteristics.</li>
-
-<li>Primarily daytime use.</li>
-
-<li>Opens in moderate to high solar years.</li>
-
-<li>Sporadic E common from spring through summer.</li>
-
-<li>Rarely open in winter during solar minimum.</li>
-</ul>
-
-<p><strong>Summary:</strong><br>Less active than 15m, but capable of exciting DX during good years.</p>
-
-<h2>10 meters (28.0 – 29.7 MHz)</h2>
-
-<p><strong>Propagation characteristics:</strong></p>
-
-<ul>
-<li>Booms withs F2 DX during solar maximum</li>
-
-<li>Very low power can achieve global contacts.</li>
-
-<li>Sporadic E common in spring/summer.</li>
-
-<li>F2 mostly absent during solar minimum.</li>
-</ul>
-
-<p><strong>Special modes:</strong></p>
-
-<ul>
-<li>Aurora</li>
-
-<li>Transequatorial (TE)</li>
-
-<li>Meteor scatter</li>
-</ul>
-
-<p><strong>Summary:</strong><br>A beginner-friendly DX band when open — small antennas work well.</p>
-
-<h2>6 meters (50 – 54 MHz)</h2>
-
-<p><strong>Propagation characteristics:</strong></p>
-
-<ul>
-<li>Mostly line-of-sight, until it isn’t.</li>
-
-<li>Sporadic E: 600–2500 km (late spring/summer).</li>
-
-<li>F2 worldwide DX at solar peak.</li>
-
-<li>Transequatorial paths near equinoxes (~8000 km).</li>
-
-<li>Aurora and meteor scatter active during events.</li>
-
-<li>Troposcatter and ducting extend range.</li>
-</ul>
-
-<p><strong>Summary:</strong><br>Unpredictable. Fascinating. Addictive.</p>
-
-<h2>2 meters (144 – 148 MHz)</h2>
-
-<p><strong>Propagation characteristics:</strong></p>
-
-<ul>
-<li>Primarily line-of-sight.</li>
-
-<li>Tropospheric propagation: 300–600 km typical.</li>
-
-<li>Ducting up to 2500 km (especially over water).</li>
-
-<li>Rare Sporadic E or transequatorial openings.</li>
-
-<li>Aurora and meteor scatter possible.</li>
-
-<li>Mostly weather-driven propagation.</li>
-</ul>
-
-<p><strong>Summary:</strong><br>The classic weak-signal VHF experimentation band.</p>
-
-<h2>70 cm (420 – 450 MHz)</h2>
-
-<p><strong>Propagation characteristics:</strong></p>
-
-<ul>
-<li>Mostly line-of-sight and tropospheric.</li>
-
-<li>Typical distances: ~400 km.</li>
-
-<li>Ducting regularly enables 2000 km+ over land and sea.</li>
-
-<li>Ionospheric propagation rare.</li>
-
-<li>Aurora weak and Doppler-distorted.</li>
-
-<li>Ideal for high-gain, small antennas.</li>
-</ul>
-
-<p><strong>Summary:</strong><br>The UHF playground for serious weak-signal enthusiasts.</p>
-
-<hr/>
-
-<h2>Final Thoughts</h2>
-
-<p>Propagation defines ham radio operator personality:</p>
-
-<ul>
-<li>The <strong>low bands</strong> reward patience and nighttime operation.</li>
-
-<li>The <strong>mid bands (20m–30m)</strong> provide consistency and worldwide reach.</li>
-
-<li>The <strong>high HF bands</strong> explode with solar activity.</li>
-
-<li><strong>VHF and UHF</strong> reward technical skill and experimentation.</li>
-</ul>
-
-<p>Each band offers a different challenge, and also a different kind of satisfaction. When you learn how they behave, you stop reacting to conditions… and start anticipating them. And that’s what keeps amateur radio endlessly fascinating.</p>
-
-<p><em>73 DE EA1HET . .</em></p>
-
-<p></p>
+*73 DE EA1HET . .*
