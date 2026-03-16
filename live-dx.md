@@ -1,13 +1,15 @@
 # Live DX
 
-<div class="doc-meta">
-<ul>
-<li><strong>Published:</strong> 2025-06-13</li>
-<li><strong>Last update:</strong> 2025-06-18</li>
-</ul>
-</div>
+- **Published:** 2025-06-13
+- **Last update:** 2026-03-16
 
-<p>Live contacts on radio</p>
+---
+
+Activity on the bands is difficult to be measured, specially all those long hours of SWL, but, at some point a given indication is nice.
+
+Following are a couple of reports on my acive status on radio.
+
+## Live contacts on radio
 
 <div class="live-dx-embed">
   <iframe
@@ -19,3 +21,7 @@
     scrolling="auto">
   </iframe>
 </div>
+
+## Historical activity on radio
+
+![My historical activity](https://rbn.telegraphy.de/activity/image/EA1HET+EA1HET/P)

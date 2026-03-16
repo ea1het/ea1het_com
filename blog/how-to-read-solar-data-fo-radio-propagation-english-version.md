@@ -8,7 +8,7 @@
 </ul>
 </div>
 
-<p>[ <a href="/posts/interpretando-los-datos-solares-en-la-propagacion">Este artículo está también disponible en Español</a> ]</p>
+<p>[ <a href="/blog/interpretando-los-datos-solares-en-la-propagacion">Este artículo está también disponible en Español</a> ]</p>
 
 <p>When you look at a solar-terrestrial report, you’ll likely come across various key values like the A-Index and K-Index, among others. These numbers help us understand whether the Earth’s magnetic field is calm or being affected by solar storms.</p>
 

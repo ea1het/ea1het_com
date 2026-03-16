@@ -8,7 +8,7 @@
 </ul>
 </div>
 
-<p>[ <a href="/posts/how-to-read-solar-data-fo-radio-propagation-english-version">This article is also available in English</a> ]</p>
+<p>[ <a href="/blog/how-to-read-solar-data-fo-radio-propagation-english-version">This article is also available in English</a> ]</p>
 
 <p>Cuando miras un parte solar-terrestre, seguramente te topas con diversos valores clave, como <strong>A-Index</strong> y <strong>K-Index</strong>, entro otros valores. Estos nos indican si el campo magnético de la Tierra está tranquilo o si está siendo alterado por tormentas solares. </p>
 

@@ -8,7 +8,7 @@
 </ul>
 </div>
 
-<p><em>This post is the continuation of another titled <a href="/posts/rcldx-why-dx-clusters-must-evolve-beyond-telnet">RCLDX: why DX clusters must evolve beyond Telnet</a>. <br></em><br>For many years, discussions about DX cluster security have focused on the wrong threat.</p>
+<p><em>This post is the continuation of another titled <a href="/blog/rcldx-why-dx-clusters-must-evolve-beyond-telnet">RCLDX: why DX clusters must evolve beyond Telnet</a>. <br></em><br>For many years, discussions about DX cluster security have focused on the wrong threat.</p>
 
 <p>The real, persistent problem has not been <em>external attackers</em> or “hackers on the Internet”. It has been <strong>malicious or disruptive behaviour originating from inside the amateur radio ecosystem itself</strong>, from users and nodes that look legitimate on the surface.</p>
 

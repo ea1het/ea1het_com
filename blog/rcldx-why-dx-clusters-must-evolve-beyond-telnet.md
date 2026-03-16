@@ -236,7 +236,7 @@
 
 <p>The intent is not to erase the past, it is to ensure the future does not keep repeating the same problems.</p>
 
-<p><strong>Keep on reading on this post thread on <a href="/posts/insider-abuse-the-hardest-problem-dx-clusters-never-solved">Insider abuse: the hardest problem DX cluster never solved</a>. </strong></p>
+<p><strong>Keep on reading on this post thread on <a href="/blog/insider-abuse-the-hardest-problem-dx-clusters-never-solved">Insider abuse: the hardest problem DX cluster never solved</a>. </strong></p>
 
 <p>Read more about RCLDX on <a href="https://hamradio.tools/docs">https://hamradio.tools/docs</a><br><br><strong>73 de EA1HET</strong></p>
 
