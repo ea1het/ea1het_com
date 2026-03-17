@@ -1,21 +1,19 @@
-# EA1HET
+# EA1HET — Amateur Radio Notes, Experiments & Projects
 
-This site has been migrated to **Docsify** using **docsify-themeable**.
+Welcome to **EA1HET.com**, my personal corner of the amateur radio world.
 
-## Start here
+My name is **Jonathan Gonzalez (EA1HET)** and this site collects notes, experiments, and technical projects related to ham radio and radio communications in general. The content reflects my journey through the hobby: learning, building, testing equipment, operating portable, and exploring how radio fits into today's technological landscape.
 
-- [Site pages](/pages)
-- [Posts](/blog/)
-- [Original live site](https://ea1het.com)
+Here you will find material about:
 
-## Migration notes
+- **Amateur radio operation** and portable setups.
+- **Propagation, bands and operating techniques**.
+- **Antennas, RF experiments and station improvements**.
+- **Software, SDR, and radio-related development projects**.
+- **Networking and infrastructure ideas for modern ham radio**.
 
-- Source of truth: `https://ea1het.com/wp-json/wp/v2/...`
-- Migrated content is generated into root-level pages and `blog/`.
-- To refresh content from WordPress, run:
+This is not meant to be a static reference manual but rather a **living notebook** of things I learn, build, test or experiment with along the way.
 
-```bash
-python3 scripts/migrate_wordpress_to_docsify.py
-```
+If you are curious about amateur radio, RF experimentation or modern approaches to the hobby, you are very welcome here :)
 
-`OLD_SITE/` is intentionally ignored for this migration.
+VY 73 DE **EA1HET, Jonathan**

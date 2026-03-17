@@ -8,9 +8,7 @@
 
 Just in case you’ve never heard about the term “Ham Radio” let me introduce you to the hobby of amateur radio communications. My name is Jonathan Gonzalez, and my “call sign” is **EA1HET**. A call sign is a unique identifier for a transmitter station. I obtained mine after passing a government exam and obtaining a radio station license.
 
-![I'm a licensed ham radio operator](/assets/images/20250602-001.png)
-
-![EA1HET portrait](/assets/images/20250602-003.png)
+![EA1HET portrait](../assets/images/20250602-003.png "align-center size-lm")
 
 The particle “EA” represents my country (Spain) and my license class (”A”). The number (”1”) designates the region where I live in my country of residence. The last 1, 2 or 3 letters are simply a consecutive list that changes to identify different radio stations. Call signs with just 1 final letter are called “vanity calls” and are used mainly by DX stations, or stations that compete in radio championships. Keep reading for more details.
 
@@ -25,6 +23,8 @@ I can openly say a big chunk of my friends of today I’ve found them in the rad
 ## What is really a ham radio operator?
 
 Since the dawn of radio, amateur operators, “hams” in our own jargon, have transmitted on tenaciously guarded slices of radio spectrum. Electronic engineering has benefited tremendously from our activity, from the level of the individual engineer to the entire field. But the rise of the Internet in the 1990s, with its ability to easily connect billions of people, somehow removed the attention from our discipline.
+
+![I'm a licensed ham radio operator](../assets/images/20250602-001.png "align-center size-lm")
 
 ## How ham radio fits today in society?
 
