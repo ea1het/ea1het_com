@@ -1,5 +1,3 @@
-# EA1HET — Amateur Radio Notes, Experiments & Projects
-
 Welcome to **EA1HET.com**, my personal corner of the amateur radio world.
 
 My name is **Jonathan Gonzalez (EA1HET)**, a licensed amateur radio operator from Spain and a long-time technology enthusiast. This site is my radio notebook on the web. A place where I collect notes, document experiments, operating experiences and ideas that sit somewhere between amateur radio, RF engineering and hacker culture.
@@ -18,6 +16,7 @@ Here you will find material about:
 Many of the things documented here come from real experiments in the field, portable activations or late-night technical curiosity sessions. Think of this site as a living lab notebook for radio, part technical documentation, part exploration log. This is not meant to be a static reference manual but rather a **living notebook** of things I learn, build, test or experiment with along the way.
 
 > If you enjoy radio, signals, antennas, hacking hardware or building things that transmit across the planet, you're in the right place.  
+> 
 >If you are curious about amateur radio, RF experimentation or modern approaches to the hobby, you are very welcome here :)
 
 VY 73 DE **EA1HET, Jonathan**
