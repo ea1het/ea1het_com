@@ -7,6 +7,6 @@
 > Stories, projects, propagation notes and operating field experience.
 
 <p class="cover-actions">
-  <a href="/#/blog/">Blog</a>
-  <a href="/#/contact">Contact</a>
+  <a href="/notebook/#/notebook/articles/">Articles</a>
+  <a href="/notebook/#/notebook/contact">Contact</a>
 </p>

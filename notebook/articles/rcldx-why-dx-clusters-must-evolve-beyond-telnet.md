@@ -1,5 +1,7 @@
 # RCLDX: why DX clusters must evolve beyond Telnet
 
+[LIST OF ARTICLES](/notebook/articles/)
+
 - **Published:** 2026-01-01
 - **Last update:** 2026-01-20
 - **Categories:** English, Software
@@ -168,7 +170,7 @@ RCLDX is an attempt to:
 
 The intent is not to erase the past, it is to ensure the future does not keep repeating the same problems.
 
-**Keep on reading on this post thread on [Insider abuse: the hardest problem DX cluster never solved](/blog/insider-abuse-the-hardest-problem-dx-clusters-never-solved). **
+**Keep on reading on this post thread on [Insider abuse: the hardest problem DX cluster never solved](/notebook/articles/insider-abuse-the-hardest-problem-dx-clusters-never-solved). **
 
 Read more about RCLDX on [https://hamradio.tools/docs](https://hamradio.tools/docs)
 

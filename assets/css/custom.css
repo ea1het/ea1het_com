@@ -1,14 +1,345 @@
+/* ═══════════════════════════════════════════════════════════════
+   EA1HET Notebook — Docsify dark-theme overrides
+   Loaded after docsify-themeable (theme-simple) and landing.css.
+   landing.css already defines the :root design tokens.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── 1. Docsify-themeable variable overrides ─────────────────── */
 :root {
-  --base-font-family: "Lato", "Helvetica Neue", sans-serif;
-  --theme-color: #1a4f8b;
-  --sidebar-name-color: #12385f;
-  --heading-color: #12385f;
-  --sidebar-nav-link-color--active: #1a4f8b;
-  --sidebar-nav-link-border-color--active: #1a4f8b;
-  --code-inline-background: #eef4fa;
+  /* Font */
+  --base-font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
+  --base-font-size: 16px;
+  --base-line-height: 1.65;
+
+  /* Backgrounds */
+  --base-background-color: #080d16;
+  --base-border-color: #1e3050;
+
+  /* Text */
+  --base-font-color: #dce8f5;
+
+  /* Headings */
+  --heading-color: #e8eef6;
+  --heading-font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
+  --heading-font-weight: 700;
+
+  /* Links */
+  --link-color: #2a6bbf;
+  --link-color--hover: #5fa0e0;
+
+  /* Sidebar */
+  --sidebar-background: #0d1625;
+  --sidebar-border-color: #1e3050;
+  --sidebar-name-color: #e8eef6;
+  --sidebar-nav-link-color: #7a8fa6;
+  --sidebar-nav-link-color--hover: #dce8f5;
+  --sidebar-nav-link-color--active: #2a6bbf;
+  --sidebar-nav-link-border-color--active: #2a6bbf;
+  --sidebar-width: 17rem;
+
+  /* Code */
+  --code-background-color: #0d1625;
+  --code-font-color: #a0bcd6;
+  --code-font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
+  --code-inline-background: #121f31;
+  --code-inline-color: #c8d9ee;
+
+  /* Blockquote */
+  --blockquote-background: rgba(26, 79, 139, 0.12);
+  --blockquote-border-color: #1a4f8b;
+  --blockquote-font-color: #a0bcd6;
+
+  /* Table */
+  --table-cell-border-color: #1e3050;
+  --table-head-background: #0d1625;
+  --table-row-odd-background: rgba(13, 22, 37, 0.5);
+
+  /* Theme */
+  --theme-color: #2a6bbf;
   --content-max-width: 920px;
 }
 
+/* ── 2. Nav bar — pin every property so Docsify can't override ─ */
+nav.site-nav {
+  position: fixed !important;
+  top: 0 !important; left: 0 !important; right: 0 !important;
+  /* Docsify's initRender unconditionally adds class="app-nav" to the first <nav>
+     it finds. Docsify-themeable then applies nav.app-nav { margin-left: --sidebar-width }.
+     A margin-left on a fixed element shifts it rightward despite left:0, so we
+     must hard-zero the margin here. */
+  margin: 0 !important;
+  width: 100% !important;
+  z-index: 99999 !important;          /* must beat Docsify-themeable sidebar (~200) */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 3.5rem !important;
+  padding: 0 2rem !important;
+  background: rgba(8,13,22,0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid #1e3050 !important;
+  font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif !important;
+  box-sizing: border-box !important;
+}
+
+nav.site-nav .nav-logo {
+  font-size: 1.3rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.06em !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+}
+nav.site-nav .nav-logo .r { color: #aa151b !important; }
+nav.site-nav .nav-logo .y { color: #f1bf00 !important; }
+
+nav.site-nav .nav-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.25rem !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+nav.site-nav .nav-links li {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  border: none !important;
+}
+nav.site-nav .nav-links a {
+  display: inline-block !important;
+  padding: 0.35rem 0.75rem !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  color: #637d99 !important;
+  border-radius: 0.3rem !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  border: none !important;
+  transition: color 0.15s, background 0.15s !important;
+}
+nav.site-nav .nav-links a:hover {
+  color: #dce8f5 !important;
+  background: #121f31 !important;
+}
+
+nav.site-nav .nav-ham {
+  display: none;
+  background: none !important;
+  border: none !important;
+  color: #dce8f5 !important;
+  cursor: pointer !important;
+  font-size: 1.4rem !important;
+  line-height: 1 !important;
+  padding: 0 !important;
+}
+
+@media (max-width: 680px) {
+  nav.site-nav .nav-links:not(.mobile-open) { display: none !important; }
+  nav.site-nav .nav-ham { display: block !important; }
+  nav.site-nav .nav-links.mobile-open {
+    display: flex !important;
+    flex-direction: column !important;
+    position: fixed !important;
+    top: 3.5rem !important;
+    left: 0 !important; right: 0 !important;
+    background: rgba(8,13,22,0.97) !important;
+    padding: 1rem 2rem 1.5rem !important;
+    border-bottom: 1px solid #1e3050 !important;
+    backdrop-filter: blur(12px) !important;
+    z-index: 998 !important;
+    gap: 0.1rem !important;
+  }
+}
+
+/* ── 3. Push Docsify layout below the fixed nav bar ─────────── */
+/* Nav = 3.5rem (56px); sidebar and content shift down to match  */
+.sidebar {
+  top: 3.5rem !important;
+  z-index: 200 !important;            /* explicitly below our nav (99999) */
+  border-right-color: #1e3050 !important;
+  background: #0d1625 !important;
+}
+
+/* Docsify overlay (mobile) — also below our nav */
+.sidebar-toggle,
+body > .sidebar + * > .sidebar-overlay,
+.body-overlay {
+  z-index: 199 !important;
+}
+
+/* Docsify's sidebar toggle button (mobile hamburger) */
+.sidebar-toggle {
+  top: calc(3.5rem + 0.5rem) !important;
+  background: #0d1625 !important;
+}
+
+.content {
+  padding-top: calc(3.5rem + 2rem) !important;
+}
+
+/* Docsify search bar inside sidebar */
+.search input {
+  background: #121f31 !important;
+  color: #dce8f5 !important;
+  border-color: #1e3050 !important;
+}
+.search input::placeholder { color: #637d99 !important; }
+.search .results-panel { background: #0d1625 !important; border-color: #1e3050 !important; }
+.search .results-panel .matching-post { border-color: #1e3050 !important; }
+.search .results-panel .matching-post a { color: #dce8f5 !important; }
+.search .results-panel .matching-post p { color: #7a8fa6 !important; }
+
+/* ── 4. Body & page base ─────────────────────────────────────── */
+body {
+  background: #080d16 !important;
+  color: #dce8f5 !important;
+}
+
+/* ── 5. Sidebar internals ────────────────────────────────────── */
+.sidebar-nav {
+  padding-bottom: 4.8rem;
+}
+
+.sidebar-nav li hr {
+  margin: 0.35rem 0;
+  border-color: #1e3050;
+}
+
+.sidebar-nav li:has(> hr) {
+  margin: 0;
+  padding: 0;
+}
+
+/* Back-to-home anchor at top of sidebar */
+.sidebar > a {
+  display: block;
+  padding: 0.4rem 1rem;
+  font-size: 0.78rem;
+  color: #637d99 !important;
+  text-decoration: none;
+  border-bottom: 1px solid #1e3050;
+}
+.sidebar > a:hover { color: #dce8f5 !important; }
+
+/* Sidebar footer stamp */
+.sidebar::after {
+  content: "Designed & developed with \2665 \00A0 by EA1HET \00A9 2000–2026. All rights reserved.";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  z-index: 6;
+  padding: 0.55rem 0.8rem 0.7rem;
+  font-size: 0.68rem;
+  line-height: 1.25;
+  text-align: center;
+  color: #3a526a;
+  background: rgba(13, 22, 37, 0.97);
+  border-top: 1px solid #1e3050;
+  pointer-events: none;
+}
+
+/* App name / logo in sidebar — hidden, search sits at top instead */
+.sidebar .app-name { display: none !important; }
+
+/* Sidebar poster image */
+.sidebar-poster {
+  display: flex;
+  justify-content: center;
+  margin: 0.55rem 0 0.4rem;
+}
+.sidebar-poster img {
+  width: 86%;
+  max-width: 240px;
+  height: auto;
+  display: block;
+  border-radius: 0.2rem;
+  opacity: 0.85;
+}
+
+/* Mobile sidebar scroll */
+@media (max-width: 960px) {
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .sidebar-nav {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+}
+
+/* ── 6. Content area ─────────────────────────────────────────── */
+.markdown-section {
+  color: #dce8f5 !important;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+  color: #e8eef6;
+  border-bottom-color: #1e3050;
+}
+
+/* Normalize anchor-targeted headings so they don't render as boxed blocks */
+.markdown-section :target {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.markdown-section a {
+  color: #2a6bbf;
+}
+.markdown-section a:hover { color: #5fa0e0; }
+
+.markdown-section blockquote {
+  background: rgba(26, 79, 139, 0.1);
+  border-left-color: #1a4f8b;
+  color: #a0bcd6;
+}
+
+.markdown-section table th {
+  background: #0d1625;
+  color: #e8eef6;
+  border-color: #1e3050;
+}
+.markdown-section table td {
+  border-color: #1e3050;
+  color: #dce8f5;
+}
+.markdown-section table tr:nth-child(even) {
+  background: rgba(13, 22, 37, 0.5);
+}
+
+.markdown-section hr {
+  border-color: #1e3050;
+}
+
+/* ── 7. Code blocks ──────────────────────────────────────────── */
+.markdown-section pre {
+  background: #0d1625 !important;
+  border: 1px solid #1e3050;
+  border-radius: 0.5rem;
+}
+.markdown-section pre code {
+  color: #a0bcd6;
+}
+.markdown-section code {
+  background: #121f31 !important;
+  color: #c8d9ee !important;
+  border-radius: 0.25rem;
+  padding: 0.1em 0.35em;
+}
+
+/* ── 8. Images ───────────────────────────────────────────────── */
 .markdown-section iframe {
   width: 100%;
   max-width: 100%;
@@ -22,341 +353,66 @@
   margin: 0.85rem auto;
 }
 
-.markdown-section p > img:only-child {
-  margin: 0.85rem auto 1rem;
-}
+.markdown-section p > img:only-child       { margin: 0.85rem auto 1rem; }
+.markdown-section p > img[title~="align-left"]:only-child  { margin: 0.85rem 0 1rem; }
+.markdown-section p > img[title~="align-center"]:only-child{ margin: 0.85rem auto 1rem; }
+.markdown-section p > img[title~="align-right"]:only-child { margin: 0.85rem 0 1rem auto; }
 
-.markdown-section p > img[title~="align-left"]:only-child {
-  margin: 0.85rem 0 1rem;
-}
+.markdown-section p > img[title~="size-xs"] { width: min(100%, 280px); max-width: none; }
+.markdown-section p > img[title~="size-sm"] { width: min(100%, 420px); max-width: none; }
+.markdown-section p > img[title~="size-md"] { width: min(100%, 560px); max-width: none; }
+.markdown-section p > img[title~="size-lm"] { width: min(100%, 560px); max-width: none; }
+.markdown-section p > img[title~="size-lg"] { width: min(100%, 760px); max-width: none; }
+.markdown-section p > img[title~="size-xl"] { width: min(100%, 960px); max-width: none; }
+.markdown-section p > img[title~="size-full"] { width: 100%; max-width: 100%; }
 
-.markdown-section p > img[title~="align-center"]:only-child {
-  margin: 0.85rem auto 1rem;
-}
-
-.markdown-section p > img[title~="align-right"]:only-child {
-  margin: 0.85rem 0 1rem auto;
-}
-
-.markdown-section p > img[title~="size-xs"] {
-  width: min(100%, 280px);
-  max-width: none;
-}
-
-.markdown-section p > img[title~="size-sm"] {
-  width: min(100%, 420px);
-  max-width: none;
-}
-
-.markdown-section p > img[title~="size-md"] {
-  width: min(100%, 560px);
-  max-width: none;
-}
-
-.markdown-section p > img[title~="size-lm"] {
-  width: min(100%, 560px);
-  max-width: none;
-}
-
-.markdown-section p > img[title~="size-lg"] {
-  width: min(100%, 760px);
-  max-width: none;
-}
-
-.markdown-section p > img[title~="size-xl"] {
-  width: min(100%, 960px);
-  max-width: none;
-}
-
-.markdown-section p > img[title~="size-full"] {
-  width: 100%;
-  max-width: 100%;
-}
-
-.live-dx-embed {
-  --live-dx-width: 1240;
-  --live-dx-height: 760;
-  --live-dx-scale: 0.66;
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  height: calc(var(--live-dx-height) * 1px * var(--live-dx-scale));
-  overflow: hidden;
-}
-
-.live-dx-embed iframe {
-  width: calc(var(--live-dx-width) * 1px);
-  height: calc(var(--live-dx-height) * 1px);
-  max-width: none;
-  display: block;
-  transform-origin: top left;
-  transform: scale(var(--live-dx-scale));
-}
-
-@media (min-width: 1100px) {
-  .live-dx-embed {
-    --live-dx-scale: 0.72;
-  }
-}
-
-@media (max-width: 800px) {
-  .live-dx-embed {
-    --live-dx-scale: 0.58;
-  }
-}
-
-.sidebar-nav li hr {
-  margin: 0.35rem 0;
-}
-
-.sidebar-nav li:has(> hr) {
-  margin: 0;
-  padding: 0;
-}
-
-.sidebar-nav {
-  padding-bottom: 4.8rem;
-}
-
-.sidebar::after {
-  content: "Designed & developed with \2665 \00A0 by EA1HET \00A9 2000-2026. All rights reserved.";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 6;
-  padding: 0.55rem 0.8rem 0.7rem;
-  font-size: 0.72rem;
-  line-height: 1.25;
-  text-align: center;
-  color: #5f6e7e;
-  background: rgba(244, 246, 249, 0.96);
-  border-top: 1px solid #d8dde4;
-  pointer-events: none;
-}
-
-@media (max-width: 960px) {
-  .sidebar {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-
-  .sidebar-nav {
-    flex: 1 1 auto;
-    min-height: 0;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    touch-action: pan-y;
-  }
-}
-
-.sidebar-poster {
-  display: flex;
-  justify-content: center;
-  margin: 0.55rem 0 0.4rem;
-}
-
-.sidebar-poster img {
-  width: 86%;
-  max-width: 240px;
-  height: auto;
-  display: block;
-  border-radius: 0.2rem;
-}
-
-.sidebar .app-name,
-.sidebar .app-name-link {
-  color: #113a66 !important;
-  font-size: 1.9rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-shadow: 0 2px 10px rgba(12, 34, 58, 0.28);
-}
-
-.sidebar .app-name .cs-red,
-.sidebar .app-name-link .cs-red {
-  color: #aa151b;
-}
-
-.sidebar .app-name .cs-yellow,
-.sidebar .app-name-link .cs-yellow {
-  color: #f1bf00;
-}
-
-.doc-meta {
-  background: #f3f5f7;
-  border: 0;
-  border-radius: 0;
-  padding: 0.6rem 0.9rem;
-  margin: 0.4rem 0 1rem;
-}
-
-.doc-meta ul {
-  margin: 0;
-  padding-left: 1.1rem;
-}
-
-.doc-meta li {
-  margin: 0.2rem 0;
-}
-
-.about-intro-images {
+/* ── 9. Photo gallery grid ───────────────────────────────────── */
+.photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-  align-items: stretch;
-  margin: 1rem 0 1.25rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
 }
-
-.about-intro-images figure {
+.photo-grid figure {
   margin: 0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.4rem;
+  background: #0d1625;
 }
-
-.about-intro-images img {
-  width: 100%;
-  height: 360px;
+.photo-grid img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 200px !important;
   object-fit: cover;
   object-position: center;
   display: block;
+  border-radius: 0.4rem;
+  margin: 0 !important;
+  transition: transform 0.25s ease;
 }
-
-.about-intro-images figure:first-child img {
-  object-fit: contain;
-  object-position: center;
-  background: #ffffff;
-}
-
-@media (max-width: 760px) {
-  .about-intro-images {
-    grid-template-columns: 1fr;
-  }
-
-  .about-intro-images img {
-    height: auto;
-  }
-}
-
-section.cover {
-  position: relative;
-  overflow: hidden;
-  background-color: #060a10 !important;
-}
-
-section.cover::before {
-  content: "";
+.photo-grid img:hover { transform: scale(1.04); }
+.photo-grid figcaption {
   position: absolute;
-  inset: 0;
-  z-index: 0;
-  background-image: url("/assets/images/00000000-001.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: saturate(0.95) contrast(0.9);
+  bottom: 0; left: 0; right: 0;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.72rem;
+  color: #dce8f5;
+  background: rgba(8,13,22,0.72);
+  backdrop-filter: blur(4px);
+  line-height: 1.2;
+}
+@media (max-width: 760px) {
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .photo-grid { grid-template-columns: 1fr; }
+  .photo-grid img { height: 220px !important; }
 }
 
-section.cover .mask {
-  background: radial-gradient(
-      circle at center,
-      rgba(4, 8, 14, 0.62) 0%,
-      rgba(4, 8, 14, 0.76) 45%,
-      rgba(4, 8, 14, 0.88) 100%
-    ) !important;
-  opacity: 1 !important;
-  z-index: 1;
-}
+/* ── 10. Docsify toolbar ─────────────────────────────────────── */
+.app-nav { display: none; }   /* hide Docsify's own nav if present */
 
-section.cover .cover-main {
-  position: relative;
-  z-index: 2;
-  max-width: 46rem;
-  padding: 1.4rem 1.6rem;
-  border-radius: 0.5rem;
-  color: #f2f7ff;
-  background: rgba(7, 18, 32, 0.34);
-  backdrop-filter: blur(2px);
-  text-shadow: 0 5px 24px rgba(0, 0, 0, 0.78);
-  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.5);
-}
-
-section.cover .cover-main > h1,
-section.cover.show .cover-main > h1,
-section.cover .cover-main > h1 a,
-section.cover .cover-main > h1 span {
-  margin: 0 0 1.1rem;
-  color: #fff;
-  font-size: 6.8rem !important;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  line-height: 1.02;
-  text-shadow: 0 10px 28px rgba(0, 0, 0, 0.72);
-}
-
-@media (max-width: 900px) {
-  section.cover .cover-main > h1,
-  section.cover.show .cover-main > h1,
-  section.cover .cover-main > h1 a,
-  section.cover .cover-main > h1 span {
-    font-size: 4.3rem !important;
-  }
-}
-
-section.cover .cover-main > p {
-  color: #edf4ff;
-  font-size: clamp(1.35rem, 3vw, 2rem);
-  line-height: 1.3;
-  margin: 0.35rem 0;
-}
-
-section.cover .cover-main blockquote {
-  margin: 0 0 1.1rem;
-  padding: 0;
-  border-left: 0;
-  background: transparent;
-}
-
-section.cover .cover-main blockquote p {
-  color: #f2f7ff !important;
-  font-size: clamp(1.28rem, 2.8vw, 1.9rem);
-  line-height: 1.36;
-  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
-}
-
-section.cover .cover-main img {
-  display: none !important;
-}
-
-section.cover .cover-main .cover-actions a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 13rem;
-  height: 4.2rem;
-  margin: 0.6rem 0.35rem 0;
-  padding: 0;
-  border: 1px solid #ffffff !important;
-  border-radius: 0.3rem;
-  color: #fff !important;
-  background: transparent !important;
-  text-shadow: none;
-  box-shadow: none !important;
-}
-
-section.cover .cover-main .cover-actions a:hover {
-  background: transparent !important;
-}
-
-section.cover .cover-main .cover-actions a:first-child,
-section.cover .cover-main .cover-actions a:last-child {
-  border: 1px solid #ffffff !important;
-  color: #ffffff !important;
-  background: transparent !important;
-}
-
-section.cover .cover-main .cover-actions a:visited,
-section.cover .cover-main .cover-actions a:active,
-section.cover .cover-main .cover-actions a:focus {
-  border: 1px solid #ffffff !important;
-  color: #ffffff !important;
-  background: transparent !important;
-}
+/* ── 11. Progress bar ────────────────────────────────────────── */
+#nprogress .bar { background: #2a6bbf !important; }
+#nprogress .peg  { box-shadow: 0 0 10px #2a6bbf, 0 0 5px #2a6bbf !important; }

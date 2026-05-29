@@ -1,14 +1,23 @@
-* [Home](/)
-* [About](/blog/welcome-to-my-amateur-radio-site)
-* [My music on Spotify](/my-music-on-spotify)
-* [My shack](/my-shack)
-* [Live DX](/live-dx)
-* [Propagation](/propagation)
-* [Projects](/projects)
-* [Contact](/contact)
-* ---
-* [Blog](/blog/)
-* ---
+* [Home](https://ea1het.com)
+
+<div style="height:0.55rem;"></div>
+
+Notebook
+
+* [About](/notebook/about)
+* [My shack](/notebook/my-shack)
+* [Activations](/notebook/activations)
+* [Propagation](/notebook/propagation)
+* [Contact](/notebook/contact)
+
+<div style="height:0.55rem;"></div>
+
+Articles
+
+* [List of articles](/notebook/articles/)
+
+---
+
 <div class="sidebar-poster">
   <img src="/assets/images/00000000-003.jpg" alt="Ham radio poster" />
 </div>

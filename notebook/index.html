@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EA1HET | Notebook</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <!-- Docsify theme first, then our overrides on top -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+    <link rel="stylesheet" href="/assets/css/landing.css" />
+    <link rel="stylesheet" href="/assets/css/custom.css" />
+  </head>
+  <body>
+
+    <!-- Shared site nav — same as landing page -->
+    <nav class="site-nav">
+      <a href="/" class="nav-logo">
+        <span class="r">EA</span><span class="y">1H</span><span class="r">ET</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="/#live-dx">Live DX</a></li>
+        <li><a href="/#propagation">Propagation</a></li>
+        <li><a href="/#outdoordx">OutdoorDX</a></li>
+        <li><a href="/#toolbox-anchor">Toolbox</a></li>
+        <li><a href="/notebook/">Notebook</a></li>
+        <li><a href="/notebook/#/notebook/contact">Contact</a></li>
+      </ul>
+      <button class="nav-ham" aria-label="Menu" onclick="toggleMobileMenu()">☰</button>
+    </nav>
+
+    <div id="app"></div>
+
+    <script>
+      const spotifyEmbedPlugin = function (hook) {
+        hook.beforeEach(function (markdown) {
+          return markdown.replace(
+            /\{\{\s*spotify\s*:\s*([a-zA-Z0-9]+)\s*\}\}/g,
+            function (_match, playlistId) {
+              return (
+                '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/' +
+                playlistId +
+                '?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
+              );
+            }
+          );
+        });
+      };
+
+      window.$docsify = {
+        name: '',
+        repo: "",
+        basePath: "/",
+        homepage: "README.md",
+        coverpage: false,
+        loadNavbar: false,
+        loadSidebar: true,
+        subMaxLevel: 0,
+        auto2top: true,
+        themeColor: "#1a4f8b",
+        search: {
+          placeholder: "Search",
+          noData: "No results found",
+          depth: 3
+        },
+        plugins: [spotifyEmbedPlugin]
+      };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+
+    <script>
+      function toggleMobileMenu() {
+        const ul = document.querySelector('.nav-links');
+        if (!ul) return;
+        ul.classList.toggle('mobile-open');
+      }
+    </script>
+  </body>
+</html>

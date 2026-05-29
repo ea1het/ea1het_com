@@ -1,7 +1,7 @@
 # My shack
 
-- **Published:** 2025-06-02
-- **Last update:** 2025-12-28
+> **Published:** 2025-06-02  
+> **Last update:** 2025-12-28  
 
 ![My shack](../assets/images/20250602-002.png)
 
@@ -14,8 +14,9 @@ Now, this is how I do radio (with shame or better results):
 - Fixed (root top)
   - [Hustler 6-BTV](https://new-tronics.com/main/html/base_hf_6_band.html) -> 6 Band Vertical (10/15/20/30/40/80m)
 - Portable (POTA, SOTA, IOTA, RaDAR and ILLW)
+  - [HamGeek MA-12](https://www.hgeek.com/collections/ham-radio-antennas/products/hamgeek-ma-12-7mhz-50mhz-portable-gp-antenna-high-quality-shortwave-antenna-for-ham-space-radio) -> 40m to 6m GP modular system antenna
   - [Chameleon](https://chameleonantenna.com/collections/vertical-antennas) vertical kit -> 80m to 6m with SS25 vertical whip, 40m coil, blank adapter, isolator and puck hub; complemented with a tripod, several counterpoise cables and an EMF blanket
-  - [JPC-12](https://es.aliexpress.com/item/4000393195578.html?gatewayAdapt=glo2esp) or PAC 12 -> 80m to 6m (modified by me, [see this article](/blog/turning-jpc-12))
+  - [JPC-12](https://es.aliexpress.com/item/4000393195578.html?gatewayAdapt=glo2esp) or PAC 12 -> 80m to 6m (modified by me, [see this article](/notebook/articles/turning-jpc-12))
   - [Dually](https://www.k4qcd.com/) kit antenna 49:1 (for EFHW) + 9:1 (for EFRW) -> 80m to 10m
 
 ## Antenna tuner (ATU)
@@ -37,7 +38,6 @@ Portable activities:
 ## Secondary rig(s)
 
 - [AirSpy HF+ Discovery](https://airspy.com/airspy-hf-discovery/) SDR -> 0.5 kHz to 2 GHz (RX only) with 768 kHz span
-- [SDRPlay nRSP-ST](https://www.sdrplay.com/nrspst/) SDR -> 1kHz to 2 GHz with up to 10MHz of spectrum visibility (networked)
 - [SDRPlay RSPduo](https://www.sdrplay.com/rspduo/) SDR -> 1 kHz to 2 GHz continuous reception (RX only) with 10 MHz span
 - [ZackTeck WSPR transmitter](https://www.zachtek.com/) -> a standalone multi-band WSPR transmitter
 
@@ -56,13 +56,13 @@ Portable activities:
 
 - [AntLion Audio ModMic Uni 2](https://antlionaudio.com/products/modmic-uni-2) -> attachable noise cancelling microphone with mute switch
 - [OneOdio A71](https://www.oneodio.com/products/a71-studio-wired-headphones) -> high quality headphones that I use in combinagtion with the AntLion ModMic Uni 2 boom microphone for a personalized headset
-- [My headset adapter to any radio](/blog/koss-sb45-audio-setup-to-ic-705) -> provides phyiscal adaptation, levels, power and audio tonality for typical computer electret capsule headsets
+- [My headset adapter to any radio](/notebook/articles/koss-sb45-audio-setup-to-ic-705) -> provides phyiscal adaptation, levels, power and audio tonality for typical computer electret capsule headsets
 - [AD1-IHT](https://heilhamradio.com/product/ad-1-iht/) -> Icom adapter with PTT
 
 ## Vectorial Network Analyzer
 
 - [RigExpert Stick 500](https://rigexpert.com/antenna-analyzers/stick-500/)
-- [NanoVNA-H](https://es.aliexpress.com/item/1005003416707493.html?gatewayAdapt=glo2esp) [[Read more](/blog/nanovna-quick-intro)]
+- [NanoVNA-H](https://es.aliexpress.com/item/1005003416707493.html?gatewayAdapt=glo2esp) [[Read more](/notebook/articles/nanovna-quick-intro)]
 
 ## Handy (walkie-talkie)
 
@@ -71,7 +71,6 @@ Analogue:
 - [Baofeng 5R Mini](https://www.baofengradio.com/products/5r-mini)
 - [Kenwood TH-F7E](https://www.kenwood.com/i/products/info/amateur/thf7e.html)
 - Quansheng UV-5K
-- Radtel RT-860
 
 DMR:
 
@@ -89,20 +88,19 @@ Rig control:
 - SDR-Control for macOS [[Website](https://roskosch.de/)] [[Mac App Store](https://apps.apple.com/app/sdr-control-for-icom/id1592313285)]
 - SDR-Control for iPad [[Website](https://roskosch.de/)] [[iPad App Store](https://apps.apple.com/app/sdr-control-for-icom/id1614141094)]
 
+Logbook:
+
+- Ham2K PoLo [[Website](https://www.ham2k.com/)]
+- QLog [[Website](https://github.com/foldynl/QLog)]
+
+Digital Modes:
+
+- WSJT-X [[Website](https://wsjt.sourceforge.io/wsjtx.html)]
+- GridTracker2 [[Website](https://gridtracker.org/)]
+
 IF IQ panadapters:
 
 - SDR++ [[Website](https://www.sdrpp.org/)] [[GitHub](https://github.com/AlexandreRouma/SDRPlusPlus)]
 - SDRConnect [[Website](https://www.sdrplay.com/sdrconnect/)] [[YouTube](https://www.youtube.com/c/sdrplayrsp)]
 - CubicSDR [[Website](https://cubicsdr.com/)] [[GitHub](https://github.com/cjcliffe/CubicSDR)]
 - WFView [[Website](https://wfview.org/)]
-
-Logbook:
-
-- Ham2K PoLo [[Website](https://www.ham2k.com/)]
-- QLog [[Website](https://github.com/foldynl/QLog)]
-- Smartlogger [[Website](https://smartlogger.app/)]
-
-Other tools:
-
-- WSJT-X [[Website](https://wsjt.sourceforge.io/wsjtx.html)]
-- GridTracker2 [[Website](https://gridtracker.org/)]

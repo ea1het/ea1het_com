@@ -1,5 +1,7 @@
 # Tuning the JPC-12
 
+[LIST OF ARTICLES](/notebook/articles/)
+
 - **Published:** 2024-07-15
 - **Last update:** 2025-06-18
 
@@ -15,11 +17,11 @@
 
 The JPC-12 (also known as PAC-12) is a portable HF vertical antenna that features a very handy set of parts that assemble quickly and that is able to cover, officially, 40m through 6m, but, unofficially, 60 and 80m as well. It handles up to 100 watts.
 
-![counterpoises without connection plate](../assets/images/20240715-015.jpeg)
+![counterpoises without connection plate](../../assets/images/20240715-015.jpeg)
 
-![jpc12 deployed](../assets/images/20240715-016.jpg)
+![jpc12 deployed](../../assets/images/20240715-016.jpg)
 
-![jpc12 deployed with radial detail](../assets/images/20240715-001.jpeg)
+![jpc12 deployed with radial detail](../../assets/images/20240715-001.jpeg)
 
 This antenna has been in production for several years now. The new version of the antenna, put into the market in October 2020 included an improved version of the main tuning coil. This new version of the tuning coil has been marked with the right number of turns for the 20m and 40m bands, making it easier and faster to set up, even without an antenna analyser.
 
@@ -33,11 +35,11 @@ This antenna has been in production for several years now. The new version of th
 - 1 x Wire trap (hidden coil) with the main UHF (SO-239) connector.
 - 1 x Ground anchor spike.
 
-![basic components](../assets/images/20240715-010.png)
+![basic components](../../assets/images/20240715-010.png)
 
-![counterpoise connection plate](../assets/images/20240715-011.png)
+![counterpoise connection plate](../../assets/images/20240715-011.png)
 
-![extra coil](../assets/images/20240715-012.png)
+![extra coil](../../assets/images/20240715-012.png)
 
 ### Extra parts added by myself
 
@@ -45,7 +47,7 @@ This antenna has been in production for several years now. The new version of th
 - 1 x Aluminum alloy ground plate for counterpoise cabling connection. This is an improved version of the interconnection shown in Figure 5, above.
 - 1 x Coil for 40m band. This coil can be used alone for the aforementioned band or it can also be used in combination with the standard pre-selectable coil and an elongated extendable aluminum rod to reach 60m and 80m bands.
 
-![components](../assets/images/20240715-018.png)
+![components](../../assets/images/20240715-018.png)
 
 ## Operational setup
 
@@ -65,7 +67,7 @@ This antenna has been in production for several years now. The new version of th
 **NOTE**
 *Above table of values show data gathered in my specific environmental conditions. Use as mere reference only. For best performance, tune your antenna system on-site before operating. When tuning, always use low power. In regard to measures, please note the extendable rod has been measured including the threaded part of the rod, as it’s indicated in the figure below. In regard to measures related to the black coated fixed length aluminum parts, measures were taken without the threaded part of the rod and all of the elements measure the same.*
 
-![how to measure lenghts](../assets/images/20240715-017.jpg)
+![how to measure lenghts](../../assets/images/20240715-017.jpg)
 
 1️⃣ – Tuning on 80m (Last Update: Apr 23, 2023; Back for Further Details)
 
@@ -81,7 +83,7 @@ I’m yet researching how to approach this band segment. Most probably I will be
 
 In order to tune the JPC-12 for 30m band (10.100 MHz – 10.150 MHz) it’s necessary to place the tuning knob **9 turns below the red & gold mark,** that corresponds to 20m band, and use the number of fixed length section with aluminum rod extended to the length detailed in the “Operational Setup” table above.*
 
-![30m](../assets/images/20240715-014.jpg)
+![30m](../../assets/images/20240715-014.jpg)
 
 *Tuning position obtained for 30m. The preselector slider should be placed at the 9th turn counting to the bottom from red and gold mark in the coil.*
 
@@ -91,7 +93,7 @@ The 10m band can be tuned in two different ways, with or without using the anten
 
 While tuning with the coil, place the tuning knob **6 turns above the red & gold mark,** that corresponds to 20m band, and use the number of fixed length section with aluminum rod extended to the length detailed in the “Operational Setup” table above.*
 
-![10m with coil](../assets/images/20240715-013.jpg)
+![10m with coil](../../assets/images/20240715-013.jpg)
 
 *Tuning position obtained for 10m. The preselector slider should be placed at the 6th turn counting to the top from red and gold mark in the coil. In this case, the turn to be used it’s the top one.*
 
@@ -104,34 +106,34 @@ While tuning with the coil, place the tuning knob **6 turns above the red & gol
   - Architecture: ARMv6 – Core Variant: Cortex-M0
   - Platform: STM32F072xB
 
-![40m](../assets/images/20240715-009.png "align-left size-lm")
+![40m](../../assets/images/20240715-009.png "align-left size-lm")
 
 Smith Chart for 40m
 
-![30m](../assets/images/20240715-008.png "align-left size-lm")
+![30m](../../assets/images/20240715-008.png "align-left size-lm")
 
 Smith Chart for 30m
 
-![20m](../assets/images/20240715-007.png "align-left size-lm")
+![20m](../../assets/images/20240715-007.png "align-left size-lm")
 
 Smith Chart for 20m
 
-![17m](../assets/images/20240715-006.png "align-left size-lm")
+![17m](../../assets/images/20240715-006.png "align-left size-lm")
 
 Smith Chart for 17m
 
-![15m](../assets/images/20240715-005.png "align-left size-lm")
+![15m](../../assets/images/20240715-005.png "align-left size-lm")
 
 Smith Chart for 15m
 
-![12m](../assets/images/20240715-004.png "align-left size-lm")
+![12m](../../assets/images/20240715-004.png "align-left size-lm")
 
 Smith Chart for 12m
 
-![10m with coil](../assets/images/20240715-002.png "align-left size-lm")
+![10m with coil](../../assets/images/20240715-002.png "align-left size-lm")
 
 Smith Chart for 10m with coil
 
-![10 without coil](../assets/images/20240715-003.png "align-left size-lm")
+![10 without coil](../../assets/images/20240715-003.png "align-left size-lm")
 
 Smith Chart for 10m without coil

@@ -1,10 +1,12 @@
 # Interpretando los datos solares en la propagación [Spanish version]
 
+[LIST OF ARTICLES](/notebook/articles/)
+
 - **Published:** 2025-06-18
 - **Last update:** 2025-06-18
 - **Categories:** Propagation, Spanish
 
-[ [This article is also available in English](/blog/how-to-read-solar-data-fo-radio-propagation-english-version) ]
+[ [This article is also available in English](/notebook/articles/how-to-read-solar-data-fo-radio-propagation-english-version) ]
 
 Cuando miras un parte solar-terrestre, seguramente te topas con diversos valores clave, como **A-Index** y **K-Index**, entro otros valores. Estos nos indican si el campo magnético de la Tierra está tranquilo o si está siendo alterado por tormentas solares.
 

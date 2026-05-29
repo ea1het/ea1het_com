@@ -1,11 +1,13 @@
 # Understanding key radio propagation concepts
 
+[LIST OF ARTICLES](/notebook/articles/)
+
 - **Published:** 2026-02-15
 - **Last update:** 2026-02-15
 
 Radio propagation is the behavior of radio waves as they travel from one point to another. As a form of electromagnetic radiation, radio waves are affected by reflection, refraction, diffraction, absorption, polarization, and scattering.
 
-![Types of wave propagation](../assets/images/20260215-001.png)
+![Types of wave propagation](../../assets/images/20260215-001.png)
 
 ## Quick resume of the following complete table
 
