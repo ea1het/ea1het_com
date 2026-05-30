@@ -117,7 +117,7 @@
   <div class="container">
     <div class="section-header">
       <span class="label">On The Air</span>
-      <h2>Live DX Activity</h2>
+      <h2>Live DX activity</h2>
       <p>Real-time contacts streamed from ClubLog and historical RBN activity.</p>
     </div>
 
@@ -332,7 +332,7 @@
     <div class="outdoordx-wrap">
       <div class="outdoordx-info">
         <span class="label">My Platform</span>
-        <h2>OutdoorDX<br/>Field Activations Hub</h2>
+        <h2>OutdoorDX<br/>Field activations hub</h2>
         <p>
           OutdoorDX is a real-time aggregator for field radio activations — pulling live spots from
           POTA, SOTA, IOTA, WWFF, WWBOTA and DXpeditions into a single, filterable dashboard.
@@ -379,7 +379,7 @@
   <div class="container">
     <div class="section-header">
       <span class="label">Ham Toolbox</span>
-      <h2>Quick Reference &amp; Calculators</h2>
+      <h2>Quick reference &amp; Calculators</h2>
       <p>Practical tools for antennas, propagation and operating. No account needed.</p>
     </div>
 
@@ -419,6 +419,47 @@
     <p style="text-align:center; margin-top:2rem;">
       <a href="/toolbox/" class="btn btn-primary">Open full toolbox</a>
     </p>
+  </div>
+</section>
+
+<!-- ═════════════════════════════════════════════════ SOCIAL -->
+<section id="social">
+  <div class="container">
+    <div class="section-header">
+      <span class="label">Find me online</span>
+      <h2>Social &amp; Community</h2>
+    </div>
+
+    <div class="social-grid">
+      <a href="https://www.youtube.com/@ea1het" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon si-youtube">▶</div>
+        <div class="social-info">
+          <div class="social-name">YouTube</div>
+          <div class="social-handle">@ea1het — Ham radio in Spanish &amp; English</div>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/ea1het" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon si-instagram">◈</div>
+        <div class="social-info">
+          <div class="social-name">Instagram</div>
+          <div class="social-handle">@ea1het — Field photos &amp; shack shots</div>
+        </div>
+      </a>
+      <a href="https://t.me/ea1het" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon si-telegram">✈</div>
+        <div class="social-info">
+          <div class="social-name">Telegram</div>
+          <div class="social-handle">@ea1het — Direct contact</div>
+        </div>
+      </a>
+      <a href="https://clublog.org/logsearch/EA1HET" target="_blank" rel="noopener" class="social-card">
+        <div class="social-icon si-clublog">📟</div>
+        <div class="social-info">
+          <div class="social-name">ClubLog</div>
+          <div class="social-handle">EA1HET — Log search &amp; OQRS</div>
+        </div>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -472,43 +513,36 @@
   </div>
 </section>
 
-<!-- ═════════════════════════════════════════════════ SOCIAL -->
-<section id="social">
+<!-- ══════════════════════════════════════════ CONTEST CALENDAR -->
+<section id="contest-cal">
   <div class="container">
     <div class="section-header">
-      <span class="label">Find me online</span>
-      <h2>Social &amp; Community</h2>
+      <span class="label">8 day schedule</span>
+      <h2 style="color:#fff">Contest calendar</h2>
+      <p>Amateur radio contests from <a href="https://www.contestcalendar.com" target="_blank" rel="noopener">WA7BNM Contest Calendar</a>.</p>
     </div>
 
-    <div class="social-grid">
-      <a href="https://www.youtube.com/@ea1het" target="_blank" rel="noopener" class="social-card">
-        <div class="social-icon si-youtube">▶</div>
-        <div class="social-info">
-          <div class="social-name">YouTube</div>
-          <div class="social-handle">@ea1het — Ham radio in Spanish &amp; English</div>
-        </div>
-      </a>
-      <a href="https://www.instagram.com/ea1het" target="_blank" rel="noopener" class="social-card">
-        <div class="social-icon si-instagram">◈</div>
-        <div class="social-info">
-          <div class="social-name">Instagram</div>
-          <div class="social-handle">@ea1het — Field photos &amp; shack shots</div>
-        </div>
-      </a>
-      <a href="https://t.me/ea1het" target="_blank" rel="noopener" class="social-card">
-        <div class="social-icon si-telegram">✈</div>
-        <div class="social-info">
-          <div class="social-name">Telegram</div>
-          <div class="social-handle">@ea1het — Direct contact</div>
-        </div>
-      </a>
-      <a href="https://clublog.org/logsearch/EA1HET" target="_blank" rel="noopener" class="social-card">
-        <div class="social-icon si-clublog">📟</div>
-        <div class="social-info">
-          <div class="social-name">ClubLog</div>
-          <div class="social-handle">EA1HET — Log search &amp; OQRS</div>
-        </div>
-      </a>
+    <div id="cc-live-wrap"></div>
+
+    <div class="cc-filters">
+      <div class="cc-filter-group">
+        <span class="cc-filter-label">Mode</span>
+        <button class="cc-pill active" data-filter="mode" data-val="all">All</button>
+        <button class="cc-pill" data-filter="mode" data-val="CW">CW</button>
+        <button class="cc-pill" data-filter="mode" data-val="SSB">SSB</button>
+        <button class="cc-pill" data-filter="mode" data-val="Digital">Digital</button>
+        <button class="cc-pill" data-filter="mode" data-val="Mixed">Mixed</button>
+      </div>
+      <div class="cc-filter-group">
+        <span class="cc-filter-label">Band</span>
+        <button class="cc-pill active" data-filter="band" data-val="all">All</button>
+        <button class="cc-pill" data-filter="band" data-val="HF">HF</button>
+        <button class="cc-pill" data-filter="band" data-val="VHF+">VHF+</button>
+      </div>
+    </div>
+
+    <div class="cc-list" id="cc-list">
+      <div class="cc-empty">Loading contest schedule…</div>
     </div>
   </div>
 </section>
@@ -869,6 +903,155 @@
     loadProp();
   }
   setInterval(loadProp, 5*60*1000);
+})();
+</script>
+
+<script>
+(function () {
+  var PROXY    = 'https://api.allorigins.win/get?url=';
+  var RSS_URL  = 'https://www.contestcalendar.com/calendar.rss';
+  var MON_IDX  = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+  var MON_ABB  = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var DAYS     = 8;
+
+  var activeMode = 'all', activeBand = 'all', allContests = [];
+
+  function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function inferMode(t) {
+    t = t.toUpperCase();
+    if (/FT8|FT4|RTTY|\bDATA\b|DIGITAL|PSK|DIGI/.test(t)) return 'Digital';
+    if (/\bSSB\b|PHONE|SIDEBAND/.test(t))                  return 'SSB';
+    if (/CW|MORSE|TELEGR|SPEED.TEST|SPRINT/.test(t))       return 'CW';
+    if (/MIXED/.test(t))                                   return 'Mixed';
+    return 'Mixed';
+  }
+
+  function inferBand(t) {
+    return /VHF|UHF|MICROWAVE|\b2M\b|\b70CM\b|SHF/i.test(t) ? 'VHF+' : 'HF';
+  }
+
+  function parseDesc(desc) {
+    var now = new Date(), yr = now.getUTCFullYear();
+    function utc(hhmm, mon, day) {
+      var d = new Date(Date.UTC(yr, MON_IDX[mon], +day, +hhmm.slice(0,2), +hhmm.slice(2,4)));
+      if (now - d > 60*864e5) d.setUTCFullYear(yr + 1);
+      return d;
+    }
+    function fmt(hhmm) { return hhmm.slice(0,2)+':'+hhmm.slice(2)+'Z'; }
+
+    var m = desc.match(/^(\d{4})Z,\s+(\w+)\s+(\d+)\s+to\s+(\d{4})Z,\s+(\w+)\s+(\d+)/);
+    if (m) return {
+      start: utc(m[1],m[2],m[3]), end: utc(m[4],m[5],m[6]),
+      timeStr: m[2]+' '+m[3]+', '+fmt(m[1])+' – '+m[5]+' '+m[6]+', '+fmt(m[4])
+    };
+
+    var s = desc.match(/^(\d{4})Z-(\d{4})Z,\s+(\w+)\s+(\d+)/);
+    if (s) return {
+      start: utc(s[1],s[3],s[4]), end: utc(s[2],s[3],s[4]),
+      timeStr: s[3]+' '+s[4]+', '+fmt(s[1])+' – '+fmt(s[2])
+    };
+
+    return null;
+  }
+
+  function render() {
+    var list = document.getElementById('cc-list');
+    var liveWrap = document.getElementById('cc-live-wrap');
+    if (!list) return;
+
+    var now = new Date();
+    var filtered = allContests.filter(function(c) {
+      return (activeMode === 'all' || c.mode === activeMode) &&
+             (activeBand === 'all' || c.band === activeBand);
+    });
+
+    if (liveWrap) {
+      var live = allContests.filter(function(c) { return c.isLive; });
+      liveWrap.innerHTML = live.slice(0,3).map(function(c) {
+        return '<div class="cc-live-banner">' +
+          '<span class="cc-live-dot"></span>' +
+          '<span class="cc-live-label">Live Now</span>' +
+          '<span style="color:var(--muted);margin:0 0.3rem">—</span>' +
+          '<span class="cc-live-name">' + esc(c.title) + '</span>' +
+          '</div>';
+      }).join('');
+    }
+
+    if (!filtered.length) {
+      list.innerHTML = '<div class="cc-empty">No contests match this filter.</div>';
+      return;
+    }
+
+    var modeCls = { CW:'cc-badge-cw', SSB:'cc-badge-ssb', Digital:'cc-badge-digital', Mixed:'cc-badge-mixed' };
+    list.innerHTML = filtered.map(function(c) {
+      return '<div class="cc-row" data-live="' + c.isLive + '">' +
+        '<div class="cc-date"><span class="cc-day">' + c.day + '</span><span class="cc-mon">' + c.mon + '</span></div>' +
+        '<div class="cc-info">' +
+          '<div class="cc-name">' + esc(c.title) + '</div>' +
+          '<div class="cc-time">' + esc(c.timeStr) + '</div>' +
+        '</div>' +
+        '<div class="cc-badges">' +
+          '<span class="cc-badge ' + (modeCls[c.mode]||'cc-badge-mixed') + '">' + c.mode + '</span>' +
+          '<span class="cc-badge ' + (c.band==='VHF+'?'cc-badge-vhf':'cc-badge-hf') + '">' + c.band + '</span>' +
+        '</div>' +
+        '<a href="' + esc(c.link) + '" target="_blank" rel="noopener" class="cc-rules">Rules</a>' +
+        '</div>';
+    }).join('');
+  }
+
+  function load() {
+    fetch(PROXY + encodeURIComponent(RSS_URL))
+      .then(function(r) { return r.json(); })
+      .then(function(j) {
+        var doc   = new DOMParser().parseFromString(j.contents, 'application/xml');
+        var items = Array.from(doc.querySelectorAll('item'));
+        var now   = new Date();
+        var cutoff = new Date(+now + DAYS * 864e5);
+
+        allContests = [];
+        items.forEach(function(item) {
+          var title = (item.querySelector('title') || {}).textContent || '';
+          var link  = (item.getElementsByTagName('link')[0] || {}).textContent || '';
+          var desc  = (item.querySelector('description') || {}).textContent || '';
+          var p     = parseDesc(desc.trim());
+          if (!p || p.end < now || p.start > cutoff) return;
+          allContests.push({
+            title:  title,
+            link:   link,
+            day:    p.start.getUTCDate(),
+            mon:    MON_ABB[p.start.getUTCMonth()],
+            timeStr: p.timeStr,
+            isLive: p.start <= now && now <= p.end,
+            mode:   inferMode(title),
+            band:   inferBand(title),
+          });
+        });
+
+        allContests.sort(function(a,b) { return a.start - b.start; });
+        render();
+      })
+      .catch(function() {
+        var list = document.getElementById('cc-list');
+        if (list) list.innerHTML = '<div class="cc-empty">Unable to load contest schedule.</div>';
+      });
+  }
+
+  document.querySelectorAll('.cc-pill').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var f = this.dataset.filter, v = this.dataset.val;
+      document.querySelectorAll('.cc-pill[data-filter="'+f+'"]').forEach(function(b){ b.classList.remove('active'); });
+      this.classList.add('active');
+      if (f==='mode') activeMode = v;
+      if (f==='band') activeBand = v;
+      render();
+    });
+  });
+
+  load();
+  setInterval(load, 12*60*60*1000);
 })();
 </script>
 
