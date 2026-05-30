@@ -226,6 +226,9 @@ const BAND_PLAN = [
     ['3.600','3.800','SSB','3.630 digital voice, 3.760 R1 emergency'],
     ['3.775','3.800','SSB','DX window'],
   ]},
+  { band:'60m (5 MHz) — secondary; 15 kHz only', rows:[
+    ['5351.5','5366.5','USB / CW / Narrow digital','WRC-15 secondary allocation; USB only in most EU countries; max 15W EIRP'],
+  ]},
   { band:'40m (7 MHz)', rows:[
     ['7.000','7.040','CW','7.030 QRP calling'],
     ['7.040','7.047','Narrow digital','WSPR 7.040'],
@@ -271,9 +274,6 @@ const BAND_PLAN = [
     ['29.200','29.300','Digital',''],
     ['29.300','29.510','Satellite',''],
     ['29.510','29.700','FM repeaters',''],
-  ]},
-  { band:'60m (5 MHz) — secondary; 15 kHz only', rows:[
-    ['5351.5','5366.5','USB / CW / Narrow digital','WRC-15 secondary allocation; USB only in most EU countries; max 15W EIRP'],
   ]},
   { band:'6m (50 MHz)', rows:[
     ['50.000','50.100','CW / Beacons','50.090 CW calling'],
