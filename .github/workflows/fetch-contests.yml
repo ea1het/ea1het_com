@@ -1,0 +1,29 @@
+name: Fetch Contest calendar
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-contest-rss:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: pages
+
+      - name: Fetch RSS
+        run: curl -sf https://www.contestcalendar.com/calendar.rss -o contest-data.xml
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contest-data.xml
+          git diff --cached --quiet || git commit -m "chore: update contest calendar data"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:pages
