@@ -91,7 +91,7 @@ function calcAntenna() {
     row('Short leg (36%)',  fmt(lambdaWire / 2 * 0.36)) +
     row('Long leg (64%)',   fmt(lambdaWire / 2 * 0.64), true) +
 
-    hdr('OCF Vertical w/1:4 balun', 'KJ6ER Challenger · 4:1 unun') +
+    hdr('OCF Vertical + 1:4 UnUn', 'KJ6ER Challenger style') +
     row('Radiator (38.9% λ)',      fmt(lambdaWire * 0.389)) +
     row('Counterpoise (12.3% λ)',  fmt(lambdaWire * 0.123)) +
     row('Total (51.2% λ)',         fmt(lambdaWire * 0.512), true) +
