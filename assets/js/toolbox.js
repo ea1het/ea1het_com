@@ -86,7 +86,7 @@ function calcAntenna() {
     row('Half-wave (total)', fmt(lambdaWire / 2)) +
     row('Each leg',          fmt(lambdaWire / 4), true) +
 
-    hdr('OCF Dipole', '36 / 64 split · 4:1 balun') +
+    hdr('OCF Dipole', '36 / 64 split · 1:4 BalUn') +
     row('Total length',     fmt(lambdaWire / 2)) +
     row('Short leg (36%)',  fmt(lambdaWire / 2 * 0.36)) +
     row('Long leg (64%)',   fmt(lambdaWire / 2 * 0.64), true) +
