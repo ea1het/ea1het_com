@@ -909,11 +909,6 @@
 <script>
 (function () {
   var RSS_URL  = 'https://www.contestcalendar.com/calendar.rss';
-  var PROXIES  = [
-    { pfx: 'https://api.allorigins.win/get?url=', json: true,  key: 'contents' },
-    { pfx: 'https://api.codetabs.com/v1/proxy?quest=', json: false },
-    { pfx: 'https://corsproxy.io/?', json: false },
-  ];
   var MON_IDX  = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
   var MON_ABB  = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   var DAYS     = 8;
@@ -1035,27 +1030,15 @@
     render();
   }
 
-  function tryProxy(proxies, idx) {
-    if (idx >= proxies.length) {
-      var list = document.getElementById('cc-list');
-      if (list) list.innerHTML = '<div class="cc-empty">Unable to load contest schedule.</div>';
-      return;
-    }
-    var p = proxies[idx];
-    fetch(p.pfx + encodeURIComponent(RSS_URL))
-      .then(function(r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return p.json ? r.json() : r.text();
-      })
-      .then(function(data) {
-        var xml = p.json ? data[p.key] : data;
-        if (!xml || !xml.trim()) throw new Error('empty');
-        parseRSS(xml);
-      })
-      .catch(function() { tryProxy(proxies, idx + 1); });
+  function load() {
+    fetch(RSS_URL)
+      .then(function(r) { return r.text(); })
+      .then(function(xml) { parseRSS(xml); })
+      .catch(function() {
+        var list = document.getElementById('cc-list');
+        if (list) list.innerHTML = '<div class="cc-empty">Unable to load contest schedule.</div>';
+      });
   }
-
-  function load() { tryProxy(PROXIES, 0); }
 
   document.querySelectorAll('.cc-pill').forEach(function(btn) {
     btn.addEventListener('click', function() {
