@@ -638,11 +638,19 @@
     spots.sort(function (a, b) { return new Date(b.spot_time) - new Date(a.spot_time); });
   }
 
+  function setDot(state) {
+    if (!dot) return;
+    dot.classList.remove('dot-connected', 'dot-error');
+    if (state === 'connected') dot.classList.add('dot-connected');
+    if (state === 'error')     dot.classList.add('dot-error');
+  }
+
   function connect() {
+    setDot('connecting');
     var es = new EventSource('https://bff.outdoordx.net/stream');
 
     es.onopen = function () {
-      dot && dot.classList.add('dot-live');
+      setDot('connected');
     };
 
     es.addEventListener('init', function (e) {
@@ -658,7 +666,7 @@
     };
 
     es.onerror = function () {
-      dot && dot.classList.remove('dot-live');
+      setDot('error');
       es.close();
       setTimeout(connect, 5000);
     };
