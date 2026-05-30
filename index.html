@@ -361,43 +361,13 @@
       <div class="outdoordx-widget">
         <div class="widget-header">
           <div class="widget-title">
-            <span class="widget-dot"></span>
+            <span class="widget-dot" id="odx-dot"></span>
             Live Activations
           </div>
           <span class="widget-badge">outdoordx.com</span>
         </div>
-        <div class="widget-body">
-          <!-- Placeholder rows — will be replaced by the real OutdoorDX embeddable widget -->
-          <div class="widget-row">
-            <span class="widget-row-call">EA1HET/P</span>
-            <span class="widget-row-detail">14.062 · ES-0001</span>
-            <span class="widget-row-mode mode-cw">CW</span>
-          </div>
-          <div class="widget-row">
-            <span class="widget-row-call">G4FON/P</span>
-            <span class="widget-row-detail">7.032 · G/LD-001</span>
-            <span class="widget-row-mode mode-cw">CW</span>
-          </div>
-          <div class="widget-row">
-            <span class="widget-row-call">DL3YEL/P</span>
-            <span class="widget-row-detail">14.244 · DL/BW-042</span>
-            <span class="widget-row-mode mode-ssb">SSB</span>
-          </div>
-          <div class="widget-row">
-            <span class="widget-row-call">F5UOW/P</span>
-            <span class="widget-row-detail">10.118 · K-0034</span>
-            <span class="widget-row-mode mode-ft8">FT8</span>
-          </div>
-          <div class="widget-row">
-            <span class="widget-row-call">CT1BVN/P</span>
-            <span class="widget-row-detail">7.150 · CT-0011</span>
-            <span class="widget-row-mode mode-ssb">SSB</span>
-          </div>
-          <div style="text-align:center; padding-top:0.5rem;">
-            <a href="https://outdoordx.com" target="_blank" rel="noopener" style="font-size:0.78rem; color:var(--amber);">
-              Live widget coming soon · Visit outdoordx.com for real data ↗
-            </a>
-          </div>
+        <div class="widget-body" id="odx-body">
+          <div class="widget-row" style="justify-content:center; color:var(--muted); font-size:0.78rem;">Connecting…</div>
         </div>
       </div>
     </div>
@@ -618,6 +588,84 @@
       window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - navH, behavior: 'smooth' });
     });
   });
+</script>
+
+<script>
+(function () {
+  var MAX_ROWS = 8;
+  var spots = [];
+  var body = document.getElementById('odx-body');
+  var dot  = document.getElementById('odx-dot');
+
+  function modeClass(mc) {
+    if (!mc) return 'mode-data';
+    var m = mc.toLowerCase();
+    if (m === 'cw')   return 'mode-cw';
+    if (m === 'ssb')  return 'mode-ssb';
+    if (m === 'digi') return 'mode-ft8';
+    return 'mode-data';
+  }
+
+  function fmtFreq(hz) {
+    if (!hz) return '';
+    return (hz / 1e6).toFixed(3);
+  }
+
+  function render() {
+    if (!body) return;
+    var active = spots.filter(function (s) { return s.status === 'active'; });
+    if (active.length === 0) {
+      body.innerHTML = '<div class="widget-row" style="justify-content:center;color:var(--muted);font-size:0.78rem;">No active spots</div>';
+      return;
+    }
+    body.innerHTML = active.slice(0, MAX_ROWS).map(function (s) {
+      var ref  = Array.isArray(s.references) ? s.references[0] : (s.references || '');
+      var detail = [fmtFreq(s.frequency), ref].filter(Boolean).join(' · ');
+      return '<div class="widget-row">' +
+        '<span class="widget-row-call">' + (s.activator || '') + '</span>' +
+        '<span class="widget-row-detail">' + detail + '</span>' +
+        '<span class="widget-row-mode ' + modeClass(s.mode_class) + '">' + (s.mode || '') + '</span>' +
+        '</div>';
+    }).join('');
+  }
+
+  function upsert(list) {
+    list.forEach(function (spot) {
+      var idx = spots.findIndex(function (s) { return s.id === spot.id; });
+      if (idx >= 0) spots[idx] = spot;
+      else spots.unshift(spot);
+    });
+    spots.sort(function (a, b) { return new Date(b.spot_time) - new Date(a.spot_time); });
+  }
+
+  function connect() {
+    var es = new EventSource('https://bff.outdoordx.net/stream');
+
+    es.onopen = function () {
+      dot && dot.classList.add('dot-live');
+    };
+
+    es.addEventListener('init', function (e) {
+      try { upsert(JSON.parse(e.data)); render(); } catch (_) {}
+    });
+
+    es.onmessage = function (e) {
+      try {
+        var data = JSON.parse(e.data);
+        upsert(Array.isArray(data) ? data : [data]);
+        render();
+      } catch (_) {}
+    };
+
+    es.onerror = function () {
+      dot && dot.classList.remove('dot-live');
+      es.close();
+      setTimeout(connect, 5000);
+    };
+  }
+
+  connect();
+})();
 </script>
 
 <script>
