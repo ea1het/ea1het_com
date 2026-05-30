@@ -550,6 +550,37 @@ section#propagation {
   color: var(--muted);
 }
 
+/* ── recommendation strip ── */
+.pd-recommendation {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  min-height: 3rem;
+}
+.pd-rec-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.pd-rec-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.2;
+}
+.pd-recommendation.pd-rec--good .pd-rec-text { color: #22c55e; }
+.pd-recommendation.pd-rec--fair .pd-rec-text { color: var(--amber); }
+.pd-recommendation.pd-rec--poor .pd-rec-text { color: #f97316; }
+.pd-recommendation.pd-rec--bad  .pd-rec-text { color: #ef4444; }
+
 /* ── middle (bands + chart) ── */
 .pd-middle {
   display: grid;

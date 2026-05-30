@@ -272,6 +272,12 @@
         </div>
       </div>
 
+      <!-- recommendation strip -->
+      <div class="pd-recommendation" id="pd-recommendation">
+        <span class="pd-rec-label">Recommended operation type:</span>
+        <span class="pd-rec-text" id="pd-rec-text">—</span>
+      </div>
+
       <!-- band conditions + Kp chart -->
       <div class="pd-middle">
 
@@ -795,189 +801,7 @@
   })();
 </script>
 
-<script>
-(function () {
-  'use strict';
-
-  /* Band condition fallback tables
-     kpBuckets: 0=Kp<2  1=2-3  2=3-4  3=4-5  4=5-6  5=6+
-     condIdx:   0=Good  1=Fair  2=Poor  3=Closed  4=Closed
-     Kp only significantly degrades HF at ≥4; Kp 3 has minor/night effect only */
-  var BANDS = [
-    { name:'80m-40m', minSfi:0,   day:[0,0,0,1,2,3], night:[0,0,0,1,2,3] },
-    { name:'30m-20m', minSfi:80,  day:[0,0,0,1,2,3], night:[0,0,1,2,3,4] },
-    { name:'17m-15m', minSfi:100, day:[0,0,0,1,2,3], night:[1,1,1,2,3,4] },
-    { name:'12m-10m', minSfi:120, day:[0,0,0,1,2,3], night:[2,3,3,4,4,4] },
-  ];
-  var C_LBL = ['Good','Fair','Poor','Closed','Closed'];
-  var C_CLS = ['pd-cond--good','pd-cond--fair','pd-cond--poor','pd-cond--closed','pd-cond--closed'];
-  var COND_MAP = {
-    'Excellent':{l:'Good',  c:'pd-cond--good'},
-    'Good':     {l:'Good',  c:'pd-cond--good'},
-    'Fair':     {l:'Fair',  c:'pd-cond--fair'},
-    'Poor':     {l:'Poor',  c:'pd-cond--poor'},
-    'No Signal':{l:'Closed',c:'pd-cond--closed'},
-  };
-
-  function kpBucket(kp) { return kp<2?0:kp<3?1:kp<4?2:kp<5?3:kp<6?4:5; }
-  function condIdx(sfi, minSfi, arr, kp) {
-    var b = arr[Math.min(kpBucket(kp), arr.length-1)];
-    if (sfi !== null && sfi < minSfi)    b = Math.min(b+1, 4);
-    if (sfi !== null && sfi < minSfi-20) b = Math.min(b+1, 4);
-    return b;
-  }
-
-  function setEl(id, text) { var e=document.getElementById(id); if(e) e.textContent=text; }
-  function setVal(id, text, cls) {
-    var e=document.getElementById(id); if(!e) return;
-    e.textContent=text; e.className='pd-val'+(cls?' '+cls:'');
-  }
-  function barClass(kp) {
-    return kp<2?'pd-bar--k01':kp<3?'pd-bar--k2':kp<4?'pd-bar--k3':kp<5?'pd-bar--k4':'pd-bar--k5p';
-  }
-
-  /* rows = array of objects {time_tag, Kp} from noaa-planetary-k-index.json */
-  function renderBars(rows) {
-    var c = document.getElementById('pd-bars'); if(!c) return;
-    c.innerHTML = '';
-    rows.forEach(function(row) {
-      var kp  = Math.min(parseFloat(row.Kp)||0, 9);
-      var pct = (kp/9*100).toFixed(1);
-      var dt  = new Date(row.time_tag+'Z');
-      var lbl = ('0'+dt.getUTCHours()).slice(-2)+'h';
-
-      var col = document.createElement('div'); col.className = 'pd-bar-col';
-      var bar = document.createElement('div');
-      bar.className = 'pd-bar '+barClass(kp);
-      bar.style.height = pct+'%';
-      bar.title = 'Kp '+kp.toFixed(1)+' · '+lbl+' UTC';
-      var l = document.createElement('div'); l.className='pd-bar-lbl'; l.textContent=lbl;
-      col.appendChild(bar); col.appendChild(l); c.appendChild(col);
-    });
-  }
-
-  function renderBandsFallback(sfi, kp) {
-    var tb=document.getElementById('pd-band-tbody'); if(!tb) return;
-    tb.innerHTML='';
-    BANDS.forEach(function(b) {
-      var di=condIdx(sfi,b.minSfi,b.day,kp), ni=condIdx(sfi,b.minSfi,b.night,kp);
-      var tr=document.createElement('tr');
-      tr.innerHTML='<td>'+b.name+'</td><td class="'+C_CLS[di]+'">'+C_LBL[di]+'</td><td class="'+C_CLS[ni]+'">'+C_LBL[ni]+'</td>';
-      tb.appendChild(tr);
-    });
-  }
-
-  function renderBandsXml(xmlDoc) {
-    var tb=document.getElementById('pd-band-tbody'); if(!tb) return false;
-    var bands=xmlDoc.querySelectorAll('calculatedConditions band'); if(!bands.length) return false;
-    tb.innerHTML='';
-    bands.forEach(function(band) {
-      var name=band.getAttribute('name');
-      var dayTx=(band.querySelector('condition[name="day"]')||{}).textContent||'—';
-      var ngtTx=(band.querySelector('condition[name="night"]')||{}).textContent||'—';
-      var d=COND_MAP[dayTx]||{l:dayTx,c:''}, n=COND_MAP[ngtTx]||{l:ngtTx,c:''};
-      var tr=document.createElement('tr');
-      tr.innerHTML='<td>'+name+'</td><td class="'+d.c+'">'+d.l+'</td><td class="'+n.c+'">'+n.l+'</td>';
-      tb.appendChild(tr);
-    });
-    return true;
-  }
-
-  async function loadProp() {
-    var kp=0, sfi=null;
-
-    /* ── NOAA SWPC (all CORS-enabled) ──────────────────── */
-    try {
-      var [kpRes, sfiRes, magRes, spdRes, xrRes] = await Promise.all([
-        fetch('https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json'),
-        fetch('https://services.swpc.noaa.gov/products/summary/10cm-flux.json'),
-        fetch('https://services.swpc.noaa.gov/products/summary/solar-wind-mag-field.json'),
-        fetch('https://services.swpc.noaa.gov/products/summary/solar-wind-speed.json'),
-        fetch('https://services.swpc.noaa.gov/json/goes/primary/xrays-6-hour.json'),
-      ]);
-      var kpData  = await kpRes.json();   /* [{time_tag, Kp, ...}]  no header */
-      var sfiData = await sfiRes.json();  /* [{flux, time_tag}]              */
-      var magData = await magRes.json();  /* [{bt, bz_gsm, time_tag}]        */
-      var spdData = await spdRes.json();  /* [{proton_speed, time_tag}]      */
-      var xrData  = await xrRes.json();   /* [{energy, flux, observed_flux}] */
-
-      /* Kp: last 8 objects = 24 h (3-hour intervals) */
-      var kpRows = kpData.slice(-8);
-      var lastKpRow = kpRows[kpRows.length-1];
-      kp = parseFloat(lastKpRow.Kp) || 0;
-      renderBars(kpRows);
-      setVal('pd-kp', kp.toFixed(1), kp<2?'pd-val--good':kp<4?'pd-val--fair':'pd-val--poor');
-
-      /* A-Index — 24h running average already in Kp dataset */
-      var ai = parseFloat(lastKpRow.a_running);
-      if (!isNaN(ai))
-        setVal('pd-ai', Math.round(ai).toString(), ai<8?'pd-val--good':ai<30?'pd-val--fair':'pd-val--poor');
-
-      /* X-Ray class (GOES 1-8Å = 0.1-0.8nm long-wave channel) */
-      var longWave = xrData.filter(function(r){ return r.energy==='0.1-0.8nm'; });
-      if (longWave.length) {
-        var xrFlux = parseFloat(longWave[longWave.length-1].observed_flux);
-        if (!isNaN(xrFlux) && xrFlux > 0) {
-          var xrCls;
-          if      (xrFlux >= 1e-4) xrCls = 'X'+(xrFlux/1e-4).toFixed(1);
-          else if (xrFlux >= 1e-5) xrCls = 'M'+(xrFlux/1e-5).toFixed(1);
-          else if (xrFlux >= 1e-6) xrCls = 'C'+(xrFlux/1e-6).toFixed(1);
-          else if (xrFlux >= 1e-7) xrCls = 'B'+(xrFlux/1e-7).toFixed(1);
-          else                     xrCls = 'A'+(xrFlux/1e-8).toFixed(1);
-          var xrLetter = xrCls[0];
-          setVal('pd-xr', xrCls,
-            xrLetter==='X'||xrLetter==='M' ? 'pd-val--poor' :
-            xrLetter==='C' ? 'pd-val--fair' : 'pd-val--good');
-        }
-      }
-
-      /* All summary endpoints return [{...}] — unwrap */
-      var sfiObj = Array.isArray(sfiData) ? sfiData[0] : sfiData;
-      var magObj = Array.isArray(magData) ? magData[0] : magData;
-      var spdObj = Array.isArray(spdData) ? spdData[0] : spdData;
-
-      /* SFI with color: ≥120 excellent, ≥80 moderate */
-      sfi = parseFloat(sfiObj.flux) || null;
-      if (sfi)
-        setVal('pd-sfi', Math.round(sfi).toString(), sfi>=120?'pd-val--good':sfi>=80?'pd-val--fair':'');
-
-      var bz = parseFloat(magObj.bz_gsm);
-      if (!isNaN(bz))
-        setVal('pd-bz', (bz>=0?'+':'')+bz.toFixed(0)+' nT',
-          bz<-10?'pd-val--poor':bz<-5?'pd-val--fair':bz>0?'pd-val--good':'');
-
-      var spd = parseFloat(spdObj.proton_speed);
-      if (!isNaN(spd)) setEl('pd-speed', Math.round(spd)+' km/s');
-
-    } catch(e) { console.warn('prop: NOAA fetch failed', e); }
-
-    /* ── hamqsl XML — pre-computed band conditions (CORS optional) ── */
-    var xmlBands = false;
-    try {
-      var xmlRes  = await fetch('https://www.hamqsl.com/solarxml.php');
-      var xmlText = await xmlRes.text();
-      var parser  = new DOMParser();
-      var doc     = parser.parseFromString(xmlText, 'application/xml');
-      xmlBands = renderBandsXml(doc);
-    } catch(e) { /* CORS blocked — computed fallback */ }
-
-    if (!xmlBands) renderBandsFallback(sfi, kp);
-
-    var note = document.getElementById('pd-cond-note');
-    if (note) note.textContent = (sfi?'SFI '+Math.round(sfi)+' · ':'')+'Kp '+kp.toFixed(1);
-
-    var now = new Date();
-    setEl('pd-updated', ('0'+now.getUTCHours()).slice(-2)+':'+('0'+now.getUTCMinutes()).slice(-2)+' UTC');
-  }
-
-  if (document.readyState==='loading') {
-    document.addEventListener('DOMContentLoaded', loadProp);
-  } else {
-    loadProp();
-  }
-  setInterval(loadProp, 5*60*1000);
-})();
-</script>
+<script src="/assets/js/general.js"></script>
 
 <script>
 (function () {
