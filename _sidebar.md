@@ -1,4 +1,4 @@
-* [Home](/ ':ignore')
+* <a href="/" target="_self">Home</a>
 
 <div style="height:0.55rem;"></div>
 
