@@ -1,4 +1,4 @@
-* [Home](https://ea1het.com)
+* [Home](/ ':ignore')
 
 <div style="height:0.55rem;"></div>
 
