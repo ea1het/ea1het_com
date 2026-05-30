@@ -908,8 +908,12 @@
 
 <script>
 (function () {
-  var PROXY    = 'https://api.allorigins.win/get?url=';
   var RSS_URL  = 'https://www.contestcalendar.com/calendar.rss';
+  var PROXIES  = [
+    { pfx: 'https://api.allorigins.win/get?url=', json: true,  key: 'contents' },
+    { pfx: 'https://api.codetabs.com/v1/proxy?quest=', json: false },
+    { pfx: 'https://corsproxy.io/?', json: false },
+  ];
   var MON_IDX  = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
   var MON_ABB  = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   var DAYS     = 8;
@@ -1002,42 +1006,56 @@
     }).join('');
   }
 
-  function load() {
-    fetch(PROXY + encodeURIComponent(RSS_URL))
-      .then(function(r) { return r.json(); })
-      .then(function(j) {
-        var doc   = new DOMParser().parseFromString(j.contents, 'application/xml');
-        var items = Array.from(doc.querySelectorAll('item'));
-        var now   = new Date();
-        var cutoff = new Date(+now + DAYS * 864e5);
+  function parseRSS(xmlText) {
+    var doc   = new DOMParser().parseFromString(xmlText, 'application/xml');
+    var items = Array.from(doc.querySelectorAll('item'));
+    var now   = new Date();
+    var cutoff = new Date(+now + DAYS * 864e5);
 
-        allContests = [];
-        items.forEach(function(item) {
-          var title = (item.querySelector('title') || {}).textContent || '';
-          var link  = (item.getElementsByTagName('link')[0] || {}).textContent || '';
-          var desc  = (item.querySelector('description') || {}).textContent || '';
-          var p     = parseDesc(desc.trim());
-          if (!p || p.end < now || p.start > cutoff) return;
-          allContests.push({
-            title:  title,
-            link:   link,
-            day:    p.start.getUTCDate(),
-            mon:    MON_ABB[p.start.getUTCMonth()],
-            timeStr: p.timeStr,
-            isLive: p.start <= now && now <= p.end,
-            mode:   inferMode(title),
-            band:   inferBand(title),
-          });
-        });
-
-        allContests.sort(function(a,b) { return a.start - b.start; });
-        render();
-      })
-      .catch(function() {
-        var list = document.getElementById('cc-list');
-        if (list) list.innerHTML = '<div class="cc-empty">Unable to load contest schedule.</div>';
+    allContests = [];
+    items.forEach(function(item) {
+      var title = (item.querySelector('title') || {}).textContent || '';
+      var link  = (item.getElementsByTagName('link')[0] || {}).textContent || '';
+      var desc  = (item.querySelector('description') || {}).textContent || '';
+      var p     = parseDesc(desc.trim());
+      if (!p || p.end < now || p.start > cutoff) return;
+      allContests.push({
+        title:  title,
+        link:   link,
+        day:    p.start.getUTCDate(),
+        mon:    MON_ABB[p.start.getUTCMonth()],
+        timeStr: p.timeStr,
+        isLive: p.start <= now && now <= p.end,
+        mode:   inferMode(title),
+        band:   inferBand(title),
       });
+    });
+
+    allContests.sort(function(a,b) { return a.start - b.start; });
+    render();
   }
+
+  function tryProxy(proxies, idx) {
+    if (idx >= proxies.length) {
+      var list = document.getElementById('cc-list');
+      if (list) list.innerHTML = '<div class="cc-empty">Unable to load contest schedule.</div>';
+      return;
+    }
+    var p = proxies[idx];
+    fetch(p.pfx + encodeURIComponent(RSS_URL))
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return p.json ? r.json() : r.text();
+      })
+      .then(function(data) {
+        var xml = p.json ? data[p.key] : data;
+        if (!xml || !xml.trim()) throw new Error('empty');
+        parseRSS(xml);
+      })
+      .catch(function() { tryProxy(proxies, idx + 1); });
+  }
+
+  function load() { tryProxy(PROXIES, 0); }
 
   document.querySelectorAll('.cc-pill').forEach(function(btn) {
     btn.addEventListener('click', function() {
