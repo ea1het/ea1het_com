@@ -1,5 +1,7 @@
 # Banned on QRZ.com: Ethic?
 
+[LIST OF ARTICLES](/notebook/articles/)
+
 - **Published:** 2025-06-02
 - **Last update:** 2025-06-18
 - **Categories:** English, Ethics
@@ -8,7 +10,7 @@ Many colleagues have asked on the air why I no longer appear on QRZ.com. I have 
 
 ## **The short version**
 
-In my post titled *[“Why I left the Brandmeister initiative”](/blog/why-i-left-brandmeister-initiative)*, I explained that although the project held promise at first, two things pulled me away: my daughter’s birth and growing internal tensions within the development team, which lacked clear direction. At that time, the team asked me to finish an API I was working on. Unable to meet their deadlines, I handed my code over to another developer, and that was the end of my involvement.
+In my post titled *[“Why I left the Brandmeister initiative”](/notebook/articles/why-i-left-brandmeister-initiative)*, I explained that although the project held promise at first, two things pulled me away: my daughter’s birth and growing internal tensions within the development team, which lacked clear direction. At that time, the team asked me to finish an API I was working on. Unable to meet their deadlines, I handed my code over to another developer, and that was the end of my involvement.
 
 Behind the scenes, however, a conflict was brewing between the boards of QRZ.com and Brandmeister. I know many of the details, but out of respect for privacy—and to maintain civility—I will not share everything. Let’s say that everything was about money.
 

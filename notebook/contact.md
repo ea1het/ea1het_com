@@ -1,7 +1,7 @@
 # Contact
 
-- **Published:** 2025-06-02
-- **Last update:** 2025-12-22
+> **Published:** 2025-06-02  
+> **Last update:** 2025-12-22
 
 ## Callsign & name
 

@@ -1,5 +1,7 @@
 # Why I left Brandmeister initiative
 
+[LIST OF ARTICLES](/notebook/articles/)
+
 - **Published:** 2024-04-04
 - **Last update:** 2025-06-18
 
