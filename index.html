@@ -773,7 +773,6 @@
     var heart = document.getElementById('footer-heart');
     if (!heart) return;
     var clicks = 0, timer = null;
-    heart.style.cursor = 'pointer';
     heart.addEventListener('click', function () {
       clicks++;
       clearTimeout(timer);
@@ -782,10 +781,7 @@
         heart.textContent = '✓';
         heart.style.color = 'var(--amber)';
         setTimeout(function () {
-          Object.keys(localStorage)
-            .filter(function (k) { return k.startsWith('ea1het:'); })
-            .forEach(function (k) { localStorage.removeItem(k); });
-          location.reload();
+          location.href = '/_.html';
         }, 600);
         return;
       }

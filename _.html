@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <title>EA1HET</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/landing.css" />
+
+  <style>
+    .egg-stage {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(125, 211, 252, 0.06);
+      border-top: 1px solid rgba(125, 211, 252, 0.14);
+      border-bottom: 1px solid rgba(125, 211, 252, 0.14);
+      padding: 6rem 2rem;
+    }
+    .egg-text {
+      font-size: 0.9rem;
+      color: #7dd3fc;
+      letter-spacing: 0.03em;
+      font-weight: 400;
+    }
+    html, body { height: 100%; }
+    body { display: flex; flex-direction: column; min-height: 100vh; }
+    footer { margin-top: 0; }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="/" class="nav-logo">
+    <span class="r">EA</span><span class="y">1H</span><span class="r">ET</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/#live-dx">Live DX</a></li>
+    <li><a href="/#propagation">Propagation</a></li>
+    <li><a href="/#outdoordx">OutdoorDX</a></li>
+    <li><a href="/toolbox/">Toolbox</a></li>
+    <li><a href="/notebook/">Notebook</a></li>
+    <li><a href="/notebook/#/notebook/contact">Contact</a></li>
+  </ul>
+  <button class="nav-ham" aria-label="Menu" onclick="toggleMobileMenu()">☰</button>
+</nav>
+
+<main class="egg-stage">
+  <p class="egg-text">This is the Easter Egg. Soon you can get more clues here.</p>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="r">EA</span><span class="y">1H</span><span class="r">ET</span>
+        </div>
+        <p class="footer-desc">
+          Amateur radio station of Jonathan González, licensed in Spain.
+          QRP portable operations, antenna experiments and the OutdoorDX platform.
+        </p>
+        <p class="footer-copy">
+          Designed &amp; developed with ♥ by EA1HET © 2000–2026. All rights reserved.
+        </p>
+      </div>
+      <div class="footer-links">
+        <a href="/notebook/">Notebook</a>
+        <a href="https://outdoordx.com" target="_blank" rel="noopener">OutdoorDX.com ↗</a>
+        <a href="/notebook/#/notebook/contact">Contact</a>
+        <a href="/notebook/#/notebook/privacy-policy">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleMobileMenu() {
+    const ul = document.querySelector('.nav-links');
+    if (!ul) return;
+    const isOpen = ul.classList.contains('mobile-open');
+    if (isOpen) {
+      ul.classList.remove('mobile-open');
+    } else {
+      ul.classList.add('mobile-open');
+    }
+  }
+</script>
+
+</body>
+</html>
