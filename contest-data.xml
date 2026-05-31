@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -182,6 +182,60 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cav0p</link>
 <description>2000Z-2100Z, Jun 5</description>
 <guid>https://www.contestcalendar.com/?g=00tg6cw0020206</guid>
+</item>
+<item>
+<title>VK Shires Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5poh</link>
+<description>0000Z-2359Z, Jun 6</description>
+<guid>https://www.contestcalendar.com/?g=00tg6o00020182</guid>
+</item>
+<item>
+<title>PODXS 070 Club Three Day Weekend Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bc4zq</link>
+<description>0000Z, Jun 6 to 2359Z, Jun 8</description>
+<guid>https://www.contestcalendar.com/?g=00tg6o00020044</guid>
+</item>
+<item>
+<title>Tisza Cup CW Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003aza1y</link>
+<description>0000Z-1459Z, Jun 6</description>
+<guid>https://www.contestcalendar.com/?g=00tg6o00019984</guid>
+</item>
+<item>
+<title>Wake-Up! QRP Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c0cn1</link>
+<description>0600Z-0629Z, Jun 6 and 0630Z-0659Z, Jun 6 and 0700Z-0729Z, Jun 6 and 0730Z-0800Z, Jun 6</description>
+<guid>https://www.contestcalendar.com/?g=00tg74o0020157</guid>
+</item>
+<item>
+<title>UKSMG Summer Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5hma</link>
+<description>1300Z, Jun 6 to 1300Z, Jun 7</description>
+<guid>https://www.contestcalendar.com/?g=00tg7o40020181</guid>
+</item>
+<item>
+<title>Kentucky QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003axrsz</link>
+<description>1300Z, June 6 to 0100Z, Jun 7</description>
+<guid>https://www.contestcalendar.com/?g=00tg7o40019977</guid>
+</item>
+<item>
+<title>IARU Region 1 Field Day, CW</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c3cgj</link>
+<description>1500Z, Jun 6 to 1459Z, Jun 7</description>
+<guid>https://www.contestcalendar.com/?g=00tg7to0020171</guid>
+</item>
+<item>
+<title>RSGB National Field Day</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bxrud</link>
+<description>1500Z, Jun 6 to 1500Z, Jun 7</description>
+<guid>https://www.contestcalendar.com/?g=00tg7to0020145</guid>
+</item>
+<item>
+<title>ARRL Inter. Digital Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c1n98</link>
+<description>1800Z, Jun 6 to 2400Z, Jun 7</description>
+<guid>https://www.contestcalendar.com/?g=00tg8200020163</guid>
 </item>
 </channel>
 </rss>
