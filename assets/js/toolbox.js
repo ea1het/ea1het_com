@@ -52,16 +52,63 @@ function calcAntenna() {
   const fmt = v => `${v.toFixed(3)} <span class="unit">m / ${(v * 3.28084).toFixed(3)} ft</span>`;
   const fmtFixed = v => `${v.toFixed(1)} <span class="unit">m / ${(v * 3.28084).toFixed(1)} ft</span>`;
 
-  // EFRW: find a common non-resonant length (wire VF=1)
+  // EFRW: test every candidate against the resonance guard, then rank the
+  // survivors longest-first. Longer wire = lower radiation angle + more usable
+  // bands. The resonance check is the only hard filter; the operator picks
+  // whichever ranked option fits their physical deployment situation.
   const efrwCandidates = [9.5, 12.2, 17.0, 20.0, 26.5, 29.0, 40.0, 41.0, 53.0];
   const halfWire = lambdaWire / 2;
-  let efrwRec = null;
-  for (const len of efrwCandidates) {
-    let safe = true;
+  function isSafe(len) {
     for (let n = 1; n <= 14; n++) {
-      if (Math.abs(len - n * halfWire) / (n * halfWire) < 0.10) { safe = false; break; }
+      if (Math.abs(len - n * halfWire) / (n * halfWire) < 0.10) return false;
     }
-    if (safe) { efrwRec = len; break; }
+    return true;
+  }
+  const safeCandidates = efrwCandidates.filter(isSafe).sort((a, b) => b - a);
+
+  // EFRW deployment advice based on wire length, assuming a standard 10 m pole.
+  // ≤ 12 m fits as a full vertical; anything longer needs an inverted-L or sloper
+  // to make use of the extra wire without requiring an unrealistic pole height.
+  const POLE_H = 10;
+  function efrwDeployment(len) {
+    if (len <= POLE_H + 2) return {
+      style : 'Full vertical',
+      note  : 'Fits a standard 10 m pole; mount the UnUn at the base, wire straight up'
+    };
+    const horiz = (len - POLE_H).toFixed(1);
+    if (len <= 20) return {
+      style : 'Inverted-L',
+      note  : `${POLE_H} m vertical up the pole + ${horiz} m horizontal; retains low take-off angle`
+    };
+    return {
+      style : 'Inverted-L / sloper',
+      note  : `${POLE_H} m vertical + ${horiz} m horizontal or sloped from pole top to a ground anchor`
+    };
+  }
+
+  // EFRW transformer recommendation based on wire length.
+  // Short wires have wildly varying feedpoint impedance so we offer a 4:1 alt.
+  // Mid-range wires sit comfortably in the 9:1 sweet spot.
+  // Long wires can spike above 800 Ω on the low bands, so a 16:1 is worth trying.
+  function efrwTransformer(len) {
+    if (len <= 12.2) return {
+      primary : '1:9 UnUn',
+      core    : 'FT-82-43',
+      alt     : '1:4 UnUn if ATU range is tight',
+      altNote : 'Short wire: feedpoint impedance swings widely across bands'
+    };
+    if (len <= 29.0) return {
+      primary : '1:9 UnUn',
+      core    : 'FT-140-43',
+      alt     : null,
+      altNote : 'Feedpoint typically 300–600 Ω so 1:9 is the standard choice'
+    };
+    return {
+      primary : '1:9 UnUn',
+      core    : 'FT-140-43',
+      alt     : '1:16 UnUn on 40m/80m',
+      altNote : 'Long wire: impedance can exceed 800 Ω on the lower bands'
+    };
   }
 
   const hdr = (title, note, first) =>
@@ -101,13 +148,42 @@ function calcAntenna() {
 
     hdr('EFRW', 'End-fed random wire');
 
-  if (efrwRec !== null) {
-    html +=
-      row('Recommended length', fmtFixed(efrwRec)) +
+  // Renders one complete EFRW candidate block.
+  // Rank 1 = longest safe candidate = best radiation angle + most bands.
+  // The operator chooses based on what their physical situation allows.
+  function efrwBlock(len, rank) {
+    const tx  = efrwTransformer(len);
+    const dep = efrwDeployment(len);
+    const isFirst = rank === 1;
+    const col = isFirst ? '#22c55e' : 'var(--muted)';
+    return (
+      `<div class="result-row">
+        <span class="result-label" style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:${col};">#${rank}${isFirst ? ' — Best option' : ''}</span>
+        <span class="result-value"${isFirst ? ' style="color:#22c55e;"' : ''}>${fmtFixed(len)}</span>
+      </div>` +
+      `<div class="result-row" style="flex-wrap:wrap;align-items:baseline;">
+        <span class="result-label">Deployment</span>
+        <span class="result-value">${dep.style}</span>
+        <span style="flex:0 0 100%;font-size:0.72rem;color:var(--muted);font-style:italic;padding:0.15rem 0 0.1rem;text-align:right;">${dep.note}</span>
+      </div>` +
+      `<div class="result-row" style="flex-wrap:wrap;align-items:baseline;">
+        <span class="result-label">Transformer</span>
+        <span class="result-value">${tx.primary} <span class="unit">/ ${tx.core} toroid</span></span>
+        <span style="flex:0 0 100%;font-size:0.72rem;color:var(--muted);font-style:italic;padding:0.15rem 0 0.1rem;text-align:right;">${tx.altNote}</span>
+      </div>` +
+      (tx.alt ? row('Alternative', `<span style="color:var(--muted);font-style:italic;font-weight:400;">${tx.alt}</span>`) : '') +
       `<div class="result-row" style="border-bottom:none;padding-top:0.15rem;">
-        <span class="result-label" style="font-size:0.78rem;color:var(--muted);font-style:italic;">Non-resonant at ${f.toFixed(3)} MHz — requires ATU</span>
-        <span style="font-size:0.78rem;color:#4ade80;">✓</span>
-      </div>`;
+        <span></span>
+        <span style="font-size:0.78rem;color:var(--muted);">Non-resonant at ${f.toFixed(3)} MHz — requires ATU</span>
+      </div>`
+    );
+  }
+
+  if (safeCandidates.length > 0) {
+    html += safeCandidates.map((len, i) =>
+      (i > 0 ? `<div style="margin:0.4rem 0.9rem;border-top:1px dashed var(--border);"></div>` : '') +
+      efrwBlock(len, i + 1)
+    ).join('');
   } else {
     html +=
       `<div class="result-row" style="border-bottom:none;">
