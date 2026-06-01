@@ -12,50 +12,50 @@
   --base-line-height: 1.65;
 
   /* Backgrounds */
-  --base-background-color: #080d16;
-  --base-border-color: #1e3050;
+  --base-background-color: #F4F9F0;
+  --base-border-color: #A8C898;
 
   /* Text */
-  --base-font-color: #dce8f5;
+  --base-font-color: #1A2A1A;
 
   /* Headings */
-  --heading-color: #e8eef6;
+  --heading-color: #0F1F0F;
   --heading-font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif;
   --heading-font-weight: 700;
 
   /* Links */
-  --link-color: #2a6bbf;
-  --link-color--hover: #5fa0e0;
+  --link-color: #1A5C3A;
+  --link-color--hover: #2A7A52;
 
   /* Sidebar */
-  --sidebar-background: #0d1625;
-  --sidebar-border-color: #1e3050;
-  --sidebar-name-color: #e8eef6;
-  --sidebar-nav-link-color: #7a8fa6;
-  --sidebar-nav-link-color--hover: #dce8f5;
-  --sidebar-nav-link-color--active: #2a6bbf;
-  --sidebar-nav-link-border-color--active: #2a6bbf;
+  --sidebar-background: #E8F3E0;
+  --sidebar-border-color: #A8C898;
+  --sidebar-name-color: #0F1F0F;
+  --sidebar-nav-link-color: #4A6A54;
+  --sidebar-nav-link-color--hover: #1A2A1A;
+  --sidebar-nav-link-color--active: #1A5C3A;
+  --sidebar-nav-link-border-color--active: #1A5C3A;
   --sidebar-width: 17rem;
 
   /* Code */
-  --code-background-color: #0d1625;
-  --code-font-color: #a0bcd6;
+  --code-background-color: #E8F3E0;
+  --code-font-color: #2A5A3A;
   --code-font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', monospace;
-  --code-inline-background: #121f31;
-  --code-inline-color: #c8d9ee;
+  --code-inline-background: #D4E6C3;
+  --code-inline-color: #1A3A2A;
 
   /* Blockquote */
-  --blockquote-background: rgba(26, 79, 139, 0.12);
-  --blockquote-border-color: #1a4f8b;
-  --blockquote-font-color: #a0bcd6;
+  --blockquote-background: rgba(26, 92, 58, 0.08);
+  --blockquote-border-color: #2A7A52;
+  --blockquote-font-color: #4A6A54;
 
   /* Table */
-  --table-cell-border-color: #1e3050;
-  --table-head-background: #0d1625;
-  --table-row-odd-background: rgba(13, 22, 37, 0.5);
+  --table-cell-border-color: #A8C898;
+  --table-head-background: #D4E6C3;
+  --table-row-odd-background: rgba(212, 230, 195, 0.5);
 
   /* Theme */
-  --theme-color: #2a6bbf;
+  --theme-color: #1A5C3A;
   --content-max-width: 920px;
 }
 
@@ -75,10 +75,10 @@ nav.site-nav {
   justify-content: space-between !important;
   height: 3.5rem !important;
   padding: 0 2rem !important;
-  background: rgba(8,13,22,0.92) !important;
+  background: rgba(244,249,240,0.92) !important;
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
-  border-bottom: 1px solid #1e3050 !important;
+  border-bottom: 1px solid #A8C898 !important;
   font-family: 'Inter', 'Helvetica Neue', system-ui, sans-serif !important;
   box-sizing: border-box !important;
 }
@@ -87,12 +87,13 @@ nav.site-nav .nav-logo {
   font-size: 1.3rem !important;
   font-weight: 800 !important;
   letter-spacing: 0.06em !important;
-  color: #fff !important;
+  color: #0F1F0F !important;
   text-decoration: none !important;
   line-height: 1 !important;
+  text-shadow: 0 1px 3px rgba(180,200,180,0.95), 0 2px 8px rgba(0,0,0,0.32) !important;
 }
 nav.site-nav .nav-logo .r { color: #aa151b !important; }
-nav.site-nav .nav-logo .y { color: #f1bf00 !important; }
+nav.site-nav .nav-logo .y { color: #f1bf00 !important; -webkit-text-stroke: 0.6px rgba(120,70,0,0.65) !important; }
 
 nav.site-nav .nav-links {
   display: flex !important;
@@ -113,7 +114,7 @@ nav.site-nav .nav-links a {
   padding: 0.35rem 0.75rem !important;
   font-size: 0.85rem !important;
   font-weight: 500 !important;
-  color: #637d99 !important;
+  color: #4A6A54 !important;
   border-radius: 0.3rem !important;
   text-decoration: none !important;
   background: transparent !important;
@@ -121,15 +122,15 @@ nav.site-nav .nav-links a {
   transition: color 0.15s, background 0.15s !important;
 }
 nav.site-nav .nav-links a:hover {
-  color: #dce8f5 !important;
-  background: #121f31 !important;
+  color: #1A2A1A !important;
+  background: #D4E6C3 !important;
 }
 
 nav.site-nav .nav-ham {
   display: none;
   background: none !important;
   border: none !important;
-  color: #dce8f5 !important;
+  color: #1A2A1A !important;
   cursor: pointer !important;
   font-size: 1.4rem !important;
   line-height: 1 !important;
@@ -145,9 +146,9 @@ nav.site-nav .nav-ham {
     position: fixed !important;
     top: 3.5rem !important;
     left: 0 !important; right: 0 !important;
-    background: rgba(8,13,22,0.97) !important;
+    background: rgba(244,249,240,0.97) !important;
     padding: 1rem 2rem 1.5rem !important;
-    border-bottom: 1px solid #1e3050 !important;
+    border-bottom: 1px solid #A8C898 !important;
     backdrop-filter: blur(12px) !important;
     z-index: 998 !important;
     gap: 0.1rem !important;
@@ -159,8 +160,8 @@ nav.site-nav .nav-ham {
 .sidebar {
   top: 3.5rem !important;
   z-index: 200 !important;            /* explicitly below our nav (99999) */
-  border-right-color: #1e3050 !important;
-  background: #0d1625 !important;
+  border-right-color: #A8C898 !important;
+  background: #E8F3E0 !important;
 }
 
 /* Docsify overlay (mobile) — also below our nav */
@@ -173,7 +174,7 @@ body > .sidebar + * > .sidebar-overlay,
 /* Docsify's sidebar toggle button (mobile hamburger) */
 .sidebar-toggle {
   top: calc(3.5rem + 0.5rem) !important;
-  background: #0d1625 !important;
+  background: #E8F3E0 !important;
 }
 
 .content {
@@ -182,20 +183,20 @@ body > .sidebar + * > .sidebar-overlay,
 
 /* Docsify search bar inside sidebar */
 .search input {
-  background: #121f31 !important;
-  color: #dce8f5 !important;
-  border-color: #1e3050 !important;
+  background: #D4E6C3 !important;
+  color: #1A2A1A !important;
+  border-color: #A8C898 !important;
 }
-.search input::placeholder { color: #637d99 !important; }
-.search .results-panel { background: #0d1625 !important; border-color: #1e3050 !important; }
-.search .results-panel .matching-post { border-color: #1e3050 !important; }
-.search .results-panel .matching-post a { color: #dce8f5 !important; }
-.search .results-panel .matching-post p { color: #7a8fa6 !important; }
+.search input::placeholder { color: #4A6A54 !important; }
+.search .results-panel { background: #E8F3E0 !important; border-color: #A8C898 !important; }
+.search .results-panel .matching-post { border-color: #A8C898 !important; }
+.search .results-panel .matching-post a { color: #1A2A1A !important; }
+.search .results-panel .matching-post p { color: #4A6A54 !important; }
 
 /* ── 4. Body & page base ─────────────────────────────────────── */
 body {
-  background: #080d16 !important;
-  color: #dce8f5 !important;
+  background: #F4F9F0 !important;
+  color: #1A2A1A !important;
 }
 
 /* ── 5. Sidebar internals ────────────────────────────────────── */
@@ -205,7 +206,7 @@ body {
 
 .sidebar-nav li hr {
   margin: 0.35rem 0;
-  border-color: #1e3050;
+  border-color: #A8C898;
 }
 
 .sidebar-nav li:has(> hr) {
@@ -218,11 +219,11 @@ body {
   display: block;
   padding: 0.4rem 1rem;
   font-size: 0.78rem;
-  color: #637d99 !important;
+  color: #4A6A54 !important;
   text-decoration: none;
-  border-bottom: 1px solid #1e3050;
+  border-bottom: 1px solid #A8C898;
 }
-.sidebar > a:hover { color: #dce8f5 !important; }
+.sidebar > a:hover { color: #1A2A1A !important; }
 
 /* Sidebar footer stamp */
 .sidebar::after {
@@ -234,9 +235,9 @@ body {
   font-size: 0.68rem;
   line-height: 1.25;
   text-align: center;
-  color: #3a526a;
-  background: rgba(13, 22, 37, 0.97);
-  border-top: 1px solid #1e3050;
+  color: #6A8A74;
+  background: rgba(232, 243, 224, 0.97);
+  border-top: 1px solid #A8C898;
   pointer-events: none;
 }
 
@@ -276,7 +277,7 @@ body {
 
 /* ── 6. Content area ─────────────────────────────────────────── */
 .markdown-section {
-  color: #dce8f5 !important;
+  color: #1A2A1A !important;
 }
 
 .markdown-section h1,
@@ -285,8 +286,8 @@ body {
 .markdown-section h4,
 .markdown-section h5,
 .markdown-section h6 {
-  color: #e8eef6;
-  border-bottom-color: #1e3050;
+  color: #0F1F0F;
+  border-bottom-color: #A8C898;
 }
 
 /* Normalize anchor-targeted headings so they don't render as boxed blocks */
@@ -296,45 +297,45 @@ body {
 }
 
 .markdown-section a {
-  color: #2a6bbf;
+  color: #1A5C3A;
 }
-.markdown-section a:hover { color: #5fa0e0; }
+.markdown-section a:hover { color: #2A7A52; }
 
 .markdown-section blockquote {
-  background: rgba(26, 79, 139, 0.1);
-  border-left-color: #1a4f8b;
-  color: #a0bcd6;
+  background: rgba(26, 92, 58, 0.08);
+  border-left-color: #2A7A52;
+  color: #4A6A54;
 }
 
 .markdown-section table th {
-  background: #0d1625;
-  color: #e8eef6;
-  border-color: #1e3050;
+  background: #D4E6C3;
+  color: #0F1F0F;
+  border-color: #A8C898;
 }
 .markdown-section table td {
-  border-color: #1e3050;
-  color: #dce8f5;
+  border-color: #A8C898;
+  color: #1A2A1A;
 }
 .markdown-section table tr:nth-child(even) {
-  background: rgba(13, 22, 37, 0.5);
+  background: rgba(212, 230, 195, 0.5);
 }
 
 .markdown-section hr {
-  border-color: #1e3050;
+  border-color: #A8C898;
 }
 
 /* ── 7. Code blocks ──────────────────────────────────────────── */
 .markdown-section pre {
-  background: #0d1625 !important;
-  border: 1px solid #1e3050;
+  background: #E8F3E0 !important;
+  border: 1px solid #A8C898;
   border-radius: 0.5rem;
 }
 .markdown-section pre code {
-  color: #a0bcd6;
+  color: #2A5A3A;
 }
 .markdown-section code {
-  background: #121f31 !important;
-  color: #c8d9ee !important;
+  background: #D4E6C3 !important;
+  color: #1A3A2A !important;
   border-radius: 0.25rem;
   padding: 0.1em 0.35em;
 }
@@ -378,7 +379,7 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 0.4rem;
-  background: #0d1625;
+  background: #D4E6C3;
 }
 .photo-grid img {
   width: 100% !important;
@@ -397,8 +398,8 @@ body {
   bottom: 0; left: 0; right: 0;
   padding: 0.3rem 0.5rem;
   font-size: 0.72rem;
-  color: #dce8f5;
-  background: rgba(8,13,22,0.72);
+  color: #E8F3E0;
+  background: rgba(8,20,8,0.72);
   backdrop-filter: blur(4px);
   line-height: 1.2;
 }
@@ -414,5 +415,5 @@ body {
 .app-nav { display: none; }   /* hide Docsify's own nav if present */
 
 /* ── 11. Progress bar ────────────────────────────────────────── */
-#nprogress .bar { background: #2a6bbf !important; }
-#nprogress .peg  { box-shadow: 0 0 10px #2a6bbf, 0 0 5px #2a6bbf !important; }
+#nprogress .bar { background: #2A7A52 !important; }
+#nprogress .peg  { box-shadow: 0 0 10px #2A7A52, 0 0 5px #2A7A52 !important; }

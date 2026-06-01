@@ -155,11 +155,11 @@ function calcAntenna() {
     const tx  = efrwTransformer(len);
     const dep = efrwDeployment(len);
     const isFirst = rank === 1;
-    const col = isFirst ? '#22c55e' : 'var(--muted)';
+    const col = isFirst ? 'var(--red)' : 'var(--muted)';
     return (
       `<div class="result-row">
         <span class="result-label" style="font-size:0.68rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:${col};">#${rank}${isFirst ? ' — Best option' : ''}</span>
-        <span class="result-value"${isFirst ? ' style="color:#22c55e;"' : ''}>${fmtFixed(len)}</span>
+        <span class="result-value"${isFirst ? ' style="color:var(--red);"' : ''}>${fmtFixed(len)}</span>
       </div>` +
       `<div class="result-row" style="flex-wrap:wrap;align-items:baseline;">
         <span class="result-label">Deployment</span>
@@ -512,8 +512,8 @@ function updateGridMap(lat, lon) {
   } else {
     gridMarker = L.circleMarker([lat, lon], {
       radius: 7,
-      fillColor: '#2a6bbf',
-      color: '#fff',
+      fillColor: '#1A5C3A',
+      color: '#E8F3E0',
       weight: 2,
       fillOpacity: 1,
     }).addTo(gridMap);
