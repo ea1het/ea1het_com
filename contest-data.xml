@@ -5,22 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CQ WW WPX Contest, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bau7x</link>
-<description>0000Z, May 30 to 2359Z, May 31</description>
-<guid>https://www.contestcalendar.com/?g=00tftpc0020038</guid>
-</item>
-<item>
-<title>Romanian Diaspora SSB Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0039sex8</link>
-<description>0500Z-1700Z, May 31</description>
-<guid>https://www.contestcalendar.com/?g=00tfvxw0019784</guid>
-</item>
 <item>
 <title>K1USN Slow Speed Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c9sft</link>
@@ -236,6 +224,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c1n98</link>
 <description>1800Z, Jun 6 to 2400Z, Jun 7</description>
 <guid>https://www.contestcalendar.com/?g=00tg8200020163</guid>
+</item>
+<item>
+<title>Atlantic Canada QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003axked</link>
+<description>1400Z, Jun 7 to 0100Z, Jun 8</description>
+<guid>https://www.contestcalendar.com/?g=00tg9lk0019976</guid>
 </item>
 </channel>
 </rss>
