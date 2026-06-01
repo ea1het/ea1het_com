@@ -571,6 +571,14 @@ section#propagation {
   white-space: nowrap;
   flex-shrink: 0;
 }
+@media (max-width: 560px) {
+  .pd-rec-label {
+    white-space: normal;
+    word-break: break-word;
+    max-width: 5.5rem;
+    line-height: 1.5;
+  }
+}
 .pd-rec-text {
   font-size: 0.95rem;
   font-weight: 600;

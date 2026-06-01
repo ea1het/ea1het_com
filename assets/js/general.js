@@ -381,7 +381,7 @@
           bz<-10?'pd-val--poor':bz<-5?'pd-val--fair':bz>0?'pd-val--good':'');
 
       var spd = parseFloat(spdObj.proton_speed);
-      if (!isNaN(spd)) setEl('pd-speed', Math.round(spd)+' km/s');
+      if (!isNaN(spd)) { var e=document.getElementById('pd-speed'); if(e) e.innerHTML=Math.round(spd)+'<span style="font-size:0.65em;font-weight:500;color:var(--muted);margin-left:0.15em;">km/s</span>'; }
 
     } catch(e) { console.warn('prop: NOAA fetch failed', e); }
 
