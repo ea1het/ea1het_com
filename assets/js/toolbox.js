@@ -139,9 +139,9 @@ function calcAntenna() {
     row('Long leg (64%)',   fmt(lambdaWire / 2 * 0.64), true) +
 
     hdr('OCF Vertical + 1:4 UnUn', 'KJ6ER Challenger style') +
-    row('Radiator (38.9% λ)',      fmt(lambdaWire * 0.389)) +
-    row('Counterpoise (12.3% λ)',  fmt(lambdaWire * 0.123)) +
-    row('Total (51.2% λ)',         fmt(lambdaWire * 0.512), true) +
+    row('Radiator (34.1% λ)',      fmt(lambda * 0.341)) +
+    row('Counterpoise (10.2% λ)',  fmt(lambda * 0.102)) +
+    row('Total (44.3% λ)',         fmt(lambda * 0.443), true) +
 
     hdr('EFHW', 'End-fed half-wave') +
     row('Total length', fmt(lambdaWire / 2), true) +
