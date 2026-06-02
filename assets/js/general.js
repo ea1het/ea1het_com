@@ -414,10 +414,31 @@
     I run loadProp as soon as the DOM is ready, then refresh automatically
     every five minutes so the dashboard stays current without a page reload. 
   */
-  if (document.readyState==='loading') {
-    document.addEventListener('DOMContentLoaded', loadProp);
-  } else {
-    loadProp();
+  function fetchCommitHash() {
+    fetch('https://api.github.com/repos/ea1het/ea1het_com/branches/pages')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var sha = data && data.commit && data.commit.sha;
+        if (!sha) return;
+        var el = document.getElementById('footer-commit');
+        var wrap = document.getElementById('footer-commit-wrap');
+        if (el) el.textContent = sha.slice(0, 7);
+        if (wrap) wrap.style.display = '';
+      })
+      .catch(function() {});
   }
-  setInterval(loadProp, 5*60*1000);
+
+  function init() {
+    if (document.getElementById('pd-kp')) {
+      loadProp();
+      setInterval(loadProp, 5*60*1000);
+    }
+    fetchCommitHash();
+  }
+
+  if (document.readyState==='loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
