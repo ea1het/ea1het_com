@@ -5,52 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Phone Weekly Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ch2pt</link>
-<description>0230Z-0300Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg1ay0020235</guid>
-</item>
-<item>
-<title>A1Club AWT</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003chxob</link>
-<description>1145Z-1300Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg20n0020239</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c6cua</link>
-<description>1300Z-1400Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg2440020185</guid>
-</item>
-<item>
-<title>VHF-UHF FT8 Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bz2mq</link>
-<description>1700Z-2100Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg2f80020151</guid>
-</item>
-<item>
-<title>Mini-Test 40</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cisjb</link>
-<description>1700Z-1759Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg2f80020243</guid>
-</item>
-<item>
-<title>Mini-Test 80</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cjneg</link>
-<description>1800Z-1859Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg2i00020247</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c77pe</link>
-<description>1900Z-2000Z, Jun 3</description>
-<guid>https://www.contestcalendar.com/?g=00tg2ks0020189</guid>
-</item>
 <item>
 <title>VHF-UHF FT8 Activity Contest-NA</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bzpv4</link>
@@ -224,6 +182,66 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003didgk</link>
 <description>1930Z-2030Z, Jun 9</description>
 <guid>https://www.contestcalendar.com/?g=00tgdq60020409</guid>
+</item>
+<item>
+<title>NAQCC CW Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bvf7q</link>
+<description>0030Z-0230Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tge420020134</guid>
+</item>
+<item>
+<title>Phone Weekly Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003chafl</link>
+<description>0230Z-0300Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tge9m0020236</guid>
+</item>
+<item>
+<title>A1Club AWT</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ci5e3</link>
+<description>1145Z-1300Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgezb0020240</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c6kk2</link>
+<description>1300Z-1400Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgf2s0020186</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bzaci</link>
+<description>1700Z-2100Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgfdw0020152</guid>
+</item>
+<item>
+<title>Mini-Test 40</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cj093</link>
+<description>1700Z-1759Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgfdw0020244</guid>
+</item>
+<item>
+<title>Mini-Test 80</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cjv48</link>
+<description>1800Z-1859Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgfgo0020248</guid>
+</item>
+<item>
+<title>RSGB 80m Club Championship, CW</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bwx5v</link>
+<description>1900Z-2030Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgfjg0020141</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c7ff6</link>
+<description>1900Z-2000Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgfjg0020190</guid>
+</item>
+<item>
+<title>PVRC Reunion</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bcck6</link>
+<description>2100Z-2400Z, Jun 10</description>
+<guid>https://www.contestcalendar.com/?g=00tgfp00020045</guid>
 </item>
 </channel>
 </rss>
