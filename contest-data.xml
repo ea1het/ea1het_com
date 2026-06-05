@@ -5,45 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 04 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bzpv4</link>
-<description>0000Z-0500Z, Jun 4</description>
-<guid>https://www.contestcalendar.com/?g=00tg2yo0020154</guid>
-</item>
 <item>
 <title>Walk for the Bacon QRP Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c0knv</link>
 <description>0000Z-0100Z, Jun 4 and 0200Z-0300Z, Jun 5</description>
 <guid>https://www.contestcalendar.com/?g=00tg2yo0020158</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c82ki</link>
-<description>0300Z-0400Z, Jun 4</description>
-<guid>https://www.contestcalendar.com/?g=00tg3700020193</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c8xfm</link>
-<description>0700Z-0800Z, Jun 4</description>
-<guid>https://www.contestcalendar.com/?g=00tg3i40020197</guid>
-</item>
-<item>
-<title>NRAU 10m Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bvusy</link>
-<description>1700Z-1800Z, Jun 4 (CW) and 1800Z-1900Z, Jun 4 (SSB) and 1900Z-2000Z, Jun 4 (FM) and 2000Z-2100Z, Jun 4 (Dig)</description>
-<guid>https://www.contestcalendar.com/?g=00tg49w0020136</guid>
-</item>
-<item>
-<title>SKCC Sprint Europe</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003byn5x</link>
-<description>2000Z-2200Z, Jun 4</description>
-<guid>https://www.contestcalendar.com/?g=00tg4i80020149</guid>
 </item>
 <item>
 <title>NCCC FT4 Sprint</title>
@@ -242,6 +212,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bcck6</link>
 <description>2100Z-2400Z, Jun 10</description>
 <guid>https://www.contestcalendar.com/?g=00tgfp00020045</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bzxkw</link>
+<description>0000Z-0500Z, Jun 11</description>
+<guid>https://www.contestcalendar.com/?g=00tgfxc0020155</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c8aaa</link>
+<description>0300Z-0400Z, Jun 11</description>
+<guid>https://www.contestcalendar.com/?g=00tgg5o0020194</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c955e</link>
+<description>0700Z-0800Z, Jun 11</description>
+<guid>https://www.contestcalendar.com/?g=00tgggs0020198</guid>
+</item>
+<item>
+<title>PVRC Reunion</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bck9y</link>
+<description>2200Z, Jun 11 to 0100Z, Jun 12</description>
+<guid>https://www.contestcalendar.com/?g=00tghmg0020046</guid>
 </item>
 </channel>
 </rss>
