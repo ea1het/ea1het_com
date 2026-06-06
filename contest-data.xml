@@ -5,46 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Walk for the Bacon QRP Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c0knv</link>
-<description>0000Z-0100Z, Jun 4 and 0200Z-0300Z, Jun 5</description>
-<guid>https://www.contestcalendar.com/?g=00tg2yo0020158</guid>
-</item>
-<item>
-<title>NCCC FT4 Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cld5h</link>
-<description>0100Z-0130Z, Jun 5</description>
-<guid>https://www.contestcalendar.com/?g=00tg4w40020255</guid>
-</item>
-<item>
-<title>Weekly RTTY Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cm80x</link>
-<description>0145Z-0215Z, Jun 5</description>
-<guid>https://www.contestcalendar.com/?g=00tg4y70020259</guid>
-</item>
-<item>
-<title>NCCC Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ckhr0</link>
-<description>0230Z-0300Z, Jun 5</description>
-<guid>https://www.contestcalendar.com/?g=00tg50a0020251</guid>
-</item>
-<item>
-<title>HA3NS Sprint Memorial Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c2pmp</link>
-<description>1900Z-1929Z, Jun 5 (40m) and 1930Z-1959Z, Jun 5 (80m)</description>
-<guid>https://www.contestcalendar.com/?g=00tg6a40020168</guid>
-</item>
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cav0p</link>
-<description>2000Z-2100Z, Jun 5</description>
-<guid>https://www.contestcalendar.com/?g=00tg6cw0020206</guid>
-</item>
 <item>
 <title>VK Shires Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5poh</link>
@@ -236,6 +200,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bck9y</link>
 <description>2200Z, Jun 11 to 0100Z, Jun 12</description>
 <guid>https://www.contestcalendar.com/?g=00tghmg0020046</guid>
+</item>
+<item>
+<title>NCCC FT4 Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003clkv9</link>
+<description>0100Z-0130Z, Jun 12</description>
+<guid>https://www.contestcalendar.com/?g=00tghus0020256</guid>
+</item>
+<item>
+<title>Weekly RTTY Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cmfqp</link>
+<description>0145Z-0215Z, Jun 12</description>
+<guid>https://www.contestcalendar.com/?g=00tghwv0020260</guid>
+</item>
+<item>
+<title>NCCC Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ckpgs</link>
+<description>0230Z-0300Z, Jun 12</description>
+<guid>https://www.contestcalendar.com/?g=00tghyy0020252</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cb2qh</link>
+<description>2000Z-2100Z, Jun 12</description>
+<guid>https://www.contestcalendar.com/?g=00tgjbk0020207</guid>
+</item>
+<item>
+<title>PVRC Reunion</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bcrzq</link>
+<description>2300Z, Jun 12 to 0200Z, Jun 13</description>
+<guid>https://www.contestcalendar.com/?g=00tgjjw0020047</guid>
 </item>
 </channel>
 </rss>
