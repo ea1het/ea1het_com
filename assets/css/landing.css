@@ -712,9 +712,9 @@ section#propagation {
   bottom: 0;
   font-size: 0.52rem;
   color: var(--muted);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  height: 1.1rem;
+  transform: rotate(-45deg);
+  transform-origin: center bottom;
+  white-space: nowrap;
   line-height: 1;
 }
 .pd-bar--k01 { background: #16A34A; }
