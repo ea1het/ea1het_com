@@ -5,33 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VK Shires Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5poh</link>
-<description>0000Z-2359Z, Jun 6</description>
-<guid>https://www.contestcalendar.com/?g=00tg6o00020182</guid>
-</item>
 <item>
 <title>PODXS 070 Club Three Day Weekend Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bc4zq</link>
 <description>0000Z, Jun 6 to 2359Z, Jun 8</description>
 <guid>https://www.contestcalendar.com/?g=00tg6o00020044</guid>
-</item>
-<item>
-<title>Tisza Cup CW Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003aza1y</link>
-<description>0000Z-1459Z, Jun 6</description>
-<guid>https://www.contestcalendar.com/?g=00tg6o00019984</guid>
-</item>
-<item>
-<title>Wake-Up! QRP Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c0cn1</link>
-<description>0600Z-0629Z, Jun 6 and 0630Z-0659Z, Jun 6 and 0700Z-0729Z, Jun 6 and 0730Z-0800Z, Jun 6</description>
-<guid>https://www.contestcalendar.com/?g=00tg74o0020157</guid>
 </item>
 <item>
 <title>UKSMG Summer Contest</title>
@@ -230,6 +212,54 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bcrzq</link>
 <description>2300Z, Jun 12 to 0200Z, Jun 13</description>
 <guid>https://www.contestcalendar.com/?g=00tgjjw0020047</guid>
+</item>
+<item>
+<title>YB ORARI DX Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c65c4</link>
+<description>0000Z-2359Z, Jun 13</description>
+<guid>https://www.contestcalendar.com/?g=00tgjmo0020184</guid>
+</item>
+<item>
+<title>Asia-Pacific Sprint, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c29vu</link>
+<description>1100Z-1300Z, Jun 13</description>
+<guid>https://www.contestcalendar.com/?g=00tgkh80020166</guid>
+</item>
+<item>
+<title>SKCC Weekend Sprintathon</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003byuq4</link>
+<description>1200Z, Jun 13 to 2400Z, Jun 14</description>
+<guid>https://www.contestcalendar.com/?g=00tgkk00020150</guid>
+</item>
+<item>
+<title>Portugal Day Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c3zm1</link>
+<description>1200Z, Jun 13 to 1200Z, Jun 14</description>
+<guid>https://www.contestcalendar.com/?g=00tgkk00020174</guid>
+</item>
+<item>
+<title>AGCW VHF/UHF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c0zpy</link>
+<description>1400Z-1700Z, Jun 13 (144) and 1700Z-1800Z, Jun 13 (432)</description>
+<guid>https://www.contestcalendar.com/?g=00tgkpk0020160</guid>
+</item>
+<item>
+<title>REF DDFM 6m Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c47l0</link>
+<description>1400Z, Jun 13 to 1400Z, Jun 14</description>
+<guid>https://www.contestcalendar.com/?g=00tgkpk0020175</guid>
+</item>
+<item>
+<title>GACW WWSA CW DX Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c2hlp</link>
+<description>1500Z, Jun 13 to 1500Z, Jun 14</description>
+<guid>https://www.contestcalendar.com/?g=00tgksc0020167</guid>
+</item>
+<item>
+<title>ARRL June VHF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c1ugb</link>
+<description>1800Z, Jun 13 to 0259Z, Jun 15</description>
+<guid>https://www.contestcalendar.com/?g=00tgl0o0020164</guid>
 </item>
 </channel>
 </rss>
