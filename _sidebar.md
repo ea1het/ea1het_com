@@ -6,7 +6,6 @@ Notebook
 
 * [About](/notebook/about)
 * [My shack](/notebook/my-shack)
-* [Activations](/notebook/activations)
 * [Propagation](/notebook/propagation)
 * [Contact](/notebook/contact)
 
