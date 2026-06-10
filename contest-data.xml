@@ -5,34 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Worldwide Sideband Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cg7ww</link>
-<description>0100Z-0159Z, Jun 9</description>
-<guid>https://www.contestcalendar.com/?g=00tgcas0020231</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ce2sg</link>
-<description>0300Z-0400Z, Jun 9</description>
-<guid>https://www.contestcalendar.com/?g=00tgcgc0020221</guid>
-</item>
-<item>
-<title>DARC CW-Training Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bv7tk</link>
-<description>1800Z-1859Z, Jun 9</description>
-<guid>https://www.contestcalendar.com/?g=00tgdm00020133</guid>
-</item>
-<item>
-<title>Tuesday's Telegraphy Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003didgk</link>
-<description>1930Z-2030Z, Jun 9</description>
-<guid>https://www.contestcalendar.com/?g=00tgdq60020409</guid>
-</item>
 <item>
 <title>NAQCC CW Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bvf7q</link>
@@ -230,6 +206,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cd7xc</link>
 <description>1900Z-2000Z, Jun 15</description>
 <guid>https://www.contestcalendar.com/?g=00tgoss0020217</guid>
+</item>
+<item>
+<title>Worldwide Sideband Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cgfmo</link>
+<description>0100Z-0159Z, Jun 16</description>
+<guid>https://www.contestcalendar.com/?g=00tgp9g0020232</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ceai8</link>
+<description>0300Z-0400Z, Jun 16</description>
+<guid>https://www.contestcalendar.com/?g=00tgpf00020222</guid>
+</item>
+<item>
+<title>SARL Youth QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c4f7a</link>
+<description>1200Z-1300Z, Jun 16</description>
+<guid>https://www.contestcalendar.com/?g=00tgq400020176</guid>
+</item>
+<item>
+<title>Tuesday's Telegraphy Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dil6c</link>
+<description>1930Z-2030Z, Jun 16</description>
+<guid>https://www.contestcalendar.com/?g=00tgqou0020410</guid>
 </item>
 </channel>
 </rss>
