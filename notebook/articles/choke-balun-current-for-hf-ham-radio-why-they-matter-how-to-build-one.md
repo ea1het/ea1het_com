@@ -50,7 +50,39 @@ Bottom‐line: **any HF ham** who cares about good feedline behavior, minimal in
 
 ## 3. Parts & tools needed
 
-> The following photos illustrate my own build, which uses a gray plastic project box, a fair-size toroidal core (more precisely a FT-240-43), and a pair of SO-239 antenna connectors. Feel free to use whatever enclosure or connectors you prefer, but the core and wire choices are important. ![](/assets/images/20250604-003.jpg) *100×68.50 enclosure* ![](/assets/images/20250604-006.jpg) *case before mechanizations* ![](/assets/images/20250604-010.jpg) *wrapped toroid ready to instal* ![](/assets/images/20250604-005.jpg) *trying to fit the choke in its box* ![](/assets/images/20250604-008.jpg) *adjusting the place in the box* ![](/assets/images/20250604-001.jpg) *final check before soldering* ![](/assets/images/20250604-004.jpg) *ready to test* ![](/assets/images/20250604-002.jpg)
+> The following photos illustrate my own build, which uses a gray plastic project box, a fair-size toroidal core (more precisely a FT-240-43), and a pair of SO-239 antenna connectors. Feel free to use whatever enclosure or connectors you prefer, but the core and wire choices are important.
+
+![100×68.50 plastic project box enclosure](../../assets/images/20250604-003.jpg)
+
+*100×68.50 enclosure*
+
+![Project box with SO-239 connectors before drilling](../../assets/images/20250604-006.jpg)
+
+*case before mechanizations*
+
+![FT-240-43 toroid wound with copper wire, ready to install](../../assets/images/20250604-010.jpg)
+
+*wrapped toroid ready to install*
+
+![Wound toroid placed loosely inside the project box](../../assets/images/20250604-005.jpg)
+
+*trying to fit the choke in its box*
+
+![Toroid positioned and aligned inside the enclosure](../../assets/images/20250604-008.jpg)
+
+*adjusting the place in the box*
+
+![Toroid wired to both SO-239 connectors, final check before soldering](../../assets/images/20250604-001.jpg)
+
+*final check before soldering*
+
+![Fully wired choke balun inside box, ready to test](../../assets/images/20250604-004.jpg)
+
+*ready to test*
+
+![Choke balun interior secured with hot-melt glue](../../assets/images/20250604-002.jpg)
+
+*secured with hot-melt glue*
 
 ### 3.1. Core & wire
 
@@ -125,13 +157,13 @@ Since each wire is physically next to its buddy through every turn, you’ve eff
 
 Once everything is built, it’s wise to verify the actual **common-mode impedance** of your choke across the HF spectrum. I used a NanoVNA (N2+ with firmware 3.4.7) to measure the **S21 (insertion loss)** of just the choke (ports shorted to connectors as if through a cable).
 
-![](/assets/images/20250604-009.jpg)
+![NanoVNA test leads connected to wound toroid via alligator clips](../../assets/images/20250604-009.jpg)
 
 *How to setup the NanoVNA leads for proper measure*
 
-![](/assets/images/20250604-007.jpg)
+![NanoVNA screen showing S21 LOGMAG sweep from 1 to 30 MHz](../../assets/images/20250604-007.jpg)
 
-*NanoVNa readings*
+*NanoVNA readings*
 
 - **Test setup:**
 - Port 1 of the NanoVNA → Coax → Back SO-239 (input side).
