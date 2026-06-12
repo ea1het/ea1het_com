@@ -6,7 +6,7 @@
 - **Last update:** 2025-06-18
 - **Categories:** Audio, English, Rigs
 
-Icom IC-705 alows distinct setups for RX and TX on SSB, FM and other modes. When you connect a new headset with microphone, like in my case the KOSS SB-45, it’s interesting to adjust the audio setup. Here are my details.
+Icom IC-705 alows distinct setups for RX and TX on SSB, FM and other modes. When you connect a new headset with microphone, like in my case the KOSS SB-45, it's interesting to adjust the audio setup. Here are my details.
 
 ## Physical connection
 
@@ -22,54 +22,54 @@ Icom provides 3.3V or 8V (option selectable via rig menu) the 2.5mm TRRS jack co
 
 Headsets use an electret captuse and it requires 3.3V to operate but providing voltage from radio can be risky if now well isolated both parts.
 
-![](/assets/images/20250518-016.jpg)
+![Resistors and capacitor components for the adapter circuit](../../assets/images/20250518-016.jpg)
 
-![](/assets/images/20250518-017.jpg)
+![Junction box interior with DIN and RCA connectors installed](../../assets/images/20250518-017.jpg)
 
-![](/assets/images/20250518-018.jpg)
+![Junction box interior with components soldered, top view](../../assets/images/20250518-018.jpg)
 
-![](/assets/images/20250518-019.jpg)
+![Junction box interior with components, angled view](../../assets/images/20250518-019.jpg)
 
-![](/assets/images/20250518-020.jpg)
+![Junction box interior with wiring and connectors in progress](../../assets/images/20250518-020.jpg)
 
-![](/assets/images/20250518-021.jpg)
+![Junction box interior with DIN connector and wiring](../../assets/images/20250518-021.jpg)
 
-![](/assets/images/20250518-022.jpg)
+![Junction box interior with all components and wiring fitted](../../assets/images/20250518-022.jpg)
 
-![](/assets/images/20250518-023.jpg)
+![Junction box body with connectors placed, ready for assembly](../../assets/images/20250518-023.jpg)
 
 ## Headset mods
 
-In general all the electret headsets require similar adaptations to radio transceivers. While searching information for the KOSS SB-45 I came across [a japanese colleague article on FBNews](https://www.fbnews.jp/202104/ww04/), [an adaptation for computer headsets documented by Florian, DF2ET](https://www.florian-wolters.de/blog/ic705-headset-adapter/), and [the adaptation cable created by Alex, KR1ST](https://thehamlab.com/2021/12/27/icom-ic-705-speaker-mic-adapter-cable/), that showed the exact same issue I was having, in his/her case using a different headset. I reviewed the article and decided to build my junction box based no the concepts learnt from this colleague. A visual excerpt of all of those projects follows:
+In general all the electret headsets require similar adaptations to radio transceivers. While searching information for the KOSS SB-45 I came across [a japanese colleague article on FBNews](https://www.fbnews.jp/202104/ww04/), [an adaptation for computer headsets documented by Florian, DF2ET](https://www.florian-wolters.de/blog/ic705-headset-adapter/), and [the adaptation cable created by Alex, KR1ST](https://thehamlab.com/2021/12/27/icom-ic-705-speaker-mic-adapter-cable/), that showed the exact same issue I was having, in his/her case using a different headset. I reviewed the article and decided to build my junction box based no the concepts learnt from this colleague. A visual excerpt of all of those projects follows:
 
-![](/assets/images/20250518-015.png)
+![Bill of materials table for the headset adapter](../../assets/images/20250518-015.png)
 
-![](/assets/images/20250518-001.jpg)
+![IC-705 2.5mm TRRS connector pinout diagram](../../assets/images/20250518-001.jpg)
 
-![](/assets/images/20250518-002.jpg)
+![Full circuit schematic for headset-to-IC-705 adapter](../../assets/images/20250518-002.jpg)
 
-![](/assets/images/20250518-003.jpg)
+![Circuit schematic detail with 8-pin connector and 2.5mm plug](../../assets/images/20250518-003.jpg)
 
-![](/assets/images/20250518-004.jpg)
+![IC-705 MIC jack circuit and instruction excerpt](../../assets/images/20250518-004.jpg)
 
-![](/assets/images/20250518-012.jpg)
+![PCB schematic for adapter with two 3.5mm jacks to 6-pin DIN](../../assets/images/20250518-012.jpg)
 
-![](/assets/images/20250518-013.jpg)
+![Annotated junction box interior showing MIC, GND and 3.3V points](../../assets/images/20250518-013.jpg)
 
-![](/assets/images/20250518-014.jpg)
+![Complete wiring diagram for headset audio and mic to transceiver](../../assets/images/20250518-014.jpg)
 
 ## Icom IC-705 TX SSB parametric EQ setup
 
-![](/assets/images/20250518-005.png)
+![IC-705 main menu screen](../../assets/images/20250518-005.png)
 
-![](/assets/images/20250518-006.png)
+![IC-705 SET menu with Tone Control/TBW highlighted](../../assets/images/20250518-006.png)
 
-![](/assets/images/20250518-008.png)
+![Tone Control/TBW menu with TX selected](../../assets/images/20250518-008.png)
 
-![](/assets/images/20250518-007.png)
+![TX mode selection screen with SSB highlighted](../../assets/images/20250518-007.png)
 
-![](/assets/images/20250518-009.png)
+![SSB tone control settings: TX Bass 0, TX Treble +3, TBW Wide 100-2900](../../assets/images/20250518-009.png)
 
-![](/assets/images/20250518-010.png)
+![IC-705 spectrum scope during TX with MIC GAIN 55% and COMP ON](../../assets/images/20250518-010.png)
 
-![](/assets/images/20250518-011.png)
+![IC-705 spectrum scope during TX with COMP setting highlighted](../../assets/images/20250518-011.png)

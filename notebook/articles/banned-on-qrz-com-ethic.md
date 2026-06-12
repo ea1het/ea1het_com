@@ -22,4 +22,4 @@ Finally, take a look at the picture below. It is supposed it corresponds to an a
 
 It’s completely disgraceful.
 
-![](/assets/images/20250602-004.png)
+![QRZ.com account page showing closed account status](../../assets/images/20250602-004.png)
