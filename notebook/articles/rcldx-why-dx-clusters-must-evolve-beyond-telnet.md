@@ -1,6 +1,6 @@
 # RCLDX: why DX clusters must evolve beyond Telnet
 
-[LIST OF ARTICLES](#/notebook/articles/)
+[LIST OF ARTICLES](/notebook/articles/README)
 
 - **Published:** 2026-01-01
 - **Last update:** 2026-01-20

@@ -1,6 +1,6 @@
 # NanoVNA quick intro
 
-[LIST OF ARTICLES](#/notebook/articles/)
+[LIST OF ARTICLES](/notebook/articles/README)
 
 - **Published:** 2024-01-01
 - **Last update:** 2025-06-18

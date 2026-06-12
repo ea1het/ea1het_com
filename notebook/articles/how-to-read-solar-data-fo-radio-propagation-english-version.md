@@ -1,6 +1,6 @@
 # How to read solar data for radio propagation [English version]
 
-[LIST OF ARTICLES](#/notebook/articles/)
+[LIST OF ARTICLES](/notebook/articles/README)
 
 - **Published:** 2025-06-18
 - **Last update:** 2026-05-29

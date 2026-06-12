@@ -1,6 +1,6 @@
 # Interpretando los datos solares en la propagación [Spanish version]
 
-[LIST OF ARTICLES](#/notebook/articles/)
+[LIST OF ARTICLES](/notebook/articles/README)
 
 - **Published:** 2025-06-18
 - **Last update:** 2025-06-18
