@@ -1,6 +1,6 @@
 # KOSS SB45 audio setup to IC-705
 
-[LIST OF ARTICLES](/notebook/articles/)
+[LIST OF ARTICLES](./)
 
 - **Published:** 2025-05-18
 - **Last update:** 2025-06-18

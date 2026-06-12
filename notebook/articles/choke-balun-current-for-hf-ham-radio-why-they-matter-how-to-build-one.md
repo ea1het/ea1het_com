@@ -1,6 +1,6 @@
 # Choke balun 1:1 (current) for HF ham radio: Why they matter & how to build one
 
-[LIST OF ARTICLES](/notebook/articles/)
+[LIST OF ARTICLES](./)
 
 - **Published:** 2025-06-04
 - **Last update:** 2025-06-18

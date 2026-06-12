@@ -1,6 +1,6 @@
 # Portable operation primer
 
-[LIST OF ARTICLES](/notebook/articles/)
+[LIST OF ARTICLES](./)
 
 - **Published:** 2025-02-25
 - **Last update:** 2025-06-18

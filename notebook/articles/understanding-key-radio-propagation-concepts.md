@@ -1,6 +1,6 @@
 # Understanding key radio propagation concepts
 
-[LIST OF ARTICLES](/notebook/articles/)
+[LIST OF ARTICLES](./)
 
 - **Published:** 2026-02-15
 - **Last update:** 2026-02-15

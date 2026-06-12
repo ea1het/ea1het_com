@@ -1,6 +1,6 @@
 # Python: The Documentary
 
-[LIST OF ARTICLES](/notebook/articles/)
+[LIST OF ARTICLES](./)
 
 - **Published:** 2026-02-14
 - **Last update:** 2026-02-14

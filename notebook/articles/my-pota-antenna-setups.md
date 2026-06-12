@@ -1,6 +1,6 @@
 # My POTA antenna setups
 
-[LIST OF ARTICLES](/notebook/articles/)
+[LIST OF ARTICLES](./)
 
 - **Published:** 2025-02-02
 - **Last update:** 2025-06-18
