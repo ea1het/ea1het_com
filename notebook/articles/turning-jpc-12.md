@@ -1,6 +1,6 @@
 # Tuning the JPC-12
 
-[LIST OF ARTICLES](./)
+[LIST OF ARTICLES](#/notebook/articles/)
 
 - **Published:** 2024-07-15
 - **Last update:** 2025-06-18

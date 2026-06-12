@@ -1,6 +1,6 @@
 # Insider abuse: the hardest problem DX clusters never solved
 
-[LIST OF ARTICLES](./)
+[LIST OF ARTICLES](#/notebook/articles/)
 
 - **Published:** 2026-01-18
 - **Last update:** 2026-01-20
