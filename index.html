@@ -670,6 +670,8 @@
     document.querySelectorAll('.live-dx-wrap .cc-pill').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     scaleClubLogIframe();
+    const oqrsLog = document.getElementById('oqrs-log');
+    if (oqrsLog) oqrsLog.value = callsign;
   }
 
   function oqrsSearch() {
