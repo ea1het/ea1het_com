@@ -196,6 +196,12 @@
         </iframe>
       </div>
 
+      <div style="display:flex;align-items:center;gap:0.5rem;justify-content:center;padding:0.75rem 0 0.25rem;">
+        <span class="cc-filter-label">Log:</span>
+        <button class="cc-pill active" onclick="switchDxLog('EA1HET', this)">EA1HET</button>
+        <button class="cc-pill" onclick="switchDxLog('EA1HET/P', this)">EA1HET/P</button>
+      </div>
+
       <div class="live-dx-cards">
         <!-- OQRS -->
         <div class="card" style="flex: 1">
@@ -651,6 +657,20 @@
     'EA1HET':   'https://clublog.org/logsearch/EA1HET',
     'EA1HET/P': 'https://clublog.org/logsearch/EA1HET/P'
   };
+
+  const CLUBLOG_STREAMS = {
+    'EA1HET':   'https://clublog.org/livestream/EA1HET',
+    'EA1HET/P': 'https://clublog.org/livestream/EA1HET/P'
+  };
+
+  function switchDxLog(callsign, btn) {
+    const iframe = document.querySelector('.live-dx-embed-container iframe');
+    if (!iframe) return;
+    iframe.src = CLUBLOG_STREAMS[callsign] || CLUBLOG_STREAMS['EA1HET'];
+    document.querySelectorAll('.live-dx-wrap .cc-pill').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    scaleClubLogIframe();
+  }
 
   function oqrsSearch() {
     const call = document.getElementById('oqrs-call').value.trim().toUpperCase();
