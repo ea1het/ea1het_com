@@ -210,6 +210,10 @@
               spellcheck="false"
               maxlength="12"
             />
+            <select id="oqrs-log" class="oqrs-input" style="text-transform:none;letter-spacing:0;cursor:pointer;">
+              <option value="EA1HET">EA1HET — Home station log</option>
+              <option value="EA1HET/P">EA1HET/P — Portable log</option>
+            </select>
             <button class="oqrs-btn" onclick="oqrsSearch()">Search my log on ClubLog</button>
             <p class="oqrs-hint">All QSOs confirmed via LoTW same day &nbsp;·&nbsp; Direct QSL upon request</p>
           </div>
@@ -643,10 +647,17 @@
 </footer>
 
 <script>
+  const CLUBLOG_LOGS = {
+    'EA1HET':   'https://clublog.org/logsearch/EA1HET',
+    'EA1HET/P': 'https://clublog.org/logsearch/EA1HET/P'
+  };
+
   function oqrsSearch() {
     const call = document.getElementById('oqrs-call').value.trim().toUpperCase();
     if (!call) return;
-    window.open('https://clublog.org/logsearch/EA1HET?call=' + encodeURIComponent(call), '_blank', 'noopener');
+    const log = document.getElementById('oqrs-log').value;
+    const base = CLUBLOG_LOGS[log] || CLUBLOG_LOGS['EA1HET'];
+    window.open(base + '?call=' + encodeURIComponent(call), '_blank', 'noopener');
   }
 
   document.getElementById('oqrs-call').addEventListener('keydown', function(e) {
