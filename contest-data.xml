@@ -5,34 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>SKCC Weekend Sprintathon</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003byuq4</link>
-<description>1200Z, Jun 13 to 2400Z, Jun 14</description>
-<guid>https://www.contestcalendar.com/?g=00tgkk00020150</guid>
-</item>
-<item>
-<title>Portugal Day Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c3zm1</link>
-<description>1200Z, Jun 13 to 1200Z, Jun 14</description>
-<guid>https://www.contestcalendar.com/?g=00tgkk00020174</guid>
-</item>
-<item>
-<title>REF DDFM 6m Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c47l0</link>
-<description>1400Z, Jun 13 to 1400Z, Jun 14</description>
-<guid>https://www.contestcalendar.com/?g=00tgkpk0020175</guid>
-</item>
-<item>
-<title>GACW WWSA CW DX Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c2hlp</link>
-<description>1500Z, Jun 13 to 1500Z, Jun 14</description>
-<guid>https://www.contestcalendar.com/?g=00tgksc0020167</guid>
-</item>
 <item>
 <title>ARRL June VHF Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c1ugb</link>
@@ -266,6 +242,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c22b4</link>
 <description>1800Z-2359Z, Jun 20</description>
 <guid>https://www.contestcalendar.com/?g=00tgxzc0020165</guid>
+</item>
+<item>
+<title>WAB 50 MHz Phone</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5xex</link>
+<description>0800Z-1400Z, Jun 21</description>
+<guid>https://www.contestcalendar.com/?g=00tgz280020183</guid>
+</item>
+<item>
+<title>Run for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bxztt</link>
+<description>2300Z, Jun 21 to 0100Z, Jun 22</description>
+<guid>https://www.contestcalendar.com/?g=00th07w0020146</guid>
 </item>
 </channel>
 </rss>
