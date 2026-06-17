@@ -108,7 +108,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/assets/css/landing.css" />
   <link rel="stylesheet" href="/assets/css/toolbox.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
 </head>
 <body>
 
@@ -237,11 +237,10 @@
         </div>
       </div>
       <!-- map preview -->
-      <div id="grid-map-wrap" style="margin-top:1.2rem;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border);position:relative;cursor:pointer;" title="Open in OpenStreetMap">
-        <div id="grid-map" style="height:220px;background:var(--bg-2);"></div>
+      <div id="grid-map-wrap" style="margin-top:1.2rem;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border);position:relative;">
+        <div id="grid-map" style="height:440px;background:var(--bg-2);"></div>
         <div style="position:absolute;bottom:0;left:0;right:0;padding:0.35rem 0.8rem;background:rgba(232,243,224,0.88);font-size:0.72rem;color:var(--muted);z-index:1000;pointer-events:none;display:flex;justify-content:space-between;">
-          <span>© OpenStreetMap contributors</span>
-          <span>Open in OpenStreetMap ↗</span>
+          <span>© OpenStreetMap contributors · Rendered by <a href="https://openfreemap.org" target="_blank" rel="noopener" style="color:inherit;pointer-events:all;">OpenFreeMap</a></span>
         </div>
       </div>
     </div>
@@ -358,7 +357,7 @@
   </div>
 </footer>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script src="/assets/js/toolbox.js"></script>
 <script src="/assets/js/general.js"></script>
 </body>

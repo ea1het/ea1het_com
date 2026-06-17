@@ -198,7 +198,7 @@ function calcAntenna() {
 // ── Grid square utilities ────────────────────────────────────
 function gridToLatLon(grid) {
   grid = grid.toUpperCase().trim();
-  if (!/^[A-R]{2}[0-9]{2}([A-X]{2})?$/.test(grid)) return null;
+  if (!/^[A-R]{2}[0-9]{2}([A-X]{2}([0-9]{2})?)?$/.test(grid)) return null;
   let lon = (grid.charCodeAt(0) - 65) * 20 - 180;
   let lat = (grid.charCodeAt(1) - 65) * 10 - 90;
   lon += parseInt(grid[2]) * 2;
@@ -206,7 +206,13 @@ function gridToLatLon(grid) {
   if (grid.length >= 6) {
     lon += (grid.charCodeAt(4) - 65) * (2/24);
     lat += (grid.charCodeAt(5) - 65) * (1/24);
-    lon += 1/24; lat += 0.5/24;
+    if (grid.length >= 8) {
+      lon += parseInt(grid[6]) * (2/240);
+      lat += parseInt(grid[7]) * (1/240);
+      lon += 1/240; lat += 0.5/240;
+    } else {
+      lon += 1/24; lat += 0.5/24;
+    }
   } else {
     lon += 1; lat += 0.5;
   }
@@ -256,16 +262,29 @@ function calcBeam() {
   ]);
 }
 
+// ── Grid distance helper ─────────────────────────────────────
+const EA1HET_POS = gridToLatLon('IN73dm85');
+
+function haversineKm(lat1, lon1, lat2, lon2) {
+  const R = 6371;
+  const toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1), dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon/2)**2;
+  return R * 2 * Math.asin(Math.sqrt(a));
+}
+
 // ── Grid square converter ────────────────────────────────────
 function calcGridFromLoc() {
   const loc = document.getElementById('grid-loc').value.trim();
   const pt = gridToLatLon(loc);
   if (!pt) return setError('grid-results', 'Invalid grid square format. Use e.g. IN73dm.');
+  const distHome = haversineKm(pt.lat, pt.lon, EA1HET_POS.lat, EA1HET_POS.lon);
   setResults('grid-results', [
     ['Grid square',  loc.toUpperCase(), ''],
     ['Latitude',     pt.lat.toFixed(5) + '°', pt.lat >= 0 ? 'N' : 'S'],
     ['Longitude',    pt.lon.toFixed(5) + '°', pt.lon >= 0 ? 'E' : 'W'],
     ['6-char grid',  latLonToGrid(pt.lat, pt.lon), '(centre)'],
+    ['Distance from EA1HET @ IN73dm (centre)', distHome.toFixed(0) + ' km', `/ ${(distHome * 0.621371).toFixed(0)} mi`],
   ]);
   updateGridMap(pt.lat, pt.lon);
 }
@@ -276,11 +295,13 @@ function calcGridFromCoords() {
   if (isNaN(lat) || isNaN(lon)) return setError('grid-results', 'Enter valid latitude and longitude.');
   if (lat < -90 || lat > 90 || lon < -180 || lon > 180) return setError('grid-results', 'Coordinates out of range.');
   const grid = latLonToGrid(lat, lon);
+  const distHome = haversineKm(lat, lon, EA1HET_POS.lat, EA1HET_POS.lon);
   setResults('grid-results', [
     ['6-char grid square', grid, ''],
     ['4-char grid square', grid.slice(0,4), ''],
     ['Latitude in',  lat.toFixed(5) + '°', lat >= 0 ? 'N' : 'S'],
     ['Longitude in', lon.toFixed(5) + '°', lon >= 0 ? 'E' : 'W'],
+    ['Distance from EA1HET @ IN73dm (centre)', distHome.toFixed(0) + ' km', `/ ${(distHome * 0.621371).toFixed(0)} mi`],
   ]);
   updateGridMap(lat, lon);
 }
@@ -469,53 +490,107 @@ function filterQcodes() {
   });
 }
 
-// ── Grid map (OpenStreetMap / Leaflet) ───────────────────────
+// ── Grid map (OpenFreeMap / MapLibre GL) ─────────────────────
 let gridMap = null;
-let gridMarker = null;
 let gridMapCoords = null;
 
 function initGridMap() {
   if (gridMap) return;
-  gridMap = L.map('grid-map', {
-    dragging: false,
-    zoomControl: false,
-    scrollWheelZoom: false,
-    doubleClickZoom: false,
-    boxZoom: false,
-    keyboard: false,
+
+  gridMap = new maplibregl.Map({
+    container: 'grid-map',
+    style: 'https://tiles.openfreemap.org/styles/liberty',
+    center: [0, 20],
+    zoom: 2,
+    dragRotate: false,
+    touchPitch: false,
     attributionControl: false,
-  }).setView([20, 0], 2);
+  });
 
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18,
-  }).addTo(gridMap);
+  gridMap.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
 
-  document.getElementById('grid-map-wrap').addEventListener('click', () => {
+  gridMap.on('load', () => {
+    gridMap.addSource('route', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: [] },
+    });
+    gridMap.addSource('points', {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features: [] },
+    });
+
+    gridMap.addLayer({
+      id: 'route-line',
+      type: 'line',
+      source: 'route',
+      layout: { 'line-cap': 'round' },
+      paint: {
+        'line-color': '#b45309',
+        'line-width': 1.5,
+        'line-opacity': 0.8,
+        'line-dasharray': [2, 2],
+      },
+    });
+
+    gridMap.addLayer({
+      id: 'points-home',
+      type: 'circle',
+      source: 'points',
+      filter: ['==', ['get', 'role'], 'home'],
+      paint: {
+        'circle-radius': 7,
+        'circle-color': '#b45309',
+        'circle-stroke-color': '#fef3c7',
+        'circle-stroke-width': 2,
+      },
+    });
+
+    gridMap.addLayer({
+      id: 'points-calc',
+      type: 'circle',
+      source: 'points',
+      filter: ['==', ['get', 'role'], 'calc'],
+      paint: {
+        'circle-radius': 7,
+        'circle-color': '#1A5C3A',
+        'circle-stroke-color': '#E8F3E0',
+        'circle-stroke-width': 2,
+      },
+    });
+
     if (gridMapCoords) {
-      const { lat, lon } = gridMapCoords;
-      window.open(
-        `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=14/${lat}/${lon}`,
-        '_blank', 'noopener'
-      );
-    } else {
-      window.open('https://www.openstreetmap.org/', '_blank', 'noopener');
+      _renderGridMap(gridMapCoords.lat, gridMapCoords.lon);
     }
   });
+
+}
+
+function _renderGridMap(lat, lon) {
+  const homePt = [EA1HET_POS.lon, EA1HET_POS.lat];
+  const calcPt = [lon, lat];
+
+  gridMap.getSource('route').setData({
+    type: 'Feature',
+    geometry: { type: 'LineString', coordinates: [homePt, calcPt] },
+  });
+
+  gridMap.getSource('points').setData({
+    type: 'FeatureCollection',
+    features: [
+      { type: 'Feature', properties: { role: 'home' }, geometry: { type: 'Point', coordinates: homePt } },
+      { type: 'Feature', properties: { role: 'calc' }, geometry: { type: 'Point', coordinates: calcPt } },
+    ],
+  });
+
+  gridMap.fitBounds(
+    [[Math.min(homePt[0], calcPt[0]), Math.min(homePt[1], calcPt[1])],
+     [Math.max(homePt[0], calcPt[0]), Math.max(homePt[1], calcPt[1])]],
+    { padding: 32, duration: 300 }
+  );
 }
 
 function updateGridMap(lat, lon) {
   gridMapCoords = { lat, lon };
-  if (!gridMap) return;
-  gridMap.setView([lat, lon], 8);
-  if (gridMarker) {
-    gridMarker.setLatLng([lat, lon]);
-  } else {
-    gridMarker = L.circleMarker([lat, lon], {
-      radius: 7,
-      fillColor: '#1A5C3A',
-      color: '#E8F3E0',
-      weight: 2,
-      fillOpacity: 1,
-    }).addTo(gridMap);
-  }
+  if (!gridMap || !gridMap.isStyleLoaded()) return;
+  _renderGridMap(lat, lon);
 }
