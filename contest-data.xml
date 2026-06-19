@@ -5,39 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c05ao</link>
-<description>0000Z-0500Z, Jun 18</description>
-<guid>https://www.contestcalendar.com/?g=00tgsw00020156</guid>
-</item>
 <item>
 <title>Walk for the Bacon QRP Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c0sdn</link>
 <description>0000Z-0100Z, Jun 18 and 0200Z-0300Z, Jun 19</description>
 <guid>https://www.contestcalendar.com/?g=00tgsw00020159</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c8i02</link>
-<description>0300Z-0400Z, Jun 18</description>
-<guid>https://www.contestcalendar.com/?g=00tgt4c0020195</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c9cv6</link>
-<description>0700Z-0800Z, Jun 18</description>
-<guid>https://www.contestcalendar.com/?g=00tgtfg0020199</guid>
-</item>
-<item>
-<title>NTC QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bw2mx</link>
-<description>1900Z-2000Z, Jun 18</description>
-<guid>https://www.contestcalendar.com/?g=00tgucs0020137</guid>
 </item>
 <item>
 <title>QRP Fox Hunt</title>
@@ -224,6 +200,24 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c7uuq</link>
 <description>1900Z-2000Z, Jun 24</description>
 <guid>https://www.contestcalendar.com/?g=00th5gs0020192</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c8ppu</link>
+<description>0300Z-0400Z, Jun 25</description>
+<guid>https://www.contestcalendar.com/?g=00th6300020196</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c9kky</link>
+<description>0700Z-0800Z, Jun 25</description>
+<guid>https://www.contestcalendar.com/?g=00th6e40020200</guid>
+</item>
+<item>
+<title>RSGB 80m Club Championship, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bxcld</link>
+<description>1900Z-2030Z, Jun 25</description>
+<guid>https://www.contestcalendar.com/?g=00th7bg0020143</guid>
 </item>
 </channel>
 </rss>
