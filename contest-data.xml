@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -20,18 +20,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c4uhc</link>
 <description>0000Z, Jun 20 to 2400Z, Jun 21</description>
 <guid>https://www.contestcalendar.com/?g=00tgwlc0020178</guid>
-</item>
-<item>
-<title>Feld Hell Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cn2n8</link>
-<description>0000Z-2359Z, Jun 20</description>
-<guid>https://www.contestcalendar.com/?g=00tgwlc0020263</guid>
-</item>
-<item>
-<title>Pajajaran Bogor DX Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c3sf6</link>
-<description>0000Z-2359Z, Jun 20</description>
-<guid>https://www.contestcalendar.com/?g=00tgwlc0020173</guid>
 </item>
 <item>
 <title>SKCC QSO Party</title>
@@ -62,12 +50,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003axz9t</link>
 <description>1600Z, Jun 20 to 0400Z, Jun 21</description>
 <guid>https://www.contestcalendar.com/?g=00tgxts0019978</guid>
-</item>
-<item>
-<title>ARRL Kids Day</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c22b4</link>
-<description>1800Z-2359Z, Jun 20</description>
-<guid>https://www.contestcalendar.com/?g=00tgxzc0020165</guid>
 </item>
 <item>
 <title>WAB 50 MHz Phone</title>
@@ -212,6 +194,24 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cbi61</link>
 <description>2000Z-2100Z, Jun 26</description>
 <guid>https://www.contestcalendar.com/?g=00th98w0020209</guid>
+</item>
+<item>
+<title>UFT QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5acb</link>
+<description>0600Z-0900Z, Jun 27 and 1400Z-1700Z, Jun 27</description>
+<guid>https://www.contestcalendar.com/?g=00tha0o0020180</guid>
+</item>
+<item>
+<title>His Maj. King of Spain Contest, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c2x1n</link>
+<description>1200Z, Jun 27 to 1200Z, Jun 28</description>
+<guid>https://www.contestcalendar.com/?g=00thahc0020169</guid>
+</item>
+<item>
+<title>ARRL Field Day</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c1f15</link>
+<description>1800Z, Jun 27 to 2100Z, Jun 28</description>
+<guid>https://www.contestcalendar.com/?g=00thay00020162</guid>
 </item>
 </channel>
 </rss>
