@@ -5,58 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>All Asian DX Contest, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c17b3</link>
-<description>0000Z, Jun 20 to 2400Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgwlc0020161</guid>
-</item>
-<item>
-<title>SMIRK Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c4uhc</link>
-<description>0000Z, Jun 20 to 2400Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgwlc0020178</guid>
-</item>
-<item>
-<title>SKCC QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003by7qf</link>
-<description>1200Z, Jun 20 to 2359Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgxio0020147</guid>
-</item>
-<item>
-<title>IARU Region 1 50 MHz Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c3599</link>
-<description>1400Z, Jun 20 to 1400Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgxo80020170</guid>
-</item>
-<item>
-<title>LZ International 6-Meter Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c3kq7</link>
-<description>1400Z, Jun 20 to 1400Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgxo80020172</guid>
-</item>
-<item>
-<title>Stew Perry Topband Challenge</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c52bj</link>
-<description>1500Z, Jun 20 to 1500Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgxr00020179</guid>
-</item>
-<item>
-<title>West Virginia QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003axz9t</link>
-<description>1600Z, Jun 20 to 0400Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgxts0019978</guid>
-</item>
-<item>
-<title>WAB 50 MHz Phone</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5xex</link>
-<description>0800Z-1400Z, Jun 21</description>
-<guid>https://www.contestcalendar.com/?g=00tgz280020183</guid>
-</item>
 <item>
 <title>Run for the Bacon QRP Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bxztt</link>
