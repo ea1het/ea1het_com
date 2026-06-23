@@ -198,7 +198,7 @@ function calcAntenna() {
 // ── Grid square utilities ────────────────────────────────────
 function gridToLatLon(grid) {
   grid = grid.toUpperCase().trim();
-  if (!/^[A-R]{2}[0-9]{2}([A-X]{2}([0-9]{2})?)?$/.test(grid)) return null;
+  if (!/^[A-R]{2}[0-9]{2}([A-X]{2}([0-9]{2}([A-X]{2})?)?)?$/.test(grid)) return null;
   let lon = (grid.charCodeAt(0) - 65) * 20 - 180;
   let lat = (grid.charCodeAt(1) - 65) * 10 - 90;
   lon += parseInt(grid[2]) * 2;
@@ -209,7 +209,13 @@ function gridToLatLon(grid) {
     if (grid.length >= 8) {
       lon += parseInt(grid[6]) * (2/240);
       lat += parseInt(grid[7]) * (1/240);
-      lon += 1/240; lat += 0.5/240;
+      if (grid.length >= 10) {
+        lon += (grid.charCodeAt(8) - 65) * (2/5760);
+        lat += (grid.charCodeAt(9) - 65) * (1/5760);
+        lon += 1/5760; lat += 0.5/5760;
+      } else {
+        lon += 1/240; lat += 0.5/240;
+      }
     } else {
       lon += 1/24; lat += 0.5/24;
     }
