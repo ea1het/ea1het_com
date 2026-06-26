@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 26 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c8ppu</link>
-<description>0300Z-0400Z, Jun 25</description>
-<guid>https://www.contestcalendar.com/?g=00th6300020196</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c9kky</link>
-<description>0700Z-0800Z, Jun 25</description>
-<guid>https://www.contestcalendar.com/?g=00th6e40020200</guid>
-</item>
-<item>
-<title>RSGB 80m Club Championship, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003bxcld</link>
-<description>1900Z-2030Z, Jun 25</description>
-<guid>https://www.contestcalendar.com/?g=00th7bg0020143</guid>
-</item>
 <item>
 <title>QRP Fox Hunt</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cxsie</link>
@@ -182,6 +164,42 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d0siq</link>
 <description>1900Z-2000Z, Jul 1</description>
 <guid>https://www.contestcalendar.com/?g=00thifg0020327</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003csftc</link>
+<description>0000Z-0500Z, Jul 2</description>
+<guid>https://www.contestcalendar.com/?g=00thitc0020288</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ct2wb</link>
+<description>0000Z-0100Z, Jul 2 and 0200Z-0300Z, Jul 3</description>
+<guid>https://www.contestcalendar.com/?g=00thitc0020291</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d1v3m</link>
+<description>0300Z-0400Z, Jul 2</description>
+<guid>https://www.contestcalendar.com/?g=00thj1o0020332</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d2xoi</link>
+<description>0700Z-0800Z, Jul 2</description>
+<guid>https://www.contestcalendar.com/?g=00thjcs0020337</guid>
+</item>
+<item>
+<title>NRAU 10m Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cosgy</link>
+<description>1700Z-1800Z, Jul 2 (CW) and 1800Z-1900Z, Jul 2 (SSB) and 1900Z-2000Z, Jul 2 (FM) and 2000Z-2100Z, Jul 2 (Dig)</description>
+<guid>https://www.contestcalendar.com/?g=00thk4k0020271</guid>
+</item>
+<item>
+<title>SKCC Sprint Europe</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003crd45</link>
+<description>2000Z-2200Z, Jul 2</description>
+<guid>https://www.contestcalendar.com/?g=00thkcw0020283</guid>
 </item>
 </channel>
 </rss>
