@@ -5,16 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 27 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>UFT QRP Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c5acb</link>
-<description>0600Z-0900Z, Jun 27 and 1400Z-1700Z, Jun 27</description>
-<guid>https://www.contestcalendar.com/?g=00tha0o0020180</guid>
-</item>
 <item>
 <title>His Maj. King of Spain Contest, SSB</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c2x1n</link>
@@ -200,6 +194,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d4v9l</link>
 <description>2000Z-2100Z, Jul 3</description>
 <guid>https://www.contestcalendar.com/?g=00thm7k0020346</guid>
+</item>
+<item>
+<title>NZART Memorial Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cv82p</link>
+<description>0800Z-0859Z, Jul 4 and 0900Z-0959Z, Jul 4 and 1000Z-1059Z, Jul 4</description>
+<guid>https://www.contestcalendar.com/?g=00thn4w0020301</guid>
+</item>
+<item>
+<title>TA VHF/UHF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwq1w</link>
+<description>1200Z, Jul 4 to 1200Z, Jul 5</description>
+<guid>https://www.contestcalendar.com/?g=00thng00020308</guid>
+</item>
+<item>
+<title>ARAM 50 MHz Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cticm</link>
+<description>1200Z-2400Z, Jul 4</description>
+<guid>https://www.contestcalendar.com/?g=00thng00020293</guid>
+</item>
+<item>
+<title>Marconi Memorial HF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cus4o</link>
+<description>1400Z, Jul 4 to 1400Z, Jul 5</description>
+<guid>https://www.contestcalendar.com/?g=00thnlk0020299</guid>
+</item>
+<item>
+<title>CQ Worldwide VHF SSB/CW Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=002yxgax</link>
+<description>1400Z, Jul 4 to 1400Z, Jul 5</description>
+<guid>https://www.contestcalendar.com/?g=00thnlk0017960</guid>
+</item>
+<item>
+<title>Original QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvfed</link>
+<description>1500Z, Jul 4 to 1500Z, Jul 5</description>
+<guid>https://www.contestcalendar.com/?g=00thnoc0020302</guid>
+</item>
+<item>
+<title>PODXS 070 Club 40m Firecracker Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvnaf</link>
+<description>2000Z, Jul 4 to 2000Z, Jul 5</description>
+<guid>https://www.contestcalendar.com/?g=00tho280020303</guid>
 </item>
 </channel>
 </rss>
