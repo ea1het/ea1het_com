@@ -5,22 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>His Maj. King of Spain Contest, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c2x1n</link>
-<description>1200Z, Jun 27 to 1200Z, Jun 28</description>
-<guid>https://www.contestcalendar.com/?g=00thahc0020169</guid>
-</item>
-<item>
-<title>ARRL Field Day</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c1f15</link>
-<description>1800Z, Jun 27 to 2100Z, Jun 28</description>
-<guid>https://www.contestcalendar.com/?g=00thay00020162</guid>
-</item>
 <item>
 <title>K1USN Slow Speed Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003canax</link>
@@ -236,6 +224,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvnaf</link>
 <description>2000Z, Jul 4 to 2000Z, Jul 5</description>
 <guid>https://www.contestcalendar.com/?g=00tho280020303</guid>
+</item>
+<item>
+<title>FOC Old School Classic 1960s QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0034oxz7</link>
+<description>1200Z, Jul 5 to 1200Z, Jul 6</description>
+<guid>https://www.contestcalendar.com/?g=00thpao0018928</guid>
 </item>
 </channel>
 </rss>
