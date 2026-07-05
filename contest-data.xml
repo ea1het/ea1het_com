@@ -5,27 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>NZART Memorial Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cv82p</link>
-<description>0800Z-0859Z, Jul 4 and 0900Z-0959Z, Jul 4 and 1000Z-1059Z, Jul 4</description>
-<guid>https://www.contestcalendar.com/?g=00thn4w0020301</guid>
-</item>
 <item>
 <title>TA VHF/UHF Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwq1w</link>
 <description>1200Z, Jul 4 to 1200Z, Jul 5</description>
 <guid>https://www.contestcalendar.com/?g=00thng00020308</guid>
-</item>
-<item>
-<title>ARAM 50 MHz Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cticm</link>
-<description>1200Z-2400Z, Jul 4</description>
-<guid>https://www.contestcalendar.com/?g=00thng00020293</guid>
 </item>
 <item>
 <title>Marconi Memorial HF Contest</title>
@@ -200,6 +188,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d52zd</link>
 <description>2000Z-2100Z, Jul 10</description>
 <guid>https://www.contestcalendar.com/?g=00thz680020347</guid>
+</item>
+<item>
+<title>SKCC Weekend Sprintathon</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003crkoc</link>
+<description>1200Z, Jul 11 to 2400Z, Jul 12</description>
+<guid>https://www.contestcalendar.com/?g=00ti0eo0020284</guid>
+</item>
+<item>
+<title>IARU HF World Championship</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cu4zn</link>
+<description>1200Z, Jul 11 to 1200Z, Jul 12</description>
+<guid>https://www.contestcalendar.com/?g=00ti0eo0020296</guid>
 </item>
 </channel>
 </rss>
