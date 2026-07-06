@@ -5,40 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>TA VHF/UHF Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwq1w</link>
-<description>1200Z, Jul 4 to 1200Z, Jul 5</description>
-<guid>https://www.contestcalendar.com/?g=00thng00020308</guid>
-</item>
-<item>
-<title>Marconi Memorial HF Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cus4o</link>
-<description>1400Z, Jul 4 to 1400Z, Jul 5</description>
-<guid>https://www.contestcalendar.com/?g=00thnlk0020299</guid>
-</item>
-<item>
-<title>CQ Worldwide VHF SSB/CW Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=002yxgax</link>
-<description>1400Z, Jul 4 to 1400Z, Jul 5</description>
-<guid>https://www.contestcalendar.com/?g=00thnlk0017960</guid>
-</item>
-<item>
-<title>Original QRP Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvfed</link>
-<description>1500Z, Jul 4 to 1500Z, Jul 5</description>
-<guid>https://www.contestcalendar.com/?g=00thnoc0020302</guid>
-</item>
-<item>
-<title>PODXS 070 Club 40m Firecracker Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvnaf</link>
-<description>2000Z, Jul 4 to 2000Z, Jul 5</description>
-<guid>https://www.contestcalendar.com/?g=00tho280020303</guid>
-</item>
 <item>
 <title>FOC Old School Classic 1960s QSO Party</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0034oxz7</link>
@@ -200,6 +170,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cu4zn</link>
 <description>1200Z, Jul 11 to 1200Z, Jul 12</description>
 <guid>https://www.contestcalendar.com/?g=00ti0eo0020296</guid>
+</item>
+<item>
+<title>QRP ARCI Summer Homebrew Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvupx</link>
+<description>2000Z-2300Z, Jul 12</description>
+<guid>https://www.contestcalendar.com/?g=00ti2vk0020304</guid>
 </item>
 </channel>
 </rss>
