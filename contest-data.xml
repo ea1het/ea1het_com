@@ -5,46 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>FOC Old School Classic 1960s QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0034oxz7</link>
-<description>1200Z, Jul 5 to 1200Z, Jul 6</description>
-<guid>https://www.contestcalendar.com/?g=00thpao0018928</guid>
-</item>
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d40eh</link>
-<description>0000Z-0100Z, Jul 6</description>
-<guid>https://www.contestcalendar.com/?g=00thq800020342</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d5xvk</link>
-<description>1300Z-1400Z, Jul 6</description>
-<guid>https://www.contestcalendar.com/?g=00thr840020351</guid>
-</item>
-<item>
-<title>OK1WC Memorial (MWC)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d8ifv</link>
-<description>1630Z-1729Z, Jul 6</description>
-<guid>https://www.contestcalendar.com/?g=00thrhu0020363</guid>
-</item>
-<item>
-<title>RSGB 80m Club Championship, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cq2jn</link>
-<description>1900Z-2030Z, Jul 6</description>
-<guid>https://www.contestcalendar.com/?g=00thros0020277</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d6sqo</link>
-<description>1900Z-2000Z, Jul 6</description>
-<guid>https://www.contestcalendar.com/?g=00thros0020355</guid>
-</item>
 <item>
 <title>ARS Spartan Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cnxe3</link>
@@ -176,6 +140,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvupx</link>
 <description>2000Z-2300Z, Jul 12</description>
 <guid>https://www.contestcalendar.com/?g=00ti2vk0020304</guid>
+</item>
+<item>
+<title>4 States QRP Group Second Sunday Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cnpxf</link>
+<description>0000Z-0200Z, Jul 13</description>
+<guid>https://www.contestcalendar.com/?g=00ti36o0020266</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d4849</link>
+<description>0000Z-0100Z, Jul 13</description>
+<guid>https://www.contestcalendar.com/?g=00ti36o0020343</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d65lc</link>
+<description>1300Z-1400Z, Jul 13</description>
+<guid>https://www.contestcalendar.com/?g=00ti46s0020352</guid>
+</item>
+<item>
+<title>OK1WC Memorial (MWC)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d8q5n</link>
+<description>1630Z-1729Z, Jul 13</description>
+<guid>https://www.contestcalendar.com/?g=00ti4gi0020364</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d70gg</link>
+<description>1900Z-2000Z, Jul 13</description>
+<guid>https://www.contestcalendar.com/?g=00ti4ng0020356</guid>
 </item>
 </channel>
 </rss>
