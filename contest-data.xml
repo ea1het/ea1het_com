@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 09 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003csnj4</link>
-<description>0000Z-0500Z, Jul 9</description>
-<guid>https://www.contestcalendar.com/?g=00thvs00020289</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d22te</link>
-<description>0300Z-0400Z, Jul 9</description>
-<guid>https://www.contestcalendar.com/?g=00thw0c0020333</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d35ea</link>
-<description>0700Z-0800Z, Jul 9</description>
-<guid>https://www.contestcalendar.com/?g=00thwbg0020338</guid>
-</item>
 <item>
 <title>QRP Fox Hunt</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cy7xy</link>
@@ -176,6 +158,42 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d17ya</link>
 <description>1900Z-2000Z, Jul 15</description>
 <guid>https://www.contestcalendar.com/?g=00ti8cs0020329</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003csv8w</link>
+<description>0000Z-0500Z, Jul 16</description>
+<guid>https://www.contestcalendar.com/?g=00ti8qo0020290</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ctam3</link>
+<description>0000Z-0100Z, Jul 16 and 0200Z-0300Z, Jul 17</description>
+<guid>https://www.contestcalendar.com/?g=00ti8qo0020292</guid>
+</item>
+<item>
+<title>NAQCC CW Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cokli</link>
+<description>0030Z-0230Z, Jul 16</description>
+<guid>https://www.contestcalendar.com/?g=00ti8s20020270</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d2aj6</link>
+<description>0300Z-0400Z, Jul 16</description>
+<guid>https://www.contestcalendar.com/?g=00ti8z00020334</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d3d42</link>
+<description>0700Z-0800Z, Jul 16</description>
+<guid>https://www.contestcalendar.com/?g=00ti9a40020339</guid>
+</item>
+<item>
+<title>NTC QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cp0ax</link>
+<description>1900Z-2000Z, Jul 16</description>
+<guid>https://www.contestcalendar.com/?g=00tia7g0020272</guid>
 </item>
 </channel>
 </rss>
