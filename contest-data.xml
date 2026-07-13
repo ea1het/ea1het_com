@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>SKCC Weekend Sprintathon</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003crkoc</link>
-<description>1200Z, Jul 11 to 2400Z, Jul 12</description>
-<guid>https://www.contestcalendar.com/?g=00ti0eo0020284</guid>
-</item>
-<item>
-<title>IARU HF World Championship</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cu4zn</link>
-<description>1200Z, Jul 11 to 1200Z, Jul 12</description>
-<guid>https://www.contestcalendar.com/?g=00ti0eo0020296</guid>
-</item>
-<item>
-<title>QRP ARCI Summer Homebrew Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cvupx</link>
-<description>2000Z-2300Z, Jul 12</description>
-<guid>https://www.contestcalendar.com/?g=00ti2vk0020304</guid>
-</item>
 <item>
 <title>4 States QRP Group Second Sunday Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cnpxf</link>
@@ -236,6 +218,24 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cv007</link>
 <description>1800Z, Jul 18 to 0559Z, Jul 19</description>
 <guid>https://www.contestcalendar.com/?g=00tidu00020300</guid>
+</item>
+<item>
+<title>RSGB International Low Power Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cw2fu</link>
+<description>0900Z-1200Z and 1300Z-1600Z, Jul 19</description>
+<guid>https://www.contestcalendar.com/?g=00tiezo0020305</guid>
+</item>
+<item>
+<title>YOTA Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0038xjqw</link>
+<description>1000Z-2159Z, Jul 19</description>
+<guid>https://www.contestcalendar.com/?g=00tif2g0019640</guid>
+</item>
+<item>
+<title>Run for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cqxht</link>
+<description>2300Z, Jul 19 to 0100Z, Jul 20</description>
+<guid>https://www.contestcalendar.com/?g=00tig2k0020281</guid>
 </item>
 </channel>
 </rss>
