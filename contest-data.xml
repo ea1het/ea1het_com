@@ -5,58 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 15 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Phone Weekly Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003danj5</link>
-<description>0230Z-0300Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti72y0020373</guid>
-</item>
-<item>
-<title>A1Club AWT</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dbq7f</link>
-<description>1145Z-1300Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti7sn0020378</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d05de</link>
-<description>1300Z-1400Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti7w40020324</guid>
-</item>
-<item>
-<title>VHF-UHF FT8 Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cs80i</link>
-<description>1700Z-2100Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti8780020287</guid>
-</item>
-<item>
-<title>Mini-Test 40</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dcss7</link>
-<description>1700Z-1759Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti8780020383</guid>
-</item>
-<item>
-<title>Mini-Test 80</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ddvd4</link>
-<description>1800Z-1859Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti8a00020388</guid>
-</item>
-<item>
-<title>RSGB 80m Club Championship, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cqhz5</link>
-<description>1900Z-2030Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti8cs0020279</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d17ya</link>
-<description>1900Z-2000Z, Jul 15</description>
-<guid>https://www.contestcalendar.com/?g=00ti8cs0020329</guid>
-</item>
 <item>
 <title>VHF-UHF FT8 Activity Contest-NA</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003csv8w</link>
@@ -224,6 +176,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003djnr8</link>
 <description>1930Z-2030Z, Jul 21</description>
 <guid>https://www.contestcalendar.com/?g=00tiji60020415</guid>
+</item>
+<item>
+<title>SKCC Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cr58p</link>
+<description>0000Z-0200Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00tijuo0020282</guid>
+</item>
+<item>
+<title>Phone Weekly Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dav8x</link>
+<description>0230Z-0300Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00tik1m0020374</guid>
+</item>
+<item>
+<title>A1Club AWT</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dbxx7</link>
+<description>1145Z-1300Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00tikrb0020379</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d0d36</link>
+<description>1300Z-1400Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00tikus0020325</guid>
+</item>
+<item>
+<title>Mini-Test 40</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dd0hz</link>
+<description>1700Z-1759Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00til5w0020384</guid>
+</item>
+<item>
+<title>Mini-Test 80</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003de32w</link>
+<description>1800Z-1859Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00til8o0020389</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d1fo2</link>
+<description>1900Z-2000Z, Jul 22</description>
+<guid>https://www.contestcalendar.com/?g=00tilbg0020330</guid>
 </item>
 </channel>
 </rss>
