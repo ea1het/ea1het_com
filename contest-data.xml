@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -14,24 +14,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cukyh</link>
 <description>0000Z, Jul 18 to 2359Z, Jul 19</description>
 <guid>https://www.contestcalendar.com/?g=00ticg00020298</guid>
-</item>
-<item>
-<title>Russian Radio Team Championship</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwi60</link>
-<description>0700Z-1459Z, Jul 18</description>
-<guid>https://www.contestcalendar.com/?g=00ticzg0020307</guid>
-</item>
-<item>
-<title>Trans-Tasman Low-Bands Challenge</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwxp8</link>
-<description>0800Z-1400Z, Jul 18</description>
-<guid>https://www.contestcalendar.com/?g=00tid280020309</guid>
-</item>
-<item>
-<title>Feld Hell Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cocxw</link>
-<description>1200Z-1359Z, Jul 18</description>
-<guid>https://www.contestcalendar.com/?g=00tiddc0020269</guid>
 </item>
 <item>
 <title>IARU Region 1 70 MHz Contest</title>
@@ -200,6 +182,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d5iex</link>
 <description>2000Z-2100Z, Jul 24</description>
 <guid>https://www.contestcalendar.com/?g=00tip3k0020349</guid>
+</item>
+<item>
+<title>RSGB IOTA Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwa5n</link>
+<description>1200Z, Jul 25 to 1200Z, Jul 26</description>
+<guid>https://www.contestcalendar.com/?g=00tiqc00020306</guid>
+</item>
+<item>
+<title>Alabama QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ay71y</link>
+<description>1500Z, Jul 25 to 0300Z, Jul 26</description>
+<guid>https://www.contestcalendar.com/?g=00tiqkc0019979</guid>
 </item>
 </channel>
 </rss>
