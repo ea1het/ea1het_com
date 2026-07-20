@@ -5,46 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>LABRE DX Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cukyh</link>
-<description>0000Z, Jul 18 to 2359Z, Jul 19</description>
-<guid>https://www.contestcalendar.com/?g=00ticg00020298</guid>
-</item>
-<item>
-<title>IARU Region 1 70 MHz Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cud72</link>
-<description>1400Z, Jul 18 to 1400Z, Jul 19</description>
-<guid>https://www.contestcalendar.com/?g=00tidiw0020297</guid>
-</item>
-<item>
-<title>CQ Worldwide VHF Digital Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=002yy3zk</link>
-<description>1400Z, Jul 18 to 1400Z, Jul 19</description>
-<guid>https://www.contestcalendar.com/?g=00tidiw0017963</guid>
-</item>
-<item>
-<title>North American QSO Party, RTTY</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cv007</link>
-<description>1800Z, Jul 18 to 0559Z, Jul 19</description>
-<guid>https://www.contestcalendar.com/?g=00tidu00020300</guid>
-</item>
-<item>
-<title>RSGB International Low Power Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cw2fu</link>
-<description>0900Z-1200Z and 1300Z-1600Z, Jul 19</description>
-<guid>https://www.contestcalendar.com/?g=00tiezo0020305</guid>
-</item>
-<item>
-<title>YOTA Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0038xjqw</link>
-<description>1000Z-2159Z, Jul 19</description>
-<guid>https://www.contestcalendar.com/?g=00tif2g0019640</guid>
-</item>
 <item>
 <title>Run for the Bacon QRP Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cqxht</link>
@@ -194,6 +158,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ay71y</link>
 <description>1500Z, Jul 25 to 0300Z, Jul 26</description>
 <guid>https://www.contestcalendar.com/?g=00tiqkc0019979</guid>
+</item>
+<item>
+<title>ARS Flight of the Bumblebees</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ctpkc</link>
+<description>1700Z-2100Z, Jul 26</description>
+<guid>https://www.contestcalendar.com/?g=00tiskk0020294</guid>
 </item>
 </channel>
 </rss>
