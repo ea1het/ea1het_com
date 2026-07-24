@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d2i8y</link>
-<description>0300Z-0400Z, Jul 23</description>
-<guid>https://www.contestcalendar.com/?g=00tilxo0020335</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d3ktu</link>
-<description>0700Z-0800Z, Jul 23</description>
-<guid>https://www.contestcalendar.com/?g=00tim8s0020340</guid>
-</item>
-<item>
-<title>RSGB 80m Club Championship, Data</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cqa9e</link>
-<description>1900Z-2030Z, Jul 23</description>
-<guid>https://www.contestcalendar.com/?g=00tin640020278</guid>
-</item>
 <item>
 <title>QRP Fox Hunt</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cyndi</link>
@@ -176,6 +158,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d1ndu</link>
 <description>1900Z-2000Z, Jul 29</description>
 <guid>https://www.contestcalendar.com/?g=00tiya40020331</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d2pyq</link>
+<description>0300Z-0400Z, Jul 30</description>
+<guid>https://www.contestcalendar.com/?g=00tiywc0020336</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d3sjm</link>
+<description>0700Z-0800Z, Jul 30</description>
+<guid>https://www.contestcalendar.com/?g=00tiz7g0020341</guid>
 </item>
 </channel>
 </rss>
