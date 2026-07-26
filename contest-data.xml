@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 25 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -170,6 +170,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d5q4p</link>
 <description>2000Z-2100Z, Jul 31</description>
 <guid>https://www.contestcalendar.com/?g=00tj2280020350</guid>
+</item>
+<item>
+<title>10-10 Int. Summer Contest, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0038511d</link>
+<description>0001Z, Aug 1 to 2359Z, Aug 2</description>
+<guid>https://www.contestcalendar.com/?g=00tj2ddo019507</guid>
+</item>
+<item>
+<title>European HF Championship</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dsv02</link>
+<description>1200Z-2359Z, Aug 1</description>
+<guid>https://www.contestcalendar.com/?g=00tj3ao0020458</guid>
+</item>
+<item>
+<title>ARRL 222 MHz and Up Distance Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dqxyv</link>
+<description>1800Z, Aug 1 to 1800Z, Aug 2</description>
+<guid>https://www.contestcalendar.com/?g=00tj3rc0020449</guid>
+</item>
+<item>
+<title>North American QSO Party, CW</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtpyy</link>
+<description>1800Z, Aug 1 to 0559Z, Aug 2</description>
+<guid>https://www.contestcalendar.com/?g=00tj3rc0020462</guid>
 </item>
 </channel>
 </rss>
