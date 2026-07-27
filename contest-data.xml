@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>RSGB IOTA Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cwa5n</link>
-<description>1200Z, Jul 25 to 1200Z, Jul 26</description>
-<guid>https://www.contestcalendar.com/?g=00tiqc00020306</guid>
-</item>
-<item>
-<title>Alabama QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ay71y</link>
-<description>1500Z, Jul 25 to 0300Z, Jul 26</description>
-<guid>https://www.contestcalendar.com/?g=00tiqkc0019979</guid>
-</item>
-<item>
-<title>ARS Flight of the Bumblebees</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ctpkc</link>
-<description>1700Z-2100Z, Jul 26</description>
-<guid>https://www.contestcalendar.com/?g=00tiskk0020294</guid>
-</item>
 <item>
 <title>K1USN Slow Speed Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003d4njt</link>
@@ -184,16 +166,22 @@
 <guid>https://www.contestcalendar.com/?g=00tj3ao0020458</guid>
 </item>
 <item>
+<title>North American QSO Party, CW</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtpyy</link>
+<description>1800Z, Aug 1 to 0559Z, Aug 2</description>
+<guid>https://www.contestcalendar.com/?g=00tj3rc0020462</guid>
+</item>
+<item>
 <title>ARRL 222 MHz and Up Distance Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dqxyv</link>
 <description>1800Z, Aug 1 to 1800Z, Aug 2</description>
 <guid>https://www.contestcalendar.com/?g=00tj3rc0020449</guid>
 </item>
 <item>
-<title>North American QSO Party, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtpyy</link>
-<description>1800Z, Aug 1 to 0559Z, Aug 2</description>
-<guid>https://www.contestcalendar.com/?g=00tj3rc0020462</guid>
+<title>SARL HF Phone Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dusfy</link>
+<description>1400Z-1700Z, Aug 2</description>
+<guid>https://www.contestcalendar.com/?g=00tj5aw0020467</guid>
 </item>
 </channel>
 </rss>
