@@ -5,34 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>10-10 Int. Summer Contest, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0038511d</link>
-<description>0001Z, Aug 1 to 2359Z, Aug 2</description>
-<guid>https://www.contestcalendar.com/?g=00tj2ddo019507</guid>
-</item>
-<item>
-<title>North American QSO Party, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtpyy</link>
-<description>1800Z, Aug 1 to 0559Z, Aug 2</description>
-<guid>https://www.contestcalendar.com/?g=00tj3rc0020462</guid>
-</item>
-<item>
-<title>ARRL 222 MHz and Up Distance Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dqxyv</link>
-<description>1800Z, Aug 1 to 1800Z, Aug 2</description>
-<guid>https://www.contestcalendar.com/?g=00tj3rc0020449</guid>
-</item>
-<item>
-<title>SARL HF Phone Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dusfy</link>
-<description>1400Z-1700Z, Aug 2</description>
-<guid>https://www.contestcalendar.com/?g=00tj5aw0020467</guid>
-</item>
 <item>
 <title>K1USN Slow Speed Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e1g3t</link>
@@ -230,6 +206,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtavn</link>
 <description>1400Z-2200Z, Aug 8</description>
 <guid>https://www.contestcalendar.com/?g=00tjgew0020460</guid>
+</item>
+<item>
+<title>SARL HF Digital Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dul35</link>
+<description>1300Z-1600Z, Aug 9</description>
+<guid>https://www.contestcalendar.com/?g=00tji6s0020466</guid>
 </item>
 </channel>
 </rss>
