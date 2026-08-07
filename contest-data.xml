@@ -5,45 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 06 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003do5sg</link>
-<description>0000Z-0500Z, Aug 6</description>
-<guid>https://www.contestcalendar.com/?g=00tjbmo0020436</guid>
-</item>
 <item>
 <title>Walk for the Bacon QRP Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dosvf</link>
 <description>0000Z-0100Z, Aug 6 and 0200Z-0300Z, Aug 7</description>
 <guid>https://www.contestcalendar.com/?g=00tjbmo0020439</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dzq8i</link>
-<description>0300Z-0400Z, Aug 6</description>
-<guid>https://www.contestcalendar.com/?g=00tjbv00020490</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e0l3m</link>
-<description>0700Z-0800Z, Aug 6</description>
-<guid>https://www.contestcalendar.com/?g=00tjc640020494</guid>
-</item>
-<item>
-<title>NRAU 10m Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dldb6</link>
-<description>1700Z-1800Z, Aug 6 (CW) and 1800Z-1900Z, Aug 6 (SSB) and 1900Z-2000Z, Aug 6 (FM) and 2000Z-2100Z, Aug 6 (Dig)</description>
-<guid>https://www.contestcalendar.com/?g=00tjcxw0020423</guid>
-</item>
-<item>
-<title>SKCC Sprint Europe</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dn339</link>
-<description>2000Z-2200Z, Aug 6</description>
-<guid>https://www.contestcalendar.com/?g=00tjd680020431</guid>
 </item>
 <item>
 <title>QRP Fox Hunt</title>
@@ -224,6 +194,24 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dz336</link>
 <description>1900Z-2000Z, Aug 12</description>
 <guid>https://www.contestcalendar.com/?g=00tjo7g0020487</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dodi8</link>
+<description>0000Z-0500Z, Aug 13</description>
+<guid>https://www.contestcalendar.com/?g=00tjolc0020437</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dzxya</link>
+<description>0300Z-0400Z, Aug 13</description>
+<guid>https://www.contestcalendar.com/?g=00tjoto0020491</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e0ste</link>
+<description>0700Z-0800Z, Aug 13</description>
+<guid>https://www.contestcalendar.com/?g=00tjp4s0020495</guid>
 </item>
 </channel>
 </rss>
