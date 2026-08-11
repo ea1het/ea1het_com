@@ -5,40 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>4 States QRP Group Second Sunday Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dk31v</link>
-<description>0000Z-0200Z, Aug 10</description>
-<guid>https://www.contestcalendar.com/?g=00tjj1c0020417</guid>
-</item>
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e1ntl</link>
-<description>0000Z-0100Z, Aug 10</description>
-<guid>https://www.contestcalendar.com/?g=00tjj1c0020499</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e3lao</link>
-<description>1300Z-1400Z, Aug 10</description>
-<guid>https://www.contestcalendar.com/?g=00tjk1g0020508</guid>
-</item>
-<item>
-<title>OK1WC Memorial (MWC)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e6laj</link>
-<description>1630Z-1729Z, Aug 10</description>
-<guid>https://www.contestcalendar.com/?g=00tjkb60020522</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e4nvk</link>
-<description>1900Z-2000Z, Aug 10</description>
-<guid>https://www.contestcalendar.com/?g=00tjki40020513</guid>
-</item>
 <item>
 <title>Worldwide Sideband Activity Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e7nv4</link>
@@ -242,6 +212,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dmngx</link>
 <description>2300Z, Aug 16 to 0100Z, Aug 17</description>
 <guid>https://www.contestcalendar.com/?g=00tjvx80020429</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e1vjd</link>
+<description>0000Z-0100Z, Aug 17</description>
+<guid>https://www.contestcalendar.com/?g=00tjw000020500</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e3t0g</link>
+<description>1300Z-1400Z, Aug 17</description>
+<guid>https://www.contestcalendar.com/?g=00tjx040020509</guid>
+</item>
+<item>
+<title>OK1WC Memorial (MWC)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e6t0b</link>
+<description>1630Z-1729Z, Aug 17</description>
+<guid>https://www.contestcalendar.com/?g=00tjx9u0020523</guid>
+</item>
+<item>
+<title>RSGB FT4 Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dmfyl</link>
+<description>1900Z-2100Z, Aug 17</description>
+<guid>https://www.contestcalendar.com/?g=00tjxgs0020428</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e4vlc</link>
+<description>1900Z-2000Z, Aug 17</description>
+<guid>https://www.contestcalendar.com/?g=00tjxgs0020514</guid>
 </item>
 </channel>
 </rss>
