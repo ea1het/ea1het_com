@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -14,24 +14,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dwaqx</link>
 <description>0700Z, Aug 12 to 0700Z, Aug 14</description>
 <guid>https://www.contestcalendar.com/?g=00tjna40020474</guid>
-</item>
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dodi8</link>
-<description>0000Z-0500Z, Aug 13</description>
-<guid>https://www.contestcalendar.com/?g=00tjolc0020437</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dzxya</link>
-<description>0300Z-0400Z, Aug 13</description>
-<guid>https://www.contestcalendar.com/?g=00tjoto0020491</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e0ste</link>
-<description>0700Z-0800Z, Aug 13</description>
-<guid>https://www.contestcalendar.com/?g=00tjp4s0020495</guid>
 </item>
 <item>
 <title>QRP Fox Hunt</title>
@@ -230,6 +212,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dzasy</link>
 <description>1900Z-2000Z, Aug 19</description>
 <guid>https://www.contestcalendar.com/?g=00tk1640020488</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dol80</link>
+<description>0000Z-0500Z, Aug 20</description>
+<guid>https://www.contestcalendar.com/?g=00tk1k00020438</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dp0l7</link>
+<description>0000Z-0100Z, Aug 20 and 0200Z-0300Z, Aug 21</description>
+<guid>https://www.contestcalendar.com/?g=00tk1k00020440</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e05o2</link>
+<description>0300Z-0400Z, Aug 20</description>
+<guid>https://www.contestcalendar.com/?g=00tk1sc0020492</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e10j6</link>
+<description>0700Z-0800Z, Aug 20</description>
+<guid>https://www.contestcalendar.com/?g=00tk23g0020496</guid>
+</item>
+<item>
+<title>NTC QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dll55</link>
+<description>1900Z-2000Z, Aug 20</description>
+<guid>https://www.contestcalendar.com/?g=00tk30s0020424</guid>
 </item>
 </channel>
 </rss>
