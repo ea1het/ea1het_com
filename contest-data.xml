@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -32,18 +32,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dt2q1</link>
 <description>1200Z, Aug 15 to 1200Z, Aug 16</description>
 <guid>https://www.contestcalendar.com/?g=00tjt800020459</guid>
-</item>
-<item>
-<title>SARL Youth QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003c4mx2</link>
-<description>1200Z-1300Z, Aug 15</description>
-<guid>https://www.contestcalendar.com/?g=00tjt800020177</guid>
-</item>
-<item>
-<title>Feld Hell Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dkq2c</link>
-<description>1600Z-1759Z, Aug 15</description>
-<guid>https://www.contestcalendar.com/?g=00tjtj40020420</guid>
 </item>
 <item>
 <title>North American QSO Party, SSB</title>
@@ -236,6 +224,42 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e2y49</link>
 <description>2000Z-2100Z, Aug 21</description>
 <guid>https://www.contestcalendar.com/?g=00tk4y80020505</guid>
+</item>
+<item>
+<title>Turkey HF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fnj8b</link>
+<description>0600Z, Aug 22 to 0600Z, Aug 23</description>
+<guid>https://www.contestcalendar.com/?g=00tk5q00020769</guid>
+</item>
+<item>
+<title>YO DX HF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dwxma</link>
+<description>1200Z, Aug 22 to 1200Z, Aug 23</description>
+<guid>https://www.contestcalendar.com/?g=00tk66o0020477</guid>
+</item>
+<item>
+<title>ARSI VU DX Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ds8do</link>
+<description>1200Z, Aug 22 to 1200Z, Aug 23</description>
+<guid>https://www.contestcalendar.com/?g=00tk66o0020455</guid>
+</item>
+<item>
+<title>Hawaii QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003aymgg</link>
+<description>1600Z, Aug 22 to 0400Z, Aug 24</description>
+<guid>https://www.contestcalendar.com/?g=00tk6hs0019981</guid>
+</item>
+<item>
+<title>Ohio QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ayu6c</link>
+<description>1600Z, Aug 22 to 0400Z, Aug 23</description>
+<guid>https://www.contestcalendar.com/?g=00tk6hs0019982</guid>
+</item>
+<item>
+<title>CVA DX Contest, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dsnmv</link>
+<description>1800Z, Aug 22 to 2100Z, Aug 23</description>
+<guid>https://www.contestcalendar.com/?g=00tk6nc0020457</guid>
 </item>
 </channel>
 </rss>
