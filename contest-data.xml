@@ -5,63 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>SARTG WW RTTY Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dv05z</link>
-<description>0000Z-0800Z, Aug 15 and 1600Z-2400Z, Aug 15 and 0800Z-1600Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjsao0020468</guid>
-</item>
-<item>
-<title>Russian District Award Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003du5b2</link>
-<description>0800Z, Aug 15 to 0800Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjsww0020464</guid>
-</item>
 <item>
 <title>ARRL 10 GHz and Up Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dqi4o</link>
 <description>0900Z, Aug 15 to 0759Z, Aug 17</description>
 <guid>https://www.contestcalendar.com/?g=00tjszo0020447</guid>
-</item>
-<item>
-<title>Keyman's Club of Japan Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dt2q1</link>
-<description>1200Z, Aug 15 to 1200Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjt800020459</guid>
-</item>
-<item>
-<title>North American QSO Party, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtxp1</link>
-<description>1800Z, Aug 15 to 0559Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjtoo0020463</guid>
-</item>
-<item>
-<title>CVA DX Contest, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dsfx2</link>
-<description>1800Z, Aug 15 to 2100Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjtoo0020456</guid>
-</item>
-<item>
-<title>YB Bekasi Merdeka Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dwqei</link>
-<description>0000Z-2359Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tju5c0020476</guid>
-</item>
-<item>
-<title>NJQRP Skeeter Hunt</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dtil4</link>
-<description>1700Z-2100Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjvgk0020461</guid>
-</item>
-<item>
-<title>ARRL Rookie Roundup, RTTY</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ds0gl</link>
-<description>1800Z-2359Z, Aug 16</description>
-<guid>https://www.contestcalendar.com/?g=00tjvjc0020454</guid>
 </item>
 <item>
 <title>Run for the Bacon QRP Contest</title>
@@ -260,6 +212,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dsnmv</link>
 <description>1800Z, Aug 22 to 2100Z, Aug 23</description>
 <guid>https://www.contestcalendar.com/?g=00tk6nc0020457</guid>
+</item>
+<item>
+<title>SARL HF CW Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dud11</link>
+<description>1400Z-1700Z, Aug 23</description>
+<guid>https://www.contestcalendar.com/?g=00tk86w0020465</guid>
 </item>
 </channel>
 </rss>
