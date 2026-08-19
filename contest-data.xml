@@ -5,34 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Worldwide Sideband Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e7vkw</link>
-<description>0100Z-0159Z, Aug 18</description>
-<guid>https://www.contestcalendar.com/?g=00tjxxg0020528</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e5y68</link>
-<description>0300Z-0400Z, Aug 18</description>
-<guid>https://www.contestcalendar.com/?g=00tjy300020519</guid>
-</item>
-<item>
-<title>ZL Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dxl9d</link>
-<description>0800Z-0829Z (CW), Aug 18 and 0830Z-0859Z (SSB), Aug 18 and 0900Z-0929Z (FT4), Aug 18</description>
-<guid>https://www.contestcalendar.com/?g=00tjygw0020480</guid>
-</item>
-<item>
-<title>Tuesday's Telegraphy Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eeql0</link>
-<description>1930Z-2020Z, Aug 18</description>
-<guid>https://www.contestcalendar.com/?g=00tjzcu0020560</guid>
-</item>
 <item>
 <title>Phone Weekly Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e8qdt</link>
@@ -200,6 +176,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e53b4</link>
 <description>1900Z-2000Z, Aug 24</description>
 <guid>https://www.contestcalendar.com/?g=00tkafg0020515</guid>
+</item>
+<item>
+<title>Worldwide Sideband Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e83ao</link>
+<description>0100Z-0159Z, Aug 25</description>
+<guid>https://www.contestcalendar.com/?g=00tkaw40020529</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e65w0</link>
+<description>0300Z-0400Z, Aug 25</description>
+<guid>https://www.contestcalendar.com/?g=00tkb1o0020520</guid>
+</item>
+<item>
+<title>ZL Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dxsz5</link>
+<description>0800Z-0829Z (CW), Aug 25 and 0830Z-0859Z (SSB), Aug 25 and 0900Z-0929Z (FT4), Aug 25</description>
+<guid>https://www.contestcalendar.com/?g=00tkbfk0020481</guid>
+</item>
+<item>
+<title>Tuesday's Telegraphy Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eeyas</link>
+<description>1930Z-2020Z, Aug 25</description>
+<guid>https://www.contestcalendar.com/?g=00tkcbi0020561</guid>
 </item>
 </channel>
 </rss>
