@@ -5,52 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Phone Weekly Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e8qdt</link>
-<description>0230Z-0300Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tjzwa0020532</guid>
-</item>
-<item>
-<title>A1Club AWT</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e9lcb</link>
-<description>1145Z-1300Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tk0lz0020536</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dyfxu</link>
-<description>1300Z-1400Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tk0pg0020484</guid>
-</item>
-<item>
-<title>VHF-UHF FT8 Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dnxzm</link>
-<description>1700Z-2100Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tk10k0020435</guid>
-</item>
-<item>
-<title>Mini-Test 40</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eag7b</link>
-<description>1700Z-1759Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tk10k0020540</guid>
-</item>
-<item>
-<title>Mini-Test 80</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ebb2g</link>
-<description>1800Z-1859Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tk13c0020544</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dzasy</link>
-<description>1900Z-2000Z, Aug 19</description>
-<guid>https://www.contestcalendar.com/?g=00tk1640020488</guid>
-</item>
 <item>
 <title>VHF-UHF FT8 Activity Contest-NA</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dol80</link>
@@ -200,6 +158,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eeyas</link>
 <description>1930Z-2020Z, Aug 25</description>
 <guid>https://www.contestcalendar.com/?g=00tkcbi0020561</guid>
+</item>
+<item>
+<title>SKCC Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dmv7t</link>
+<description>0000Z-0200Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tkco00020430</guid>
+</item>
+<item>
+<title>Phone Weekly Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e8y3l</link>
+<description>0230Z-0300Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tkcuy0020533</guid>
+</item>
+<item>
+<title>A1Club AWT</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e9t23</link>
+<description>1145Z-1300Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tkdkn0020537</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dynnm</link>
+<description>1300Z-1400Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tkdo40020485</guid>
+</item>
+<item>
+<title>Mini-Test 40</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eanx3</link>
+<description>1700Z-1759Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tkdz80020541</guid>
+</item>
+<item>
+<title>Mini-Test 80</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ebis8</link>
+<description>1800Z-1859Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tke200020545</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dziiq</link>
+<description>1900Z-2000Z, Aug 26</description>
+<guid>https://www.contestcalendar.com/?g=00tke4s0020489</guid>
 </item>
 </channel>
 </rss>
