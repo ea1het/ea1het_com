@@ -5,51 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Turkiye HF Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fnj8b</link>
-<description>0600Z, Aug 22 to 0600Z, Aug 23</description>
-<guid>https://www.contestcalendar.com/?g=00tk5q00020769</guid>
-</item>
-<item>
-<title>YO DX HF Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dwxma</link>
-<description>1200Z, Aug 22 to 1200Z, Aug 23</description>
-<guid>https://www.contestcalendar.com/?g=00tk66o0020477</guid>
-</item>
-<item>
-<title>ARSI VU DX Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ds8do</link>
-<description>1200Z, Aug 22 to 1200Z, Aug 23</description>
-<guid>https://www.contestcalendar.com/?g=00tk66o0020455</guid>
-</item>
 <item>
 <title>Hawaii QSO Party</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003aymgg</link>
 <description>1600Z, Aug 22 to 0400Z, Aug 24</description>
 <guid>https://www.contestcalendar.com/?g=00tk6hs0019981</guid>
-</item>
-<item>
-<title>Ohio QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ayu6c</link>
-<description>1600Z, Aug 22 to 0400Z, Aug 23</description>
-<guid>https://www.contestcalendar.com/?g=00tk6hs0019982</guid>
-</item>
-<item>
-<title>CVA DX Contest, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dsnmv</link>
-<description>1800Z, Aug 22 to 2100Z, Aug 23</description>
-<guid>https://www.contestcalendar.com/?g=00tk6nc0020457</guid>
-</item>
-<item>
-<title>SARL HF CW Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dud11</link>
-<description>1400Z-1700Z, Aug 23</description>
-<guid>https://www.contestcalendar.com/?g=00tk86w0020465</guid>
 </item>
 <item>
 <title>K1USN Slow Speed Test</title>
