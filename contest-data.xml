@@ -5,34 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 28 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>NCCC FT4 Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ed8j9</link>
-<description>0100Z-0130Z, Aug 28</description>
-<guid>https://www.contestcalendar.com/?g=00tkgg40020553</guid>
-</item>
-<item>
-<title>Weekly RTTY Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ee3ep</link>
-<description>0145Z-0215Z, Aug 28</description>
-<guid>https://www.contestcalendar.com/?g=00tkgi70020557</guid>
-</item>
-<item>
-<title>NCCC Sprint Ladder</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ecdet</link>
-<description>0230Z-0300Z, Aug 28</description>
-<guid>https://www.contestcalendar.com/?g=00tkgka0020549</guid>
-</item>
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003e35u1</link>
-<description>2000Z-2100Z, Aug 28</description>
-<guid>https://www.contestcalendar.com/?g=00tkhww0020506</guid>
-</item>
 <item>
 <title>SCRY/RTTYOps WW DX RTTY Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dv8c8</link>
@@ -212,6 +188,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ehy79</link>
 <description>2000Z-2200Z, Sep 3</description>
 <guid>https://www.contestcalendar.com/?g=00tkt0w0020575</guid>
+</item>
+<item>
+<title>NCCC FT4 Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003f6679</link>
+<description>0100Z-0130Z, Sep 4</description>
+<guid>https://www.contestcalendar.com/?g=00tktes0020688</guid>
+</item>
+<item>
+<title>Weekly RTTY Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003f712p</link>
+<description>0145Z-0215Z, Sep 4</description>
+<guid>https://www.contestcalendar.com/?g=00tktgv0020692</guid>
+</item>
+<item>
+<title>NCCC Sprint Ladder</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003f5b2t</link>
+<description>0230Z-0300Z, Sep 4</description>
+<guid>https://www.contestcalendar.com/?g=00tktiy0020684</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003evgcp</link>
+<description>2000Z-2100Z, Sep 4</description>
+<guid>https://www.contestcalendar.com/?g=00tkuvk0020638</guid>
 </item>
 </channel>
 </rss>
