@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -14,12 +14,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dv8c8</link>
 <description>2200Z, Aug 28 to 1200Z, Aug 29 and 1200Z-2359Z, Aug 30</description>
 <guid>https://www.contestcalendar.com/?g=00tki2g0020469</guid>
-</item>
-<item>
-<title>Feld Hell Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dkxs4</link>
-<description>0000Z-2359Z, Aug 29</description>
-<guid>https://www.contestcalendar.com/?g=00tki800020421</guid>
 </item>
 <item>
 <title>ALARA Contest</title>
@@ -212,6 +206,90 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003evgcp</link>
 <description>2000Z-2100Z, Sep 4</description>
 <guid>https://www.contestcalendar.com/?g=00tkuvk0020638</guid>
+</item>
+<item>
+<title>ARRL EME Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003drd8x</link>
+<description>0000Z, Sep 5 to 2359Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkv6o0020451</guid>
+</item>
+<item>
+<title>All Asian DX Contest, Phone</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003el5ja</link>
+<description>0000Z, Sep 5 to 2400Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkv6o0020590</guid>
+</item>
+<item>
+<title>CWOps CW Open</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g5bh0</link>
+<description>0000Z-0359Z, Sep 5</description>
+<guid>https://www.contestcalendar.com/?g=00tkv6o0020852</guid>
+</item>
+<item>
+<title>Wake-Up! QRP Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ejnod</link>
+<description>0600Z-0629Z, Sep 5 and 0630Z-0659Z, Sep 5 and 0700Z-0729Z, Sep 5 and 0730Z-0800Z, Sep 5</description>
+<guid>https://www.contestcalendar.com/?g=00tkvnc0020583</guid>
+</item>
+<item>
+<title>SARL VHF/UHF FM Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ep85k</link>
+<description>0800Z, Sep 5 to 1000Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkvsw0020609</guid>
+</item>
+<item>
+<title>SARL Field Day Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=00398ol6</link>
+<description>0800Z, Sep 5 to 1000Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkvsw0019692</guid>
+</item>
+<item>
+<title>Russian RTTY WW Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ep0fb</link>
+<description>1200Z, Sep 5 to 1159Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkw400020608</guid>
+</item>
+<item>
+<title>CWOps CW Open</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g5j6s</link>
+<description>1200Z-1559Z, Sep 5</description>
+<guid>https://www.contestcalendar.com/?g=00tkw400020853</guid>
+</item>
+<item>
+<title>IARU Region 1 Field Day, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003emnjt</link>
+<description>1300Z, Sep 5 to 1259Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkw6s0020597</guid>
+</item>
+<item>
+<title>RSGB SSB Field Day</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eospm</link>
+<description>1300Z, Sep 5 to 1300Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkw6s0020607</guid>
+</item>
+<item>
+<title>AGCW Straight Key Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ekie5</link>
+<description>1300Z-1600Z, Sep 5</description>
+<guid>https://www.contestcalendar.com/?g=00tkw6s0020587</guid>
+</item>
+<item>
+<title>IARU Region 1 145 MHz Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003emg9a</link>
+<description>1400Z, Sep 5 to 1400Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkw9k0020596</guid>
+</item>
+<item>
+<title>PODXS 070 Club Jay Hudak Memorial 80m Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eodj9</link>
+<description>2000Z, Sep 5 to 2000Z, Sep 6</description>
+<guid>https://www.contestcalendar.com/?g=00tkwq80020605</guid>
+</item>
+<item>
+<title>CWOps CW Open</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003f8yck</link>
+<description>2000Z-2359Z, Sep 5</description>
+<guid>https://www.contestcalendar.com/?g=00tkwq80020701</guid>
 </item>
 </channel>
 </rss>
