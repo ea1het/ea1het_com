@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ej8m8</link>
-<description>0000Z-0500Z, Sep 10</description>
-<guid>https://www.contestcalendar.com/?g=00tl4g00020581</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003et3c2</link>
-<description>0300Z-0400Z, Sep 10</description>
-<guid>https://www.contestcalendar.com/?g=00tl4oc0020627</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ety76</link>
-<description>0700Z-0800Z, Sep 10</description>
-<guid>https://www.contestcalendar.com/?g=00tl4zg0020631</guid>
-</item>
 <item>
 <title>NCCC FT4 Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003f6dx1</link>
@@ -206,6 +188,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003es8gy</link>
 <description>1900Z-2000Z, Sep 16</description>
 <guid>https://www.contestcalendar.com/?g=00tlh0s0020623</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ejgc0</link>
+<description>0000Z-0500Z, Sep 17</description>
+<guid>https://www.contestcalendar.com/?g=00tlheo0020582</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ek3ez</link>
+<description>0000Z-0100Z, Sep 17 and 0200Z-0300Z, Sep 18</description>
+<guid>https://www.contestcalendar.com/?g=00tlheo0020585</guid>
+</item>
+<item>
+<title>NAQCC CW Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eg0jq</link>
+<description>0030Z-0230Z, Sep 17</description>
+<guid>https://www.contestcalendar.com/?g=00tlhg20020566</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003etb1u</link>
+<description>0300Z-0400Z, Sep 17</description>
+<guid>https://www.contestcalendar.com/?g=00tlhn00020628</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eu5wy</link>
+<description>0700Z-0800Z, Sep 17</description>
+<guid>https://www.contestcalendar.com/?g=00tlhy40020632</guid>
+</item>
+<item>
+<title>BCC QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003em0o2</link>
+<description>1800Z-1959Z, Sep 17</description>
+<guid>https://www.contestcalendar.com/?g=00tliso0020594</guid>
+</item>
+<item>
+<title>NTC QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003egg95</link>
+<description>1900Z-2000Z, Sep 17</description>
+<guid>https://www.contestcalendar.com/?g=00tlivg0020568</guid>
 </item>
 </channel>
 </rss>
