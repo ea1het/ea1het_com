@@ -5,51 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 18 Sep 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ejgc0</link>
-<description>0000Z-0500Z, Sep 17</description>
-<guid>https://www.contestcalendar.com/?g=00tlheo0020582</guid>
-</item>
 <item>
 <title>Walk for the Bacon QRP Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ek3ez</link>
 <description>0000Z-0100Z, Sep 17 and 0200Z-0300Z, Sep 18</description>
 <guid>https://www.contestcalendar.com/?g=00tlheo0020585</guid>
-</item>
-<item>
-<title>NAQCC CW Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eg0jq</link>
-<description>0030Z-0230Z, Sep 17</description>
-<guid>https://www.contestcalendar.com/?g=00tlhg20020566</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003etb1u</link>
-<description>0300Z-0400Z, Sep 17</description>
-<guid>https://www.contestcalendar.com/?g=00tlhn00020628</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eu5wy</link>
-<description>0700Z-0800Z, Sep 17</description>
-<guid>https://www.contestcalendar.com/?g=00tlhy40020632</guid>
-</item>
-<item>
-<title>BCC QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003em0o2</link>
-<description>1800Z-1959Z, Sep 17</description>
-<guid>https://www.contestcalendar.com/?g=00tliso0020594</guid>
-</item>
-<item>
-<title>NTC QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003egg95</link>
-<description>1900Z-2000Z, Sep 17</description>
-<guid>https://www.contestcalendar.com/?g=00tlivg0020568</guid>
 </item>
 <item>
 <title>NCCC FT4 Sprint</title>
@@ -254,6 +218,24 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003esg6q</link>
 <description>1900Z-2000Z, Sep 23</description>
 <guid>https://www.contestcalendar.com/?g=00tltzg0020624</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003etirm</link>
+<description>0300Z-0400Z, Sep 24</description>
+<guid>https://www.contestcalendar.com/?g=00tlulo0020629</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eudmq</link>
+<description>0700Z-0800Z, Sep 24</description>
+<guid>https://www.contestcalendar.com/?g=00tluws0020633</guid>
+</item>
+<item>
+<title>RSGB 80m Autumn Series, Data</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003egvm1</link>
+<description>1900Z-2030Z, Sep 24</description>
+<guid>https://www.contestcalendar.com/?g=00tlvu40020570</guid>
 </item>
 </channel>
 </rss>
