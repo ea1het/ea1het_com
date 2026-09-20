@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 19 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -40,12 +40,6 @@
 <guid>https://www.contestcalendar.com/?g=00tlm6w0019991</guid>
 </item>
 <item>
-<title>QRP Afield</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eol0c</link>
-<description>1500Z-2100Z, Sep 19</description>
-<guid>https://www.contestcalendar.com/?g=00tlm9o0020606</guid>
-</item>
-<item>
 <title>New Hampshire QSO Party</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b04g7</link>
 <description>1600Z, Sep 19 to 0400Z, Sep 20 and 1200Z-2200Z, Sep 20</description>
@@ -56,18 +50,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b0c7i</link>
 <description>1600Z, Sep 19 to 0700Z, Sep 20 and 1600Z-2400Z, Sep 20</description>
 <guid>https://www.contestcalendar.com/?g=00tlmcg0019989</guid>
-</item>
-<item>
-<title>Wisconsin Parks on the Air</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eqb5c</link>
-<description>1600Z-2300Z, Sep 19</description>
-<guid>https://www.contestcalendar.com/?g=00tlmcg0020614</guid>
-</item>
-<item>
-<title>Feld Hell Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003efsw4</link>
-<description>1800Z-1959Z, Sep 19</description>
-<guid>https://www.contestcalendar.com/?g=00tlmi00020565</guid>
 </item>
 <item>
 <title>North American Sprint, RTTY</title>
@@ -224,6 +206,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ew3i1</link>
 <description>2000Z-2100Z, Sep 25</description>
 <guid>https://www.contestcalendar.com/?g=00tlxrk0020641</guid>
+</item>
+<item>
+<title>Bill Windle QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0039wwq7</link>
+<description>0000Z-2359Z, Sep 26</description>
+<guid>https://www.contestcalendar.com/?g=00tly2o0019805</guid>
+</item>
+<item>
+<title>CQ Worldwide DX Contest, RTTY</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003em84y</link>
+<description>0000Z, Sep 26 to 2400Z, Sep 27</description>
+<guid>https://www.contestcalendar.com/?g=00tly2o0020595</guid>
+</item>
+<item>
+<title>YU DX Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eqilu</link>
+<description>1200Z, Sep 26 to 1159Z, Sep 27</description>
+<guid>https://www.contestcalendar.com/?g=00tlz000020615</guid>
+</item>
+<item>
+<title>Maine QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b0ka8</link>
+<description>1200Z, Sep 26 to 1200Z, Sep 27</description>
+<guid>https://www.contestcalendar.com/?g=00tlz000019990</guid>
+</item>
+<item>
+<title>AGCW VHF/UHF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ekxwm</link>
+<description>1400Z-1700Z, Sep 26 (144) and 1700Z-1800Z, Sep 26 (432)</description>
+<guid>https://www.contestcalendar.com/?g=00tlz5k0020589</guid>
+</item>
+<item>
+<title>Masonic Lodges on the Air</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003f9674</link>
+<description>1400Z-2200Z, Sep 26</description>
+<guid>https://www.contestcalendar.com/?g=00tlz5k0020702</guid>
+</item>
+<item>
+<title>AWA Amplitude Modulation QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ell9v</link>
+<description>2000Z, Sep 26 to 2400Z, Sep 27</description>
+<guid>https://www.contestcalendar.com/?g=00tlzm80020592</guid>
 </item>
 </channel>
 </rss>
