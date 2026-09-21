@@ -5,69 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>FRAPR 10M Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003cxd9m</link>
-<description>0000Z, Sep 19 to 2359Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tll400020311</guid>
-</item>
 <item>
 <title>ARRL 10 GHz and Up Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dqpug</link>
 <description>0900Z, Sep 19 to 0759Z, Sep 21</description>
 <guid>https://www.contestcalendar.com/?g=00tllt00020448</guid>
-</item>
-<item>
-<title>Scandinavian Activity Contest, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003epfvd</link>
-<description>1200Z, Sep 19 to 1200Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlm1c0020610</guid>
-</item>
-<item>
-<title>Texas QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003azws5</link>
-<description>1400Z, Sep 19 to 0200Z, Sep 20 and 1400Z-2000Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlm6w0019987</guid>
-</item>
-<item>
-<title>Iowa QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b0rx0</link>
-<description>1400Z, Sep 19 to 0200Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlm6w0019991</guid>
-</item>
-<item>
-<title>New Hampshire QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b04g7</link>
-<description>1600Z, Sep 19 to 0400Z, Sep 20 and 1200Z-2200Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlmcg0019988</guid>
-</item>
-<item>
-<title>Washington State Salmon Run</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b0c7i</link>
-<description>1600Z, Sep 19 to 0700Z, Sep 20 and 1600Z-2400Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlmcg0019989</guid>
-</item>
-<item>
-<title>North American Sprint, RTTY</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003enxvv</link>
-<description>0000Z-0400Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlmyo0020603</guid>
-</item>
-<item>
-<title>ARS Flight of the Bumblebees</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ctxa4</link>
-<description>1700Z-2100Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlo9w0020295</guid>
-</item>
-<item>
-<title>BARTG Sprint PSK63 Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003elt5b</link>
-<description>1700Z-2059Z, Sep 20</description>
-<guid>https://www.contestcalendar.com/?g=00tlo9w0020593</guid>
 </item>
 <item>
 <title>Run for the Bacon QRP Contest</title>
@@ -208,16 +154,16 @@
 <guid>https://www.contestcalendar.com/?g=00tlxrk0020641</guid>
 </item>
 <item>
-<title>Bill Windle QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0039wwq7</link>
-<description>0000Z-2359Z, Sep 26</description>
-<guid>https://www.contestcalendar.com/?g=00tly2o0019805</guid>
-</item>
-<item>
 <title>CQ Worldwide DX Contest, RTTY</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003em84y</link>
 <description>0000Z, Sep 26 to 2400Z, Sep 27</description>
 <guid>https://www.contestcalendar.com/?g=00tly2o0020595</guid>
+</item>
+<item>
+<title>Bill Windle QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0039wwq7</link>
+<description>0000Z-2359Z, Sep 26</description>
+<guid>https://www.contestcalendar.com/?g=00tly2o0019805</guid>
 </item>
 <item>
 <title>YU DX Contest</title>
@@ -248,6 +194,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ell9v</link>
 <description>2000Z, Sep 26 to 2400Z, Sep 27</description>
 <guid>https://www.contestcalendar.com/?g=00tlzm80020592</guid>
+</item>
+<item>
+<title>UBA ON Contest, 6m</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003epvbf</link>
+<description>0700Z-1000Z, Sep 27</description>
+<guid>https://www.contestcalendar.com/?g=00tm0gs0020612</guid>
 </item>
 </channel>
 </rss>
