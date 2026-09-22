@@ -5,46 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>ARRL 10 GHz and Up Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dqpug</link>
-<description>0900Z, Sep 19 to 0759Z, Sep 21</description>
-<guid>https://www.contestcalendar.com/?g=00tllt00020448</guid>
-</item>
-<item>
-<title>Run for the Bacon QRP Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ehikx</link>
-<description>2300Z, Sep 20 to 0100Z, Sep 21</description>
-<guid>https://www.contestcalendar.com/?g=00tloqk0020573</guid>
-</item>
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ev0x5</link>
-<description>0000Z-0100Z, Sep 21</description>
-<guid>https://www.contestcalendar.com/?g=00tlotc0020636</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ewqog</link>
-<description>1300Z-1400Z, Sep 21</description>
-<guid>https://www.contestcalendar.com/?g=00tlptg0020644</guid>
-</item>
-<item>
-<title>OK1WC Memorial (MWC)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eziyj</link>
-<description>1630Z-1729Z, Sep 21</description>
-<guid>https://www.contestcalendar.com/?g=00tlq360020657</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003exljk</link>
-<description>1900Z-2000Z, Sep 21</description>
-<guid>https://www.contestcalendar.com/?g=00tlqa40020648</guid>
-</item>
 <item>
 <title>144 MHz Fall Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dpfkx</link>
@@ -200,6 +164,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003epvbf</link>
 <description>0700Z-1000Z, Sep 27</description>
 <guid>https://www.contestcalendar.com/?g=00tm0gs0020612</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ev8mx</link>
+<description>0000Z-0100Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm1s00020637</guid>
+</item>
+<item>
+<title>QCX Challenge</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fc66c</link>
+<description>1300Z-1400Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm2s40020716</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ewye8</link>
+<description>1300Z-1400Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm2s40020645</guid>
+</item>
+<item>
+<title>OK1WC Memorial (MWC)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ezqob</link>
+<description>1630Z-1729Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm31u0020658</guid>
+</item>
+<item>
+<title>QCX Challenge</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fcdw4</link>
+<description>1900Z-2000Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm38s0020717</guid>
+</item>
+<item>
+<title>RSGB FT4 Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ehb2l</link>
+<description>1900Z-2100Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm38s0020572</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ext9c</link>
+<description>1900Z-2000Z, Sep 28</description>
+<guid>https://www.contestcalendar.com/?g=00tm38s0020649</guid>
 </item>
 </channel>
 </rss>
