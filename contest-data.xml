@@ -5,40 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 27 Sep 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 28 Sep 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CQ Worldwide DX Contest, RTTY</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003em84y</link>
-<description>0000Z, Sep 26 to 2400Z, Sep 27</description>
-<guid>https://www.contestcalendar.com/?g=00tly2o0020595</guid>
-</item>
-<item>
-<title>YU DX Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003eqilu</link>
-<description>1200Z, Sep 26 to 1159Z, Sep 27</description>
-<guid>https://www.contestcalendar.com/?g=00tlz000020615</guid>
-</item>
-<item>
-<title>Maine QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b0ka8</link>
-<description>1200Z, Sep 26 to 1200Z, Sep 27</description>
-<guid>https://www.contestcalendar.com/?g=00tlz000019990</guid>
-</item>
-<item>
-<title>AWA Amplitude Modulation QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ell9v</link>
-<description>2000Z, Sep 26 to 2400Z, Sep 27</description>
-<guid>https://www.contestcalendar.com/?g=00tlzm80020592</guid>
-</item>
-<item>
-<title>UBA ON Contest, 6m</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003epvbf</link>
-<description>0700Z-1000Z, Sep 27</description>
-<guid>https://www.contestcalendar.com/?g=00tm0gs0020612</guid>
-</item>
 <item>
 <title>K1USN Slow Speed Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ev8mx</link>
@@ -290,6 +260,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fj164</link>
 <description>2200Z-2359Z, Oct 3</description>
 <guid>https://www.contestcalendar.com/?g=00tmcqg0020748</guid>
+</item>
+<item>
+<title>UBA ON Contest, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fm8g0</link>
+<description>0600Z-1000Z, Oct 4</description>
+<guid>https://www.contestcalendar.com/?g=00tmdco0020763</guid>
+</item>
+<item>
+<title>Peanut Power QRP Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fkj1n</link>
+<description>2200Z-2359Z, Oct 4</description>
+<guid>https://www.contestcalendar.com/?g=00tmel40020755</guid>
 </item>
 </channel>
 </rss>
