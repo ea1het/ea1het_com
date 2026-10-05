@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 04 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -14,60 +14,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gzrc2</link>
 <description>2300Z, Oct 2 to 0300Z, Oct 5</description>
 <guid>https://www.contestcalendar.com/?g=00tmayk0020994</guid>
-</item>
-<item>
-<title>Collegiate QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fi5tm</link>
-<description>0000Z, Oct 3 to 2359Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmb1c0020744</guid>
-</item>
-<item>
-<title>TRC DX Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fltbc</link>
-<description>0600Z, Oct 3 to 1800Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmbi00020761</guid>
-</item>
-<item>
-<title>Oceania DX Contest, Phone</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fkazy</link>
-<description>0600Z, Oct 3 to 0600Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmbi00020754</guid>
-</item>
-<item>
-<title>Russian WW Digital Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fl66y</link>
-<description>1200Z, Oct 3 to 1159Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmbyo0020758</guid>
-</item>
-<item>
-<title>IARU Region 1 UHF/Microwaves Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fitdr</link>
-<description>1400Z, Oct 3 to 1400Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmc480020747</guid>
-</item>
-<item>
-<title>California QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b0zd8</link>
-<description>1600Z, Oct 3 to 2200Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmc9s0019992</guid>
-</item>
-<item>
-<title>International HELL-Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fj8f7</link>
-<description>1600Z-1800Z, Oct 3 (80m) and 0900Z-1100Z, Oct 4 (40m)</description>
-<guid>https://www.contestcalendar.com/?g=00tmc9s0020749</guid>
-</item>
-<item>
-<title>UBA ON Contest, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fm8g0</link>
-<description>0600Z-1000Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmdco0020763</guid>
-</item>
-<item>
-<title>Peanut Power QRP Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fkj1n</link>
-<description>2200Z-2359Z, Oct 4</description>
-<guid>https://www.contestcalendar.com/?g=00tmel40020755</guid>
 </item>
 <item>
 <title>K1USN Slow Speed Test</title>
@@ -278,6 +224,12 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fkqnq</link>
 <description>2000Z, Oct 10 to 2000Z, Oct 11</description>
 <guid>https://www.contestcalendar.com/?g=00tmpjk0020756</guid>
+</item>
+<item>
+<title>UBA ON Contest, CW</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fmg65</link>
+<description>0600Z-1000Z, Oct 11</description>
+<guid>https://www.contestcalendar.com/?g=00tmqbc0020764</guid>
 </item>
 </channel>
 </rss>
