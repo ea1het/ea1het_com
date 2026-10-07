@@ -5,34 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 07 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>ARS Spartan Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003favln</link>
-<description>0000Z-0200Z, Oct 6</description>
-<guid>https://www.contestcalendar.com/?g=00tmglc0020710</guid>
-</item>
-<item>
-<title>Worldwide Sideband Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fwynk</link>
-<description>0100Z-0159Z, Oct 6</description>
-<guid>https://www.contestcalendar.com/?g=00tmgo40020813</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fv8yo</link>
-<description>0300Z-0400Z, Oct 6</description>
-<guid>https://www.contestcalendar.com/?g=00tmgto0020805</guid>
-</item>
-<item>
-<title>Tuesday's Telegraphy Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g4gt0</link>
-<description>1930Z-2030Z, Oct 6</description>
-<guid>https://www.contestcalendar.com/?g=00tmi3i0020848</guid>
-</item>
 <item>
 <title>Phone Weekly Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fxtgh</link>
@@ -224,6 +200,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fultc</link>
 <description>1900Z-2000Z, Oct 12</description>
 <guid>https://www.contestcalendar.com/?g=00tmt640020802</guid>
+</item>
+<item>
+<title>Worldwide Sideband Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fx6dc</link>
+<description>0100Z-0159Z, Oct 13</description>
+<guid>https://www.contestcalendar.com/?g=00tmtms0020814</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fvgog</link>
+<description>0300Z-0400Z, Oct 13</description>
+<guid>https://www.contestcalendar.com/?g=00tmtsc0020806</guid>
+</item>
+<item>
+<title>DARC RTTY Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fb3o8</link>
+<description>1800Z-1929Z, Oct 13</description>
+<guid>https://www.contestcalendar.com/?g=00tmuy00020711</guid>
+</item>
+<item>
+<title>Tuesday's Telegraphy Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g4ois</link>
+<description>1930Z-2030Z, Oct 13</description>
+<guid>https://www.contestcalendar.com/?g=00tmv260020849</guid>
 </item>
 </channel>
 </rss>
