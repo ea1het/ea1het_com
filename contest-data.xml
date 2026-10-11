@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -14,18 +14,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fjvkv</link>
 <description>0000Z-0800Z, Oct 10 and 1600Z-2400Z, Oct 10 and 0800Z-1600Z, Oct 11</description>
 <guid>https://www.contestcalendar.com/?g=00tmo000020752</guid>
-</item>
-<item>
-<title>QRP ARCI Fall QSO Party</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fky60</link>
-<description>0000Z-2359Z, Oct 10</description>
-<guid>https://www.contestcalendar.com/?g=00tmo000020757</guid>
-</item>
-<item>
-<title>10-10 Int. 10-10 Day Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=00384tdo</link>
-<description>0001Z-2359Z, Oct 10</description>
-<guid>https://www.contestcalendar.com/?g=00tmo01o019506</guid>
 </item>
 <item>
 <title>Oceania DX Contest, CW</title>
@@ -236,6 +224,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fsw21</link>
 <description>2000Z-2100Z, Oct 16</description>
 <guid>https://www.contestcalendar.com/?g=00tn0nk0020794</guid>
+</item>
+<item>
+<title>JARL WW RTTY Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fjnv5</link>
+<description>0000Z, Oct 17 to 2400Z, Oct 18</description>
+<guid>https://www.contestcalendar.com/?g=00tn0yo0020751</guid>
+</item>
+<item>
+<title>902 MHz and Up Fall Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003dq2r6</link>
+<description>0800 local - 1400 local, Oct 17</description>
+<guid>https://www.contestcalendar.com/?g=00tn1kw0020445</guid>
+</item>
+<item>
+<title>New York QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b1uhl</link>
+<description>1400Z, Oct 17 to 0200Z, Oct 18</description>
+<guid>https://www.contestcalendar.com/?g=00tn21k0019996</guid>
+</item>
+<item>
+<title>Worked All Germany Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fmvlv</link>
+<description>1500Z, Oct 17 to 1459Z, Oct 18</description>
+<guid>https://www.contestcalendar.com/?g=00tn24c0020766</guid>
+</item>
+<item>
+<title>Stew Perry Topband Challenge</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fllcf</link>
+<description>1500Z, Oct 17 to 1500Z, Oct 18</description>
+<guid>https://www.contestcalendar.com/?g=00tn24c0020760</guid>
+</item>
+<item>
+<title>Feld Hell Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fbb5g</link>
+<description>2000Z-2359Z, Oct 17</description>
+<guid>https://www.contestcalendar.com/?g=00tn2i80020712</guid>
+</item>
+<item>
+<title>Argentina National 7 MHz Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fh3my</link>
+<description>2130Z-2330Z, Oct 17</description>
+<guid>https://www.contestcalendar.com/?g=00tn2me0020739</guid>
 </item>
 </channel>
 </rss>
