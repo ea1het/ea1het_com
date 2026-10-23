@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 22 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -14,24 +14,6 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fhb26</link>
 <description>1300Z, Oct 19 to 2359Z, Oct 23</description>
 <guid>https://www.contestcalendar.com/?g=00tn5o40020740</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fq3lu</link>
-<description>0300Z-0400Z, Oct 22</description>
-<guid>https://www.contestcalendar.com/?g=00tnagc0020781</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fr66q</link>
-<description>0700Z-0800Z, Oct 22</description>
-<guid>https://www.contestcalendar.com/?g=00tnarg0020786</guid>
-</item>
-<item>
-<title>RSGB 80m Autumn Series, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fdvrf</link>
-<description>1900Z-2030Z, Oct 22</description>
-<guid>https://www.contestcalendar.com/?g=00tnbos0020724</guid>
 </item>
 <item>
 <title>NCCC FT4 Sprint</title>
@@ -176,6 +158,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fa0yv</link>
 <description>2000Z-2100Z, Oct 28</description>
 <guid>https://www.contestcalendar.com/?g=00tnmvk0020706</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fqbbm</link>
+<description>0300Z-0400Z, Oct 29</description>
+<guid>https://www.contestcalendar.com/?g=00tnnf00020782</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003frdwi</link>
+<description>0700Z-0800Z, Oct 29</description>
+<guid>https://www.contestcalendar.com/?g=00tnnq40020787</guid>
 </item>
 </channel>
 </rss>
