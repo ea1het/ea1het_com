@@ -5,7 +5,7 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
@@ -170,6 +170,24 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ftbhl</link>
 <description>2000Z-2100Z, Oct 30</description>
 <guid>https://www.contestcalendar.com/?g=00tnqkw0020796</guid>
+</item>
+<item>
+<title>ARRL EME Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003drkyp</link>
+<description>0000Z, Oct 31 to 2359Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tnqw00020452</guid>
+</item>
+<item>
+<title>UK/EI DX Contest, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0039u4ic</link>
+<description>1200Z, Oct 31 to 1200Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tnrtc0019792</guid>
+</item>
+<item>
+<title>Russian WW MultiMode Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b7f6m</link>
+<description>1200Z, Oct 31 to 1159Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tnrtc0020022</guid>
 </item>
 </channel>
 </rss>
