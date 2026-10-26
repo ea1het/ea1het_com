@@ -5,16 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 25 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CQ Worldwide DX Contest, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fidks</link>
-<description>0000Z, Oct 24 to 2359Z, Oct 25</description>
-<guid>https://www.contestcalendar.com/?g=00tndxc0020745</guid>
-</item>
 <item>
 <title>K1USN Slow Speed Test</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fs8wp</link>
@@ -188,6 +182,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b7f6m</link>
 <description>1200Z, Oct 31 to 1159Z, Nov 1</description>
 <guid>https://www.contestcalendar.com/?g=00tnrtc0020022</guid>
+</item>
+<item>
+<title>North American SSB Sprint Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gebbm</link>
+<description>0000Z-0400Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tnsqo0020894</guid>
+</item>
+<item>
+<title>EANET Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gclty</link>
+<description>0800Z-1200Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tntcw0020886</guid>
+</item>
+<item>
+<title>Classic Exchange, CW</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fhqod</link>
+<description>1400Z, Nov 1 to 0800Z, Nov 2 and 1400Z, Mar 3 to 0800Z, Nov 4</description>
+<guid>https://www.contestcalendar.com/?g=00tnttk0020742</guid>
+</item>
+<item>
+<title>High Speed Club CW Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gd11k</link>
+<description>1400Z-1700Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tnttk0020888</guid>
+</item>
+<item>
+<title>Real Time Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fnbim</link>
+<description>1600Z-2000Z, Nov 1</description>
+<guid>https://www.contestcalendar.com/?g=00tntz40020768</guid>
 </item>
 </channel>
 </rss>
