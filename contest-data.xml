@@ -5,52 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fs8wp</link>
-<description>0000Z-0100Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tnhmo0020791</guid>
-</item>
-<item>
-<title>QCX Challenge</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fctbo</link>
-<description>1300Z-1400Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tnims0020719</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fu6ds</link>
-<description>1300Z-1400Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tnims0020800</guid>
-</item>
-<item>
-<title>OK1WC Memorial (MWC)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fwqy3</link>
-<description>1630Z-1729Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tniwi0020812</guid>
-</item>
-<item>
-<title>QCX Challenge</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fd11g</link>
-<description>1900Z-2000Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tnj3g0020720</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fv18w</link>
-<description>1900Z-2000Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tnj3g0020804</guid>
-</item>
-<item>
-<title>RSGB FT4 Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fe3ml</link>
-<description>2000Z-2200Z, Oct 26</description>
-<guid>https://www.contestcalendar.com/?g=00tnj680020725</guid>
-</item>
 <item>
 <title>Worldwide Sideband Activity Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fxlsw</link>
@@ -212,6 +170,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fnbim</link>
 <description>1600Z-2000Z, Nov 1</description>
 <guid>https://www.contestcalendar.com/?g=00tntz40020768</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gjguh</link>
+<description>0000Z-0100Z, Nov 2</description>
+<guid>https://www.contestcalendar.com/?g=00tnulc0020918</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003glebk</link>
+<description>1300Z-1400Z, Nov 2</description>
+<guid>https://www.contestcalendar.com/?g=00tnvlg0020927</guid>
+</item>
+<item>
+<title>OK1WC Memorial (MWC)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003goebf</link>
+<description>1630Z-1729Z, Nov 2</description>
+<guid>https://www.contestcalendar.com/?g=00tnvv60020941</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gmgwg</link>
+<description>1900Z-2000Z, Nov 2</description>
+<guid>https://www.contestcalendar.com/?g=00tnw240020932</guid>
+</item>
+<item>
+<title>RSGB 80m Autumn Series, Data</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g83uh</link>
+<description>2000Z-2130Z, Nov 2</description>
+<guid>https://www.contestcalendar.com/?g=00tnw4w0020865</guid>
 </item>
 </channel>
 </rss>
