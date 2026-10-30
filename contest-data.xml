@@ -5,22 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 29 Oct 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fqbbm</link>
-<description>0300Z-0400Z, Oct 29</description>
-<guid>https://www.contestcalendar.com/?g=00tnnf00020782</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003frdwi</link>
-<description>0700Z-0800Z, Oct 29</description>
-<guid>https://www.contestcalendar.com/?g=00tnnq40020787</guid>
-</item>
 <item>
 <title>NCCC FT4 Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g36h1</link>
@@ -212,6 +200,42 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fa8on</link>
 <description>2000Z-2100Z, Nov 4</description>
 <guid>https://www.contestcalendar.com/?g=00tnzu80020707</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ga94w</link>
+<description>0000Z-0500Z, Nov 5</description>
+<guid>https://www.contestcalendar.com/?g=00to05c0020875</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gaw7v</link>
+<description>0000Z-0100Z, Nov 5 and 0200Z-0300Z, Nov 6</description>
+<guid>https://www.contestcalendar.com/?g=00to05c0020878</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ghqz6</link>
+<description>0300Z-0400Z, Nov 5</description>
+<guid>https://www.contestcalendar.com/?g=00to0do0020910</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gilua</link>
+<description>0700Z-0800Z, Nov 5</description>
+<guid>https://www.contestcalendar.com/?g=00to0os0020914</guid>
+</item>
+<item>
+<title>NRAU 10m Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g7182</link>
+<description>1800Z-1900Z, Nov 5 (CW) and 1900Z-2000Z, Nov 5 (SSB) and 2000Z-2100Z, Nov 5 (FM) and 2100Z-2200Z, Nov 5 (Dig)</description>
+<guid>https://www.contestcalendar.com/?g=00to1jc0020860</guid>
+</item>
+<item>
+<title>SKCC Sprint Europe</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g96fp</link>
+<description>2000Z-2200Z, Nov 5</description>
+<guid>https://www.contestcalendar.com/?g=00to1ow0020870</guid>
 </item>
 </channel>
 </rss>
