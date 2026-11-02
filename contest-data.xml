@@ -5,63 +5,15 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>ARRL EME Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003drkyp</link>
-<description>0000Z, Oct 31 to 2359Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tnqw00020452</guid>
-</item>
-<item>
-<title>UK/EI DX Contest, SSB</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=0039u4ic</link>
-<description>1200Z, Oct 31 to 1200Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tnrtc0019792</guid>
-</item>
-<item>
-<title>Russian WW MultiMode Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003b7f6m</link>
-<description>1200Z, Oct 31 to 1159Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tnrtc0020022</guid>
-</item>
-<item>
-<title>North American SSB Sprint Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gebbm</link>
-<description>0000Z-0400Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tnsqo0020894</guid>
-</item>
-<item>
-<title>Silent Key Memorial Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003hrmbf</link>
-<description>0600Z-0859Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tnt7c0021124</guid>
-</item>
-<item>
-<title>EANET Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gclty</link>
-<description>0800Z-1200Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tntcw0020886</guid>
-</item>
 <item>
 <title>Classic Exchange, CW</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fhqod</link>
 <description>1400Z, Nov 1 to 0800Z, Nov 2 and 1400Z, Mar 3 to 0800Z, Nov 4</description>
 <guid>https://www.contestcalendar.com/?g=00tnttk0020742</guid>
-</item>
-<item>
-<title>High Speed Club CW Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gd11k</link>
-<description>1400Z-1700Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tnttk0020888</guid>
-</item>
-<item>
-<title>Real Time Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003fnbim</link>
-<description>1600Z-2000Z, Nov 1</description>
-<guid>https://www.contestcalendar.com/?g=00tntz40020768</guid>
 </item>
 <item>
 <title>K1USN Slow Speed Test</title>
@@ -254,6 +206,18 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gbqoh</link>
 <description>2100Z, Nov 7 to 0300Z, Nov 9</description>
 <guid>https://www.contestcalendar.com/?g=00to5h00020882</guid>
+</item>
+<item>
+<title>IPARC Contest, SSB</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gdo4f</link>
+<description>0600Z-1800Z, Nov 8</description>
+<guid>https://www.contestcalendar.com/?g=00to6600020891</guid>
+</item>
+<item>
+<title>FIRAC HF Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gctno</link>
+<description>0700Z to 1700Z, Nov 8</description>
+<guid>https://www.contestcalendar.com/?g=00to68s0020887</guid>
 </item>
 </channel>
 </rss>
