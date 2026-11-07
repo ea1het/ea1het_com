@@ -5,46 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Walk for the Bacon QRP Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gaw7v</link>
-<description>0000Z-0100Z, Nov 5 and 0200Z-0300Z, Nov 6</description>
-<guid>https://www.contestcalendar.com/?g=00to05c0020878</guid>
-</item>
-<item>
-<title>NCCC FT4 Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gum4l</link>
-<description>0100Z-0130Z, Nov 6</description>
-<guid>https://www.contestcalendar.com/?g=00to22s0020970</guid>
-</item>
-<item>
-<title>Weekly RTTY Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gvh01</link>
-<description>0145Z-0215Z, Nov 6</description>
-<guid>https://www.contestcalendar.com/?g=00to24v0020974</guid>
-</item>
-<item>
-<title>QRP Fox Hunt</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gyok6</link>
-<description>0200Z-0330Z, Nov 6</description>
-<guid>https://www.contestcalendar.com/?g=00to25k0020989</guid>
-</item>
-<item>
-<title>NCCC Sprint</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gtqq4</link>
-<description>0230Z-0300Z, Nov 6</description>
-<guid>https://www.contestcalendar.com/?g=00to26y0020966</guid>
-</item>
-<item>
-<title>K1USN Slow Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gkjfd</link>
-<description>2000Z-2100Z, Nov 6</description>
-<guid>https://www.contestcalendar.com/?g=00to3jk0020923</guid>
-</item>
 <item>
 <title>YBDXPI FT8 Contest</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gftoz</link>
@@ -200,6 +164,36 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gitk2</link>
 <description>0700Z-0800Z, Nov 12</description>
 <guid>https://www.contestcalendar.com/?g=00todng0020915</guid>
+</item>
+<item>
+<title>NCCC FT4 Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gutud</link>
+<description>0100Z-0130Z, Nov 13</description>
+<guid>https://www.contestcalendar.com/?g=00tof1g0020971</guid>
+</item>
+<item>
+<title>Weekly RTTY Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gvopt</link>
+<description>0145Z-0215Z, Nov 13</description>
+<guid>https://www.contestcalendar.com/?g=00tof3j0020975</guid>
+</item>
+<item>
+<title>QRP Fox Hunt</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gyw9y</link>
+<description>0200Z-0330Z, Nov 13</description>
+<guid>https://www.contestcalendar.com/?g=00tof480020990</guid>
+</item>
+<item>
+<title>NCCC Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gtyfw</link>
+<description>0230Z-0300Z, Nov 13</description>
+<guid>https://www.contestcalendar.com/?g=00tof5m0020967</guid>
+</item>
+<item>
+<title>K1USN Slow Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gkr55</link>
+<description>2000Z-2100Z, Nov 13</description>
+<guid>https://www.contestcalendar.com/?g=00togi80020924</guid>
 </item>
 </channel>
 </rss>
