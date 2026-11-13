@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 12 Nov 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>VHF-UHF FT8 Activity Contest-NA</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gaguo</link>
-<description>0000Z-0500Z, Nov 12</description>
-<guid>https://www.contestcalendar.com/?g=00tod400020876</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ghyoy</link>
-<description>0300Z-0400Z, Nov 12</description>
-<guid>https://www.contestcalendar.com/?g=00todcc0020911</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gitk2</link>
-<description>0700Z-0800Z, Nov 12</description>
-<guid>https://www.contestcalendar.com/?g=00todng0020915</guid>
-</item>
 <item>
 <title>NCCC FT4 Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gutud</link>
@@ -212,6 +194,42 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003ghbjm</link>
 <description>1900Z-2000Z, Nov 18</description>
 <guid>https://www.contestcalendar.com/?g=00topos0020908</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gaokg</link>
+<description>0000Z-0500Z, Nov 19</description>
+<guid>https://www.contestcalendar.com/?g=00toq2o0020877</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gb3xn</link>
+<description>0000Z-0100Z, Nov 19 and 0200Z-0300Z, Nov 20</description>
+<guid>https://www.contestcalendar.com/?g=00toq2o0020879</guid>
+</item>
+<item>
+<title>NAQCC CW Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g6lmu</link>
+<description>0130Z-0330Z, Nov 19</description>
+<guid>https://www.contestcalendar.com/?g=00toq6u0020858</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gi6eq</link>
+<description>0300Z-0400Z, Nov 19</description>
+<guid>https://www.contestcalendar.com/?g=00toqb00020912</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gj19u</link>
+<description>0700Z-0800Z, Nov 19</description>
+<guid>https://www.contestcalendar.com/?g=00toqm40020916</guid>
+</item>
+<item>
+<title>NTC QSO Party</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g6tmh</link>
+<description>1900Z-2000Z, Nov 19</description>
+<guid>https://www.contestcalendar.com/?g=00torjg0020859</guid>
 </item>
 </channel>
 </rss>
