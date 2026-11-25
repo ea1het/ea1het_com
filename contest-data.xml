@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>Worldwide Sideband Activity Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gq41c</link>
-<description>0100Z-0159Z, Nov 24</description>
-<guid>https://www.contestcalendar.com/?g=00tozes0020949</guid>
-</item>
-<item>
-<title>ICWC Medium Speed Test</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003go6mo</link>
-<description>0300Z-0400Z, Nov 24</description>
-<guid>https://www.contestcalendar.com/?g=00tozkc0020940</guid>
-</item>
-<item>
-<title>Tuesday's Telegraphy Contest</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gwz1g</link>
-<description>1930Z-2030Z, Nov 24</description>
-<guid>https://www.contestcalendar.com/?g=00tp0u60020981</guid>
-</item>
 <item>
 <title>SKCC Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g8yk9</link>
@@ -170,6 +152,30 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gnbrk</link>
 <description>1900Z-2000Z, Nov 30</description>
 <guid>https://www.contestcalendar.com/?g=00tpbws0020936</guid>
+</item>
+<item>
+<title>Worldwide Sideband Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003hi6u8</link>
+<description>0100Z-0159Z, Dec 1</description>
+<guid>https://www.contestcalendar.com/?g=00tpcdg0021080</guid>
+</item>
+<item>
+<title>QCX Challenge</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g7ofo</link>
+<description>0300Z-0400Z, Dec 1</description>
+<guid>https://www.contestcalendar.com/?g=00tpcj00020863</guid>
+</item>
+<item>
+<title>ICWC Medium Speed Test</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003hg9fk</link>
+<description>0300Z-0400Z, Dec 1</description>
+<guid>https://www.contestcalendar.com/?g=00tpcj00021071</guid>
+</item>
+<item>
+<title>Tuesday's Telegraphy Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003hq4f8</link>
+<description>1930Z-2030Z, Dec 1</description>
+<guid>https://www.contestcalendar.com/?g=00tpdsu0021117</guid>
 </item>
 </channel>
 </rss>
