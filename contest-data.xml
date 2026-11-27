@@ -5,28 +5,10 @@
 <link>https://www.contestcalendar.com</link>
 <description>Calendar of ham radio contests</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 00:00:00 +0000</lastBuildDate>
 <managingEditor>bhorn@hornucopia.com (Bruce Horn)</managingEditor>
 <copyright>2026 Bruce Horn, WA7BNM, All Rights Reserved</copyright>
 <atom:link href="https://www.contestcalendar.com/calendar.rss" rel="self" type="application/rss+xml" />
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gie4i</link>
-<description>0300Z-0400Z, Nov 26</description>
-<guid>https://www.contestcalendar.com/?g=00tp39o0020913</guid>
-</item>
-<item>
-<title>CWops Test (CWT)</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gj8zm</link>
-<description>0700Z-0800Z, Nov 26</description>
-<guid>https://www.contestcalendar.com/?g=00tp3ks0020917</guid>
-</item>
-<item>
-<title>RSGB 80m Autumn Series, CW</title>
-<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003g7w0a</link>
-<description>2000Z-2130Z, Nov 26</description>
-<guid>https://www.contestcalendar.com/?g=00tp4kw0020864</guid>
-</item>
 <item>
 <title>NCCC FT4 Sprint</title>
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003gv99x</link>
@@ -170,6 +152,48 @@
 <link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003h9m2a</link>
 <description>1900Z-2000Z, Dec 2</description>
 <guid>https://www.contestcalendar.com/?g=00tpfm40021040</guid>
+</item>
+<item>
+<title>QRP ARCI Topband Sprint</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003h83td</link>
+<description>0000Z-0300Z, Dec 3</description>
+<guid>https://www.contestcalendar.com/?g=00tpg000021033</guid>
+</item>
+<item>
+<title>VHF-UHF FT8 Activity Contest-NA</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003h36sw</link>
+<description>0000Z-0500Z, Dec 3</description>
+<guid>https://www.contestcalendar.com/?g=00tpg000021010</guid>
+</item>
+<item>
+<title>Walk for the Bacon QRP Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003h41ln</link>
+<description>0000Z-0100Z, Dec 3 and 0200Z-0300Z, Dec 4</description>
+<guid>https://www.contestcalendar.com/?g=00tpg000021014</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003haon6</link>
+<description>0300Z-0400Z, Dec 3</description>
+<guid>https://www.contestcalendar.com/?g=00tpg8c0021045</guid>
+</item>
+<item>
+<title>CWops Test (CWT)</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003hbr82</link>
+<description>0700Z-0800Z, Dec 3</description>
+<guid>https://www.contestcalendar.com/?g=00tpgjg0021050</guid>
+</item>
+<item>
+<title>NRAU 10m Activity Contest</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003h196q</link>
+<description>1800Z-1900Z, Dec 3 (CW) and 1900Z-2000Z, Dec 3 (SSB) and 2000Z-2100Z, Dec 3 (FM) and 2100Z-2200Z, Dec 3 (Dig)</description>
+<guid>https://www.contestcalendar.com/?g=00tphe00021001</guid>
+</item>
+<item>
+<title>SKCC Sprint Europe</title>
+<link>https://www.contestcalendar.com/weeklycontdetails.php?ref=003h243p</link>
+<description>2000Z-2200Z, Dec 3</description>
+<guid>https://www.contestcalendar.com/?g=00tphjk0021005</guid>
 </item>
 </channel>
 </rss>
